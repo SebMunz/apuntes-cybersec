@@ -22,6 +22,7 @@ David J. Bianco creó el concepto de pirámide del dolor. Su objetivo es mejorar
 Ésta establece una relación entre IoC y el nivel de dificultad que los agentes de amenaza deben enfrentar, cuando los indicadores de compromiso son bloqueados por los equipos de seguridad.
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx1UShcW3qOx2XR-CHbbtfyG_VWpwCgEcuziAsiiueSMDfKkTMsL_8MOn92vofA1v64Gj3CGSy6FFbRoZYIPAmWNEHKSkBp6DDA-AmFLRuAWPC9b6i1AZjQOujblyTiXyXmdm6r6tk4guX/s1600/Pyramid+of+Pain+v2.png" style="width: 10%px;">
+
 - Valores Hash:
 	- Si logras obtener el hash de un archivo malicioso conocido en tu red, es relativamente sencillo escanear todo el entorno para descubrir el nivel de infección.
 - Direcciones IP:

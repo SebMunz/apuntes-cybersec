@@ -31,26 +31,15 @@
 ---
 
 ## [[wip folder/Sistemas Operativos\|Sistemas Operativos]]
-
-##### Referirse a documento "Sistemas operativos" para mayor detalle
-
 _Esto para Win, Mac y Linux_
-
-- ###### Instalación y configuración
-
-- ###### Versiones y diferencias
-
-- ###### Navigación por GUI y CLI
-
-- ###### Permisos
-
-- ###### Instalación de software y aplicaciones
-
-- ###### CRUD
-
-- ###### Solucionar problemas comunes
-
-- ###### Comandos comunes
+- Instalación y configuración
+- Versiones y diferencias
+- Navigación por GUI y CLI
+- Permisos
+- Instalación de software y aplicaciones
+- CRUD
+- Solucionar problemas comunes
+- Comandos comunes
 
 ---
 
