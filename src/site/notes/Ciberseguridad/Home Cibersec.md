@@ -19,25 +19,18 @@
 ---
 
 ## [[Ciberseguridad/Conexiones/Tipos de conexiones\|Conexiones]]
-- ###### Cable
-
-- ###### USB
-
-- ###### Enmascaramientos (como VPN)
-
-- ###### P2P
-
-- ###### NFC
-
-- ###### WiFi
-
-- ###### Bluetooth
-
-- ###### Infrarojo
+- Cable
+- USB
+- Enmascaramientos (como VPN)
+- P2P
+- NFC
+- WiFi
+- Bluetooth
+- Infrarojo
 
 ---
 
-### \.Sistemas Operativos
+## [[wip folder/Sistemas Operativos\|Sistemas Operativos]]
 
 ##### Referirse a documento "Sistemas operativos" para mayor detalle
 
