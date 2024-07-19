@@ -43,59 +43,40 @@ _Esto para Win, Mac y Linux_
 
 ---
 
-### \.Networking
+## Networking
 
-##### Referirse a documento "Networks" para mayor detalle
-
-- ###### Modelo OSI
-
-- ###### Protocolos y sus usos
-
+- [[Ciberseguridad/Conexiones/Modelo OSI\|Modelo OSI]]
+- [[Ciberseguridad/Conexiones/Modelo TCP_IP\|Modelo TCP_IP]]
+- Protocolos y sus usos
   - HTTP(S), SSL/TLS, SSH, FTP, etc
-
-- ###### Puertos y sus usos
-
-- ###### Subnetting
-
-- ###### Topología
-
-- ###### Area Network
-
+- Puertos y sus usos
+- Subnetting
+- Topología
+- Area Network
   - MAN, WAN, LAN, WLAN, VLAN
-
-- ###### Virtualización
-
+- Virtualización
   - Tecnología, herramientas y usos
-
-- ###### Herramientas para solucionar problemas
-
+- Herramientas para solucionar problemas
   - Packet sniffers, nslookup, tcpdump, etc
-
-- ###### Autenticación
-
+- Autenticación
   - Kerberos, SSO, certificados, etc
 
 ---
 
-### \.Habilidades de Seguridad
-
-##### Referirse a documentos de seguridad para más información
-
-_Estos irán separados en distintos archivos_
-
+## Habilidades de Seguridad
 > __CORE CONCEPTS__
 
-- CIA Triad
+- [[Ciberseguridad/HabilidadesBasicasSeguridad/CIA triad\|CIA triad]]
 - Handshakes
 - TRUE & FALSE positive, TRUE & FALSE negative
 - OSINT
 - Privilege scalation
-- OWASP10
-- MALWARES
-- Teams (Blue, red purple)
+- [[Ciberseguridad/HabilidadesBasicasSeguridad/OWASP\|OWASP]]
+- [[Ciberseguridad/Ataques/Malware\|Malware]]
+- [[Ciberseguridad/HabilidadesBasicasSeguridad/Red Team vs Blue Team\|Red Team vs Blue Team]]
 - Zero Trust
 - RISK
-- Frameworks (NIST CSF, ISO27001, CIS Controls, PCI DSS, SOC y SOC2, ATT&CK, Killchain, Diamond model)
+- Frameworks (NIST CSF, ISO27001, CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model)
 - Herramientas de hackeo comunes
 - Exploits
 - Ingeniería reversa
