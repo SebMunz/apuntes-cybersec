@@ -18,7 +18,7 @@
 
 ---
 
-## [[Ciberseguridad/Conexiones/Tipos de conexiones\|Tipos de conexiones]] | asdf
+## [[Ciberseguridad/Conexiones/Tipos de conexiones\|Conexiones]]
 - ###### Cable
 
 - ###### USB
