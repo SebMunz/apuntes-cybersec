@@ -11,4 +11,4 @@ Mi gran problema es que soy disperso y voy perdiendo la práctica así que decid
 ---
 
 ## Contenidos
-- [[Ciberseguridad/Home Cibersec\|Home Cibersec]]
+- [[Home Cibersec \| Ciberseguridad]]
