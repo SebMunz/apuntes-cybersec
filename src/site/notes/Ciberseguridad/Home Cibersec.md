@@ -2,40 +2,23 @@
 {"dg-publish":true,"permalink":"/Ciberseguridad/Home Cibersec/"}
 ---
 
-
-
-### \.Skills básicos de TI
-
-- ###### Navegación computador ✔
-
+## Habilidades básicas de TI.
+- Navegación computador
   - Usos básicos de oficina, aplicaciones, modificar preferencias
-
-- ###### Uso de internet ✔
-
+- Uso de internet 
   - Búsqueda web en distintos motores para solucionar problemas, descargas, hyperlinks, higiene de seguridad
-
-- ###### Procesamiento word ✔
-
+- Procesamiento word
   - Suites de oficina, correos, pdf, nociones básicas de seguridad en ellos
-
-- ###### Instalación programas ✔
-
+- Instalación programas
   - Instalar/desintalar, actualizar, modificar permisos y preferencias
-
-- ###### Conocimientos básicos de seguridad ✔
-
+- Conocimientos básicos de seguridad
   - Uso de contraseñas seguras, actualizaciones, conexiones seguras, entendimiento de vulneraciones en la web (phishing, etc), copias de seguridad y su correcto manejo
-
-- ###### Conocimientos computador ✔
-
-  - Sistemas operativos (diferencias, ventajas, usos, soluciones), componentes hardware (cambios, mantención, compatibilidad), análisis de logs
+- Conocimientos computador
+  - Sistemas operativos (diferencias, ventajas, usos, soluciones), componentes hardware (cambios, mantención, compatibilidad), análisis de logs.
 
 ---
 
-### \.Tipos de conexiones
-
-##### Referirse a documento "[Tipos de Conexiones](https://github.com/SebMunz/Cybersec/blob/main/Conexiones/Tipos%20de%20conexiones.md)" para mayor detalle
-
+## [[Ciberseguridad/Conexiones/Tipos de conexiones\|Tipos de conexiones]] | asdf
 - ###### Cable
 
 - ###### USB
