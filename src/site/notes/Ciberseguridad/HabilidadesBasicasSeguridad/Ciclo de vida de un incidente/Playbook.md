@@ -8,7 +8,10 @@ Proveen de una estructura y un orden para *qué acciones* tomar de manera efecti
 Siguiendo el playbook, se puede reducir el tiempo de respuesta, la incertidumbre y el tener que estar adivinando.
 
 Dentro de ellos, tenemos los pasos necesarios para responder a un ataque como [[Ciberseguridad/Ataques/Malware#4. Ransomware \| Ransomware]], [[Ciberseguridad/Ataques/Malware#12. Data breach \| Data Breach]], [[Ciberseguridad/Ataques/Malware\|Malware]] en general o incluso [[Red \| Ataques de red]].
-![Pasted image 20240724120755.png](/img/user/Pasted%20image%2020240724120755.png)Ejemplo de un flowchart que podríamos encontrar en un playbook (simplificado).
+
+![playbook sketch.png](/img/user/playbook%20sketch.png)
+
+Ejemplo de un flowchart que podríamos encontrar en un playbook (simplificado).
 
 ## Tipos de Playbook
 Tenemos 3 tipos de playbooks:
