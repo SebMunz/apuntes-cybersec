@@ -44,7 +44,7 @@ _Esto para Win, Mac y Linux_
 ---
 
 ## Networking
-
+- [[wip folder/Ciclo de Red\|Ciclo de Red]]
 - [[Ciberseguridad/Conexiones/Modelo OSI\|Modelo OSI]]
 - [[Ciberseguridad/Conexiones/Modelo TCP_IP\|Modelo TCP_IP]]
 - Protocolos y sus usos
@@ -65,7 +65,6 @@ _Esto para Win, Mac y Linux_
 
 ## Habilidades de Seguridad
 > __CORE CONCEPTS__
-
 - [[Ciberseguridad/HabilidadesBasicasSeguridad/CIA triad\|CIA triad]]
 - Handshakes
 - TRUE & FALSE positive, TRUE & FALSE negative
@@ -84,15 +83,13 @@ _Esto para Win, Mac y Linux_
 - PenTests
 
 > __HERRAMIENTAS__
-
-- comandos
+- Comandos
   - nmap, tracert, nslookup, ping, ipconfig, etc
-- wireshark
+- Wireshark
 - SIEM y SOAR
 - ParrotOS y Kali Linux
 
 > __ESTANDARES__
-
 - ISO
 - NIST
 - RMF
@@ -100,7 +97,6 @@ _Esto para Win, Mac y Linux_
 - CMF
 
 > __LOGS__
-
 - Event logs
 - Firewall logs
 - netflow
@@ -108,7 +104,6 @@ _Esto para Win, Mac y Linux_
 - Packet captures
 
 > __CONCEPTOS DE ENDURECIMIENTO__
-
 - MAC-based
 - NAC-based
 - Portblocking
@@ -117,7 +112,6 @@ _Esto para Win, Mac y Linux_
 - Endpoint security
 
 > __CRIPTOGRAFÍA BÁSICA__
-
 - Salting
 - Hashing
 - PKI
@@ -126,7 +120,6 @@ _Esto para Win, Mac y Linux_
 - Intercambio de llaves
 
 > __PROFUNDIZAR EN PROTOCOLOS__
-
 - FTP vs SFTP
 - SSL vs TLS
 - IPSEC
@@ -136,7 +129,6 @@ _Esto para Win, Mac y Linux_
 - S/MIME
 
 > __MÁS CONCEPTOS__
-
 - Antivirus
 - Antimalware
 - Firewall y Nextgen Firewall
@@ -147,13 +139,11 @@ _Esto para Win, Mac y Linux_
 - WPA vs WPA2 vs WPA3 vs WEP
 
 > __CLASIFICACIONES__
-
 - Día Zero
 - Conocido vs desconocido
 - APT
 
 > __MÁS HERRAMIENTAS__
-
 - VirusTotal
 - Joe Sandbox
 - any.run
@@ -162,7 +152,6 @@ _Esto para Win, Mac y Linux_
 - WHOIS
 
 > __TIPOS DE ATAQUES__
-
 - Phishing, Vishing, Whaling, Smishing
 - Spam vs Spim
 - Shoulder Surfing
@@ -178,7 +167,6 @@ _Esto para Win, Mac y Linux_
 - Brute Force, password spray, rainbow tables
 
 > __ATAQUES COMUNES EN RED__
-
 - DoS vs DDoS
 - MITM
 - ARP Poisoning
@@ -191,11 +179,10 @@ _Esto para Win, Mac y Linux_
 - War-driving/dialing
 
 > __OTROS ATAQUES COMUNES EN RED__
-
 - Buffer Overflow
 - Memory Leak
-- XSS
-- SQL Injection
+- [[Ciberseguridad/Ataques/XSS\|XSS]]
+- [[Ciberseguridad/Ataques/SQL Injection\|SQL Injection]]
 - CSRF
 - Replay Attack
 - Pass the hash
@@ -203,10 +190,8 @@ _Esto para Win, Mac y Linux_
 
 ---
 
-### \. Conocimientos y habilidades para la nube
->
+## Conocimientos y habilidades para la nube
 > __CLOUD__
-
 - Seguridad
 - Deploy
 - Cloud vs On-premise
@@ -215,25 +200,21 @@ _Esto para Win, Mac y Linux_
 - CDN
 
 > __SERVICIOS CLOUD__
-
 - SaaS
 - PaaS
 - IaaS
 
 > __AMBIENTES__
-
 - AWS
 - GCP
 - Azure
 
 > __MODELOS__
-
 - Privado
 - Público
 - Híbrido
 
 > __ALMACENAMIENTO__
-
 - S3
 - Dropbox
 - Box
@@ -243,8 +224,7 @@ _Esto para Win, Mac y Linux_
 
 ---
 
-### \. Uso de lenguajes de programación
-
+## Uso de lenguajes de programación
 - Python
 - Go
 - JS
