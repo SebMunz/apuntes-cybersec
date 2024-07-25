@@ -19,14 +19,14 @@
 ---
 
 ## [[Ciberseguridad/Conexiones/Tipos de conexiones\|Conexiones]]
-- Cable
-- USB
-- Enmascaramientos (como VPN)
-- P2P
-- NFC
-- WiFi
-- Bluetooth
-- Infrarojo
+- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Cable** \|Cable]]
+- [[Ciberseguridad/Conexiones/Tipos de conexiones#**USB** \|USB]]
+- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Enmascaramientos**\|Enmascaramientos (como VPN)]]
+- [[Ciberseguridad/Conexiones/Tipos de conexiones#**P2P**\|P2P]]
+- [[Ciberseguridad/Conexiones/Tipos de conexiones#**NFC**\|NFC]]
+- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Inalámbricas**\|WI-FI]]
+- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Bluetooth**\|Bluetooth]]
+- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Infrarroja (IR)**\|Infrarojo]]
 
 ---
 
@@ -152,16 +152,17 @@ _Esto para Win, Mac y Linux_
 - WHOIS
 
 > __TIPOS DE ATAQUES__
-- Phishing, Vishing, Whaling, Smishing
-- Spam vs Spim
-- Shoulder Surfing
-- Dumpster Diving
-- Tailgating
+- [[Ciberseguridad/Ataques/Phishing\|Phishing, Vishing, Whaling, etc]]
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Baiting **\|Baiting]]
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Spam y Spim**\|Spam & Spim]]
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Shoulder Surfing **\|Shoulder Surfing]]
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Dumpster Diving **\|Dumpster Diving]]
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Tailgating **\|Tailgating]]
 - Zero Day
-- Ingeniería social
-- Reconocimiento
-- Impersonamiento
-- Watering Hole Attack
+- [[Ciberseguridad/Ataques/Ingeneria Social\|Ingeneria Social]]
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Recon **\|Reconocimiento]]
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Impersonamiento **\| Impersonamiento]]
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Watering Hole **\|Watering Hole Attack]]
 - Drive By
 - Typo Squatting
 - Brute Force, password spray, rainbow tables

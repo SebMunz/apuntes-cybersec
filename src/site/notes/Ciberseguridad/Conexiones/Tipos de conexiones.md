@@ -3,21 +3,21 @@
 ---
 
 # TIPOS DE CONEXIONES
-_Conexiones comunes en el área y sus impactos_
+_Conexiones comunes en el área y su impacto_
 
-> **Cable**
+#### **Cable**
 
 Ethernet, la conexión más común, transmite datos de manera segura y rápida mediante cables Cat5 o superior. Es considerada más confiable y segura que la inalámbrica debido a su menor vulnerabilidad a interferencias y accesos no autorizados.
 
 ---
 
-> **USB**
+#### **USB**
 
 Ampliamente utilizado para conectar periféricos a computadoras. Aunque es conveniente, plantea riesgos de seguridad al conectar dispositivos no confiables. Es crucial garantizar que sean dispositivos de confianza.
 
 ---
 
-> **Inalámbricas**
+#### **Inalámbricas**
 
 Wi-Fi, el más común, ofrece flexibilidad y movilidad sin cables físicos. Introduce riesgos de seguridad comunes. Para mitigar algunos riesgos, se recomienda el cifrado WPA3, el uso de contraseñas seguras y actualizaciones del firmware del router. Wi-Fi es conveniente por su fácil configuración y escalabilidad.
 
@@ -36,7 +36,7 @@ Wi-Fi, el más común, ofrece flexibilidad y movilidad sin cables físicos. Intr
 
 ---
 
-> **Bluetooth**
+#### **Bluetooth**
 
 Conexión de corto alcance entre dispositivos. Conveniente pero no exento de ataques como Bluesnarfing, BlueBorne y Bluejacking. Para mitigar riesgos, se recomienda mantener dispositivos actualizados, usar Bluetooth 4.0 (mínimo) y desactivarlo cuando no está en uso. Opera en la frecuencia 2.4 GHz.
 
@@ -50,19 +50,19 @@ Conexión de corto alcance entre dispositivos. Conveniente pero no exento de ata
 
 ---
 
-> **Enmascaramientos**
+#### **Enmascaramientos**
 
 O conexiones de red. Los VPN son túneles seguros que crean conexiones de red privada sobre una red pública. De esta forma, se protege la información de interceptaciones. Útiles al usar Wi-Fi público. Utilizar proveedores confiables.
 
 ---
 
-> **P2P**
+#### **P2P**
 
 Peer-to-Peer. Conexión descentralizada, común en servicios de intercambio de archivos. Sin medidas de seguridad adecuadas, presentan un inmenso riesgo. Evitar servicios no confiables y nunca compartir información sensible en ellos.
 
 ---
 
-> **NFC**
+#### **NFC**
 
 Near Field Communication, derivado del área de las RFID. Tecnología inalámbrica de corto alcance. Opera a 13.56 MHz, muy utilizada en aplicaciones como pagos sin contacto y control de acceso. Conecta a través de etiquetas y lectores. Tiene tres modos: Lector/Escritor, P2P y Emulación de tarjeta.
 
@@ -84,7 +84,7 @@ A pesar de su conveniencia, presenta riesgos de seguridad como la manipulación 
 
 ---
 
-> **Infrarroja (IR)**
+#### **Infrarroja (IR)**
 
 Utiliza ondas de luz para transmitir datos. Común en comunicación de corto alcance, utilizado en controles remotos, teclados y mouse inalámbricos y comunicación entre computadoras e impresoras. Aunque es privado, de fácil configuración y de bajo consumo, se deben considerar medidas de seguridad, como cifrado, autenticación y seguridad física.
 
@@ -93,3 +93,6 @@ Algunos ataques a considerar:
 - Spoofing: emular un dispositivo autorizado para ganar acceso.
 - Interceptación: A través de dispositivos especializados se puede interceptar y reproducir la señal.
 - Ingeniería Social: persuadir a la víctima para realizar acciones no seguras, como aceptar conexiones desconocidas.
+
+---
+#### Wi-Fi
