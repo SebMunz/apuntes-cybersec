@@ -5,6 +5,9 @@
 ## DDoS
 - Denegación de servicio distribuida
 - Inunda un servidor o red con tráfico para hacerlo inaccesible
+## DoS
+- Denegación de servicio
+- A diferencia del DDoS, el DoS suele ser más focalizado, individual y no tan masivo.
 ## Man in the middle
 - Middleman o ataque de intermediario
 - El atacante se coloca 'al medio' del tráfico de red, interceptándolo y modificándolo entre cliente y servidor

@@ -6,17 +6,19 @@
 
 Las contraseñas y nombres de usuario son comunes para evitar el acceso no autorizado, pero son propensos al robo o adivinación. El ataque de fuerza bruta consiste en probar numerosas combinaciones hasta encontrar la correcta. Aquí algunos tipos de ataques:
 
-- **Ataque de fuerza bruta simple:**
-    - Intento con combinaciones variadas hasta el acceso.
-
-- **Ataque de diccionario:**
-    - Similar al simple, pero con una lista de credenciales comunes.
-
-- **Ataque de fuerza bruta inversa:**
-    - Comienza con una credencial y se prueba en varios sistemas.
-
-- **Relleno de credenciales:**
-    - Utiliza credenciales robadas sin salteo para engañar el sistema de autenticación. También existe una variante especializada llamada **Pass the Hash**, donde se reutilizan credenciales robadas sin salteo.
+##### **Ataque de fuerza bruta simple:**
+- Intento con combinaciones variadas hasta el acceso.
+##### **Ataque de diccionario:**
+- Similar al simple, pero con una lista de credenciales comunes.
+##### **Password Spray:**
+- Similar a los anteriores pero utiliza pocas contraseñas comunes en muchas cuentas diferentes para evitar bloqueos por múltiples intentos fallidos en una sola cuenta.
+##### **Ataque de fuerza bruta inversa:**
+- Comienza con una credencial y se prueba en varios sistemas.
+##### **Relleno de credenciales:**
+- Utiliza credenciales robadas sin salteo para engañar el sistema de autenticación. También existe una variante especializada llamada **Pass the Hash**, donde se reutilizan credenciales robadas sin salteo.
+##### **Rainbow Tables:**
+- Uso de tablas precomputadas de hashes de contraseñas para crackear contraseñas encriptadas.
+- Si bien, su uso a decaido con el tiempo, y algoritmos más complejos, siguen siendo una amenaza si logras obtener una copia de un SAM (security accounts manager) y la herramienta Mimikatz.
 
 A menudo se utilizan herramientas como:
 - Aircrack-ng
@@ -24,6 +26,7 @@ A menudo se utilizan herramientas como:
 - John the Ripper
 - Ophcrack
 - THC Hydra
+
 Si bien las herramientas pueden usarse de manera maliciosa, también puedes usarlas para fortalecer sistemas. 
 
 ### Medidas de Prevención
