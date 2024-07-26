@@ -55,6 +55,8 @@ Los hackers, tradicionalmente asociados con habilidades de programación, han di
 - Hacerse pasar por otra persona, ya sea por teléfono, On Site, email, etc. con el fin de obtener información o acceso.
 ##### **Pretexting:**
  - Generar un escenario ficticio para engañar a la víctima
+##### **Typo Squatting:**
+- Registro de dominios similares a los de sitios web populares, aprovechando errores tipográficos de los usuarios para redirigirlos a sitios maliciosos.
 
 ---
 ## Recursos Adicionales:

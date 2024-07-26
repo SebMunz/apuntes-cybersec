@@ -77,7 +77,7 @@ _Esto para Win, Mac y Linux_
 - RISK
 - Frameworks (NIST CSF, ISO27001, CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model)
 - Herramientas de hackeo comunes
-- Exploits
+- [[Ciberseguridad/Ataques/Exploits y Vulnerabilidades\|Exploits y Vulnerabilidades]]
 - Ingeniería reversa
 - Forensics
 - PenTests
@@ -86,7 +86,7 @@ _Esto para Win, Mac y Linux_
 - Comandos
   - nmap, tracert, nslookup, ping, ipconfig, etc
 - Wireshark
-- SIEM y SOAR
+- [[Ciberseguridad/HabilidadesBasicasSeguridad/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]] y [[Ciberseguridad/HabilidadesBasicasSeguridad/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|SOAR]]
 - ParrotOS y Kali Linux
 
 > __ESTANDARES__
