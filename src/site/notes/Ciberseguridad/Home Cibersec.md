@@ -65,14 +65,14 @@ _Esto para Win, Mac y Linux_
 
 ## Habilidades de Seguridad
 > __CORE CONCEPTS__
-- [[Ciberseguridad/HabilidadesBasicasSeguridad/CIA triad\|CIA triad]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/CIA triad\|CIA triad]]
 - Handshakes
 - TRUE & FALSE positive, TRUE & FALSE negative
 - OSINT
 - Privilege scalation
-- [[Ciberseguridad/HabilidadesBasicasSeguridad/OWASP\|OWASP]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/OWASP\|OWASP]]
 - [[Ciberseguridad/Ataques/Malware\|Malware]]
-- [[Ciberseguridad/HabilidadesBasicasSeguridad/Red Team vs Blue Team\|Red Team vs Blue Team]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Red Team vs Blue Team\|Red Team vs Blue Team]]
 - Zero Trust
 - RISK
 - Frameworks (NIST CSF, ISO27001, CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model)
@@ -86,7 +86,7 @@ _Esto para Win, Mac y Linux_
 - Comandos
   - nmap, tracert, nslookup, ping, ipconfig, etc
 - Wireshark
-- [[Ciberseguridad/HabilidadesBasicasSeguridad/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]] y [[Ciberseguridad/HabilidadesBasicasSeguridad/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|SOAR]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|SOAR]]
 - ParrotOS y Kali Linux
 
 > __ESTANDARES__

@@ -15,10 +15,11 @@ Mi gran problema es que soy disperso y voy perdiendo la práctica así que decid
 
 Actualmente escribo en este sitio mis apuntes de ciberseguridad, pero a su tiempo lo expandiré con las otras cosas en las que me intereso, como filosofía, geopolítica, ciber ocultismo/technopaganismo. Además de subir el resto de cosas y trabajos como dibujos, mapas, planos, diseños varios, música y soundtracks en los que trabajé, etc.
 
-Como podrán leer, es bastante pero bueno. Necesito des-colapsar mi cerebro un poco.
+Como podrán leer, es bastante. Necesito des-colapsar mi cerebro un poco.
 
 
 ---
 
 ## Contenidos
 ###### [[Ciberseguridad/Home Cibersec\|Ciberseguridad]]
+[[IT fundamentos/00 Introducción TI\|Tecnologías de la Información]]
