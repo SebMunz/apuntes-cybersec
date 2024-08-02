@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/Ciberseguridad/Home Cibersec/"}
 ---
 
-## Habilidades básicas de TI.
+## [[IT fundamentos/00 Introducción TI\|Habilidades TI]]
 - Navegación computador
   - Usos básicos de oficina, aplicaciones, modificar preferencias
 - Uso de internet 
