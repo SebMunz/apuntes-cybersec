@@ -24,11 +24,11 @@ Diversos sistemas y dispositivos generan diversos logs; Como las [[wip folder/Ci
 Importante entender cómo recopilar, almacenar y proteger los registros ya que son parte integral de la investigación.
 La gestión de registros es el proceso de recopilar, almacenar, analizar y eliminar datos del registro.
 
-**Qué registrar** es quizás la tarea más importante, un registro excesivo ralentiza las investigaciones, podría contener información de identificación personal ([PII]), etc. Lo importante es configurar para obtener sólo lo estrictamente necesario según la organización.
+**Qué registrar** es quizás la tarea más importante, un registro excesivo ralentiza las investigaciones, podría contener información de identificación personal ( ==PII== ), etc. Lo importante es configurar para obtener sólo lo estrictamente necesario según la organización.
 Si bien registrar todo es tentativo y podría ser útil, los costos se empiezan a acumular rápidamente en sistemas complejos, tanto en rendimiento como en almacenamiento.
 
 Algunas empresas trabajan con regulaciones determinadas por la industria. Por ej. ciertas normativas exigen que las empresas retengan registros durante un período determinado.
 Tenemos industrias como el sector público, atención médica y servicios financieros que tienen estos estándares.
-Algunos ejemplos de estas normativas son por ejemplo HIPAA en salud, PCI DSS para la seguridad de datos para la industria de tarjetas de pago, etc.
+Algunos ejemplos de estas normativas son por ejemplo [[wip folder/Otras normativas\|HIPAA, PCI DSS, etc]].
 
 **Proteger los registros** es importante ya que los atacantes pueden modificar estos registros, eliminar otros y así engañar a los equipos.
