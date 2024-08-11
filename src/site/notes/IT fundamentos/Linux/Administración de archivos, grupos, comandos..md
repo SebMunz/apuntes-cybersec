@@ -6,7 +6,7 @@ Linux posee distintas maneras de moverse entre archivos y para la administració
 
 En este apartado, ejecutaré algunos comandos a modo de ejercicio.
 Para este ejercicio utilizaremos la versión mas reciente de ubuntu, montada en virtualbox.
-![Pasted image 20240810204548.png](/img/user/Pasted%20image%2020240810204548.png)
+![Pasted image 20240810204548.png](/img/user/Assets/Pasted%20image%2020240810204548.png)
 
 ---
 # Manejo de archivos y directorios
@@ -19,7 +19,7 @@ En este apartado:
 - Notaremos los inodos
 - Anotaciones adicionales
 
-![Pasted image 20240810213344.png](/img/user/Pasted%20image%2020240810213344.png)
+![Pasted image 20240810213344.png](/img/user/Assets/Pasted%20image%2020240810213344.png)
 
 1. Haremos `cd Downloads/` para movernos a la carpeta Downloads
 2. `ls` para listar que la carpeta esta vacia
@@ -29,13 +29,13 @@ En este apartado:
 6. `nano original.txt` para editar original.txt usando el editor nano
 
 Se nos abrirá nano, un editor de texto en el terminal.
-![Pasted image 20240810213819.png](/img/user/Pasted%20image%2020240810213819.png)
+![Pasted image 20240810213819.png](/img/user/Assets/Pasted%20image%2020240810213819.png)
 Posteriormente le damos a `CTRL + X` en el teclado para cerrar, escribimos Y para aceptar los cambios y presionamos `ENTER` para que se guarde con el mismo nombre.
 Posteriormente haremos nuevamente `cat original.txt` para ver que se haya guardado correctamente:
-![Pasted image 20240810214031.png](/img/user/Pasted%20image%2020240810214031.png)
+![Pasted image 20240810214031.png](/img/user/Assets/Pasted%20image%2020240810214031.png)
 
 Ahora crearemos un enlace duro y listaremos los inodos y permisos.
-![Pasted image 20240810214858.png](/img/user/Pasted%20image%2020240810214858.png)
+![Pasted image 20240810214858.png](/img/user/Assets/Pasted%20image%2020240810214858.png)
 1. `ln -i original.txt duro_link.hd` para creación
 2. `ls` para revisar su existencia
 3. `ls -li` para listar inodos, permisos e información relevante.
@@ -57,14 +57,14 @@ Si elimino el archivo original, todos los enlaces duros se vuelven inválidos. S
 En este apartado:
 - Modificaremos el archivo original.txt
 - Mostraremos el contenido de duro_link.hd
-![Pasted image 20240810223647.png](/img/user/Pasted%20image%2020240810223647.png)
+![Pasted image 20240810223647.png](/img/user/Assets/Pasted%20image%2020240810223647.png)
 Como podemos ver, las modificaciones hechas en el archivo `original.txt`, también se ven reflejadas en `duro_link.hd`. La explicación es la misma que hice [[IT fundamentos/Linux/Administración de archivos, grupos, comandos.#Explicaciones y comentarios\|aquí]]. Ambos son el mismo archivo, pero accedidos de distinta forma.
 ## 3.-
 En este apartado:
 - Eliminaremos original.txt
 - Mostraremos su contenido desde duro_link.hd
 - Verificación de su estado
-![Pasted image 20240810224844.png](/img/user/Pasted%20image%2020240810224844.png)
+![Pasted image 20240810224844.png](/img/user/Assets/Pasted%20image%2020240810224844.png)
 1. `rm original.txt`: eliminamos original.txt
 2. `cat duro_link.hd`: comprobamos que el contenido sigue siendo el mismo
 3. `ls -li`: verificamos *qué* hay en la carpeta.
@@ -75,7 +75,7 @@ En este apartado:
 - Crearemos un nuevo archivo: example.txt
 - Crearemos un enlace simbólico que apunte a example.txt
 
-![Pasted image 20240810225905.png](/img/user/Pasted%20image%2020240810225905.png)
+![Pasted image 20240810225905.png](/img/user/Assets/Pasted%20image%2020240810225905.png)
 - `touch example.txt`: creamos example.txt
 - `echo "texto" > example.txt`: echo para darle el texto, `>` para indicarle que la salida es hacia example.txt
 - `cat example.txt`: para verificar su contenido
@@ -91,7 +91,7 @@ En este apartado:
 - Comprobaremos el contenido a través de su enlace simbólico
 - Verificar estado
 
-![Pasted image 20240810231133.png](/img/user/Pasted%20image%2020240810231133.png)
+![Pasted image 20240810231133.png](/img/user/Assets/Pasted%20image%2020240810231133.png)
 1. `rm example.txt`: eliminamos example
 2. `cat symlink.sl`: revisamos el contenido, notamos que indica que el archivo no existe
 3. `ls -li`: El archivo en realidad está ahí pero ahora su dirección apunta en rojo.
@@ -105,10 +105,10 @@ En este apartado:
 - Crearemos copias a un nuevo directorio
 - La importancia de los logs
 
-![Pasted image 20240811001316.png](/img/user/Pasted%20image%2020240811001316.png)
+![Pasted image 20240811001316.png](/img/user/Assets/Pasted%20image%2020240811001316.png)
 - `find /var/log -type f -name "*.log"`: iniciamos la búsqueda de los archivos log
 
-![Pasted image 20240811001610.png](/img/user/Pasted%20image%2020240811001610.png)
+![Pasted image 20240811001610.png](/img/user/Assets/Pasted%20image%2020240811001610.png)
 - `sudo rm /tmp/copias`: el método que utilicé originalmente me creó un archivo binario que sólo podía eliminar de esta forma
 - `sudo mkdir -p /tmp/copia_logs`: creamos el directorio dentro de la carpeta tmp
 - `sudo find /var/log -type f -name "*.log" -exec cp {} /tmp/copia_logs/ \;`: básicamente busca los archivos y por cada archivo que encuentre ejecuta el comando `cp`
@@ -119,11 +119,11 @@ Crear copias de los logs es crucial para mantener la integridad de los mismos. C
 ## 7.-
 En este apartado:
 - Comando para buscar archivos mayores a 5MB, listando sus nombres y tamaños
-![Pasted image 20240811003550.png](/img/user/Pasted%20image%2020240811003550.png)
+![Pasted image 20240811003550.png](/img/user/Assets/Pasted%20image%2020240811003550.png)
 1. `find ~/ -type f -size +5M -exec ls -lh {} +`: Con este comando encontramos todos los archivos mayores a 5MB, pero dado que es una instalación fresca, no encontrará nada así que realizamos el siguiente:
 2. `find ~/ -type f -size +1M -exec ls -lh {} +`: Es el mismo comando pero cambiamos que sea mayores a 1MB. Esto nos despliega como resultado los permisos, el autor, dueño, tamaño, fecha de modificación y localización, pero creo que podría mejorarse.
 
-![Pasted image 20240811004113.png](/img/user/Pasted%20image%2020240811004113.png)
+![Pasted image 20240811004113.png](/img/user/Assets/Pasted%20image%2020240811004113.png)
 Este comando es similar, pero un poco más complejo. El resultado de `find` se lo pasamos (`|`) a `awk` (un lenguaje de programación interno de linea de comandos usado para procesar y analizar textos), luego imprimimos (`print`) los parámetros $9 y $5 concatenando un `:` entremedio.
 
 La utilidad de este tipo de comandos es útil a la hora de tomar respaldos, de administrar el espacio, ayuda a hacer mantenimiento de los computadores y ayuda a identificar archivos obsoletos, con esto podemos fácilmente identificar archivos problemáticos, podriamos combinarlo con otros comandos para automáticamente eliminar todos los archivos mayores que un determinado tamaño o podriamos generar un informe con ello.

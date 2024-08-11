@@ -9,7 +9,7 @@ Siguiendo el playbook, se puede reducir el tiempo de respuesta, la incertidumbre
 
 Dentro de ellos, tenemos los pasos necesarios para responder a un ataque como [[Ciberseguridad/Ataques/Malware#4. Ransomware \| Ransomware]], [[Ciberseguridad/Ataques/Malware#12. Data breach \| Data Breach]], [[Ciberseguridad/Ataques/Malware\|Malware]] en general o incluso [[Red \| Ataques de red]].
 
-![playbook sketch.png](/img/user/playbook%20sketch.png)
+![playbook sketch.png](/img/user/Assets/playbook%20sketch.png)
 
 Ejemplo de un flowchart que podríamos encontrar en un playbook (simplificado).
 
