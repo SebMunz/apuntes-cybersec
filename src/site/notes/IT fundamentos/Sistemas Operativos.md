@@ -75,7 +75,7 @@ Aquí van cosas sobre windows pero aún no lo hago
 
 ---
 
-# [[Linux\|Linux]]
+# [[IT fundamentos/Linux/Linux\|Linux]]
 
 @TODO
 Aquí van cosas sobre linux que aun no hago
