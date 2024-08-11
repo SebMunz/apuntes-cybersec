@@ -30,7 +30,7 @@
 
 ---
 
-## [[wip folder/Sistemas Operativos\|Sistemas Operativos]]
+## [[IT fundamentos/Sistemas Operativos\|Sistemas Operativos]]
 _Esto para Win, Mac y Linux_
 - Instalación y configuración
 - Versiones y diferencias
@@ -75,7 +75,7 @@ _Esto para Win, Mac y Linux_
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Red Team vs Blue Team\|Red Team vs Blue Team]]
 - Zero Trust
 - RISK
-- Frameworks (NIST CSF, ISO27001, CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model)
+- Frameworks: NIST CSF, [[Ciberseguridad/Habilidades y conocimientos básicos/ISO 27000\|ISO 27000]], CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model
 - Herramientas de hackeo comunes
 - [[Ciberseguridad/Ataques/Exploits y Vulnerabilidades\|Exploits y Vulnerabilidades]]
 - Ingeniería reversa

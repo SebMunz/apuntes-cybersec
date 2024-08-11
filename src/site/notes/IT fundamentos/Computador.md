@@ -40,6 +40,8 @@ Dada la naturaleza de la velocidad de cómputo, la CPU es más rápida en su pro
 
 De manera similar, dada la velocidad de cómputo, nuestra CPU debe saber cuándo una instrucción comienza y cuándo termina. Para ello, utiliza un reloj interno que sincroniza estas tareas, el cual se conecta al "cable de reloj". Este envía un voltaje al cable para que comience en sus cálculos (ciclo de reloj - ciclo de operaciones).
 
+Los CPU, para su instalación son de LGA (Land Grid Array donde los pins están en la placa) o PGA (Pin Grid Array, pines en la CPU). Asegurarse de instalar el correcto según la placa, lo mismo que poniendo ojo en si es 32 o 64 bits, aunque hoy en día el estándar es 64.
+
 ### RAM
 
 La RAM es básicamente un almacenamiento que funciona mientras el computador esté encendido. Ciertos programas son copiados por la CPU a la RAM para agilizar ciertos procesos. La parte "Random" de RAM permite que nuestra CPU pueda leer rápidamente cualquier parte de la memoria.
