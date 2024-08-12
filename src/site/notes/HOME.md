@@ -7,7 +7,7 @@
 Mis apuntes personales.
 
 Suelo utilizar el nombre de Floure que es un neologismo del francés/español.
-Entre mis típicos gustos está el <a href="https://anilist.co/user/RiotKen/">manga/anime</a>, <a href="https://open.spotify.com/user/31puoh4kzrpzldlbss6bjftds4a4">Escuchar música, escucho prácticamente de todo</a>, los vg (juego principalmente RPG, metroidvanias pero no le hago el asco a nada).
+Entre mis típicos gustos está el <a href="https://anilist.co/user/RiotKen/">manga/anime</a>, <a href="https://open.spotify.com/user/31puoh4kzrpzldlbss6bjftds4a4">Escuchar música</a>, los vg (juego principalmente RPG, metroidvanias pero no le hago el asco a nada).
 
 Por cosas de la vida (autismo), tengo un tema con hacer miles de cosas:
 Soy ingeniero en sonido, programador, músico,a veces escribo reviews de lo que leo, obrero/electricista/gásfiter (lo que en inglés se conoce como *the trade's*), artista marcial (mma, box, kyokushin), sé hacer cosas en básicas en 3D (blender, sketchUp, autocad), devorador de wikipedia, a veces traduzco cosas en weblate, estoy aprendiendo pixel art, cartografía de fantasía (básicamente hago mapas), fotografía, bases de datos, cocina, etc. Una enorme ensalada de cosas.
