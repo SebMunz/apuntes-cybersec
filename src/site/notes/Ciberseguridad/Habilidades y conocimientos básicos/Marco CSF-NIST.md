@@ -24,3 +24,6 @@ Los Perfiles proporcionan información sobre el estado actual del plan de seguri
 - Detectar
 - Responder
 - Recuperar
+
+---
+[NIST SP800-63B](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf)
