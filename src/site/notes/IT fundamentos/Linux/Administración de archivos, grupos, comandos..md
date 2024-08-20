@@ -6,7 +6,7 @@ Linux posee distintas maneras de moverse entre archivos y para la administració
 
 En este apartado, ejecutaré algunos comandos a modo de ejercicio.
 Para esto utilizaremos la versión mas reciente de ubuntu, montada en virtualbox.
-![Pasted image 20240810204548.png](/img/user/Assets/Pasted%20image%2020240810204548.png)
+![linux_admarch_ubuntu_vm.png](/img/user/Assets/linux_admarch/linux_admarch_ubuntu_vm.png)
 
 ---
 # Tabla de contenidos
@@ -44,7 +44,7 @@ En este apartado:
 - Notaremos los inodos
 - Anotaciones adicionales
 
-![Pasted image 20240810213344.png](/img/user/Assets/Pasted%20image%2020240810213344.png)
+![linux_admarch_touch_original.png](/img/user/Assets/linux_admarch/linux_admarch_touch_original.png)
 
 1. Haremos `cd Downloads/` para movernos a la carpeta Downloads
 2. `ls` para listar que la carpeta esta vacia
@@ -54,13 +54,13 @@ En este apartado:
 6. `nano original.txt` para editar original.txt usando el editor nano
 
 Se nos abrirá nano, un editor de texto en el terminal.
-![Pasted image 20240810213819.png](/img/user/Assets/Pasted%20image%2020240810213819.png)
+![linux_admarch_contenido_txt.png](/img/user/Assets/linux_admarch/linux_admarch_contenido_txt.png)
 Posteriormente le damos a `CTRL + X` en el teclado para cerrar, escribimos Y para aceptar los cambios y presionamos `ENTER` para que se guarde con el mismo nombre.
 Posteriormente haremos nuevamente `cat original.txt` para ver que se haya guardado correctamente:
-![Pasted image 20240810214031.png](/img/user/Assets/Pasted%20image%2020240810214031.png)
+![linux_admarch_cat_original txt.png](/img/user/Assets/linux_admarch/linux_admarch_cat_original%20txt.png)
 
 Ahora crearemos un enlace duro y listaremos los inodos y permisos.
-![Pasted image 20240810214858.png](/img/user/Assets/Pasted%20image%2020240810214858.png)
+![linux_admarch_ls_li.png](/img/user/Assets/linux_admarch/linux_admarch_ls_li.png)
 1. `ln -i original.txt duro_link.hd` para creación
 2. `ls` para revisar su existencia
 3. `ls -li` para listar inodos, permisos e información relevante.
@@ -81,14 +81,14 @@ Si elimino el archivo original, todos los enlaces duros se vuelven inválidos. S
 En este apartado:
 - Modificaremos el archivo original.txt
 - Mostraremos el contenido de duro_link.hd
-![Pasted image 20240810223647.png](/img/user/Assets/Pasted%20image%2020240810223647.png)
+![linux_admarch_cat_mod_hd.png](/img/user/Assets/linux_admarch/linux_admarch_cat_mod_hd.png)
 Como podemos ver, las modificaciones hechas en el archivo `original.txt`, también se ven reflejadas en `duro_link.hd`. La explicación es la misma que hice [[IT fundamentos/Linux/Administración de archivos, grupos, comandos.#Explicaciones y comentarios\|aquí]]. Ambos son el mismo archivo, pero accedidos de distinta forma.
 ## 3.- Eliminación y enlaces
 En este apartado:
 - Eliminaremos original.txt
 - Mostraremos su contenido desde duro_link.hd
 - Verificación de su estado
-![Pasted image 20240810224844.png](/img/user/Assets/Pasted%20image%2020240810224844.png)
+![linux_admarch_rm_txt.png](/img/user/Assets/linux_admarch/linux_admarch_rm_txt.png)
 1. `rm original.txt`: eliminamos original.txt
 2. `cat duro_link.hd`: comprobamos que el contenido sigue siendo el mismo
 3. `ls -li`: verificamos *qué* hay en la carpeta.
@@ -99,7 +99,7 @@ En este apartado:
 - Crearemos un nuevo archivo: example.txt
 - Crearemos un enlace simbólico que apunte a example.txt
 
-![Pasted image 20240810225905.png](/img/user/Assets/Pasted%20image%2020240810225905.png)
+![linux_admarch_touch_con_echo.png](/img/user/Assets/linux_admarch/linux_admarch_touch_con_echo.png)
 - `touch example.txt`: creamos example.txt
 - `echo "texto" > example.txt`: echo para darle el texto, `>` para indicarle que la salida es hacia example.txt
 - `cat example.txt`: para verificar su contenido
@@ -115,7 +115,7 @@ En este apartado:
 - Comprobaremos el contenido a través de su enlace simbólico
 - Verificar estado
 
-![Pasted image 20240810231133.png](/img/user/Assets/Pasted%20image%2020240810231133.png)
+![linux_admarch_rm_comprob.png](/img/user/Assets/linux_admarch/linux_admarch_rm_comprob.png)
 1. `rm example.txt`: eliminamos example
 2. `cat symlink.sl`: revisamos el contenido, notamos que indica que el archivo no existe
 3. `ls -li`: El archivo en realidad está ahí pero ahora su dirección apunta en rojo.
@@ -129,10 +129,10 @@ En este apartado:
 - Crearemos copias a un nuevo directorio
 - La importancia de los logs
 
-![Pasted image 20240811001316.png](/img/user/Assets/Pasted%20image%2020240811001316.png)
+![linux_admarch_find_args.png](/img/user/Assets/linux_admarch/linux_admarch_find_args.png)
 - `find /var/log -type f -name "*.log"`: iniciamos la búsqueda de los archivos log
 
-![Pasted image 20240811001610.png](/img/user/Assets/Pasted%20image%2020240811001610.png)
+![linux_admarch_sudo_rm.png](/img/user/Assets/linux_admarch/linux_admarch_sudo_rm.png)
 - `sudo rm /tmp/copias`: el método que utilicé originalmente me creó un archivo binario que sólo podía eliminar de esta forma
 - `sudo mkdir -p /tmp/copia_logs`: creamos el directorio dentro de la carpeta tmp
 - `sudo find /var/log -type f -name "*.log" -exec cp {} /tmp/copia_logs/ \;`: básicamente busca los archivos y por cada archivo que encuentre ejecuta el comando `cp`
@@ -143,11 +143,11 @@ Crear copias de los logs es crucial para mantener la integridad de los mismos. C
 ## 7.- Comando de búsqueda
 En este apartado:
 - Comando para buscar archivos mayores a 5MB, listando sus nombres y tamaños
-![Pasted image 20240811003550.png](/img/user/Assets/Pasted%20image%2020240811003550.png)
+![linux_admarch_find_+5M.png](/img/user/Assets/linux_admarch/linux_admarch_find_+5M.png)
 1. `find ~/ -type f -size +5M -exec ls -lh {} +`: Con este comando encontramos todos los archivos mayores a 5MB, pero dado que es una instalación fresca, no encontrará nada así que realizamos el siguiente:
 2. `find ~/ -type f -size +1M -exec ls -lh {} +`: Es el mismo comando pero cambiamos que sea mayores a 1MB. Esto nos despliega como resultado los permisos, el autor, dueño, tamaño, fecha de modificación y localización, pero creo que podría mejorarse.
 
-![Pasted image 20240811004113.png](/img/user/Assets/Pasted%20image%2020240811004113.png)
+![linux_admarch_find_awk_adv.png](/img/user/Assets/linux_admarch/linux_admarch_find_awk_adv.png)
 Este comando es similar, pero un poco más complejo. El resultado de `find` se lo pasamos (`|`) a `awk` (un lenguaje de programación interno de linea de comandos usado para procesar y analizar textos), luego imprimimos (`print`) los parámetros $9 y $5 concatenando un `:` entremedio.
 
 La utilidad de este tipo de comandos es útil a la hora de tomar respaldos, de administrar el espacio, ayuda a hacer mantenimiento de los computadores y ayuda a identificar archivos obsoletos, con esto podemos fácilmente identificar archivos problemáticos, podriamos combinarlo con otros comandos para automáticamente eliminar todos los archivos mayores que un determinado tamaño o podriamos generar un informe con ello.
@@ -160,21 +160,21 @@ En este apartado:
 - Crear un usuario con una ID determinada con shell bash
 - Crear otro usuario, pero con shell no interactivo
 - Un tercer usuario con shell zsh
-![Pasted image 20240811175608.png](/img/user/Assets/Pasted%20image%2020240811175608.png)
+![linux_admarch_usrs.png](/img/user/Assets/linux_admarch/linux_admarch_usrs.png)
 1. `cat /etc/passwd`: Primero corremos este comando para verifiar los usuarios actuales. Los primeros usuarios que lista son todos internos de sistema, el último es el usuario que cree para usar ubuntu.
 
-![Pasted image 20240811175930.png](/img/user/Assets/Pasted%20image%2020240811175930.png)
+![linux_admarch_useradd.png](/img/user/Assets/linux_admarch/linux_admarch_useradd.png)
 1. `sudo useradd -u 1000 -s /bin/bash ana`:  sudo, creamos nuevo usuario, le pasamos el id y le decimos que shell usar. En este caso nos encontramos con un error porque el id 1000 ya estaba en uso por el usuario por defecto (seb)
 2. `sudo useradd -u 1001 -s /bin/bash ana`: Cambiamos el id 1000 por el 1001 y esta vez si funciona
 3. `sudo useradd -u 1100 -s /usr/sbin/nologin marta`: Mismo proceso pero le damos id 1100 y especificamos usar no-login.
 4. `sudo useradd -u 1200 -s /bin/zsh`: Mismo proceso, id 1200 pero nos topamos con que no es posible ya que no existe zsh. Procedemos a su instalación.
 
 
-![Pasted image 20240811180525.png](/img/user/Assets/Pasted%20image%2020240811180525.png)
+![linux_admarch_apt_install.png](/img/user/Assets/linux_admarch/linux_admarch_apt_install.png)
 1. `sudo apt install zsh git fonts-font-awesome`: sudo, apt install para installar zsh, además le damos parametros adicionales para instalar fuentes que podrían ser útiles para configurar zsh en un futuro.
 2. `sudo useradd -u 1200 -s /bin/zsh`: Lo ejecutamos pero me dice que el usuario ya existe así que lanzamos...
 3. `cat /etc/passwd`: Para leer nuevamente los contenidos de passwd, listar usuarios y obtenemos:
-![Pasted image 20240811180749.png](/img/user/Assets/Pasted%20image%2020240811180749.png)
+![linux_admarch_usrlist.png](/img/user/Assets/linux_admarch/linux_admarch_usrlist.png)
 Con esto ya confirmamos que están los 3 usuarios creados y con un shell asignado.
 Como anotación sobre los shells, me parece importante mencionar:
 - `bash` es el CLI por defecto
@@ -185,11 +185,11 @@ Como anotación sobre los shells, me parece importante mencionar:
 En este apartado:
 - Crearemos 3 grupos diferentes.
 - Asignaremos a los 3 usuarios a dichos grupos.
-![Pasted image 20240811182532.png](/img/user/Assets/Pasted%20image%2020240811182532.png)
+![linux_admarch_groupadd.png](/img/user/Assets/linux_admarch/linux_admarch_groupadd.png)
 Corremos el mismo comando modificado 3 veces para así crear los grupos:
 `sudo groupadd -g idgrupo nombregrupo`
 
-![Pasted image 20240811183120.png](/img/user/Assets/Pasted%20image%2020240811183120.png)
+![linux_admarch_usermod.png](/img/user/Assets/linux_admarch/linux_admarch_usermod.png)
 Ejecutamos:
 1. `sudo usermod -aG grupo usuario`: Ejecutamos este comando tres veces cambiando los parámetros de grupo y usuario
 2. `uso (...)`: comando mal escrito
@@ -200,7 +200,7 @@ Con este proceso hemos agregado a cada usuario a un grupo distinto.
 ## 3.- Listar usuarios
 En este apartado:
 - Listamos la información de cada usuario
-![Pasted image 20240811184049.png](/img/user/Assets/Pasted%20image%2020240811184049.png)
+![linux_admarch_usrid.png](/img/user/Assets/linux_admarch/linux_admarch_usrid.png)
 Ejecutamos el comando `id` con cada usuario.
 Recibimos:
 - `uid`: user id
@@ -210,14 +210,14 @@ Recibimos:
 > Esto se debe a que la mayoría de las distros modernas de linux existe el concepto de `UPG` o User Private Group. Cuando creamos un usuario nuevo, se le asigna automáticamente a un grupo privado del mismo usuario, de modo que los archivos que este crea, sean sólo de su autoría y no de un grupo común, para así evitar problemas de integridad.
 
 Ahora, listaremos además los usuarios con grep.
-![Pasted image 20240811184815.png](/img/user/Assets/Pasted%20image%2020240811184815.png)
+![linux_admarch_grep_usr.png](/img/user/Assets/linux_admarch/linux_admarch_grep_usr.png)
 La salida que nos entrega grep es `usuario:contraseña:uid:gid:comentario:rutaHome:shell`.
 La contraseña está encriptada por lo tanto sólo nos entrega 'x' a modo simbólico, como no tenemos comentarios de usuario sólo aparece como `::` sin nada entremedio.
 
 ## 4.- Listar grupos
 En este apartado:
 - Listaremos la información de los grupos.
-![Pasted image 20240811185317.png](/img/user/Assets/Pasted%20image%2020240811185317.png)
+![linux_admarch_grep_group.png](/img/user/Assets/linux_admarch/linux_admarch_grep_group.png)
 Obtenemos `grupo:x:gid:usuarios`. Es similar a lo que obtenemos de usuarios, nuevamente la `x` representa la contraseña encriptada.
 
 ---
@@ -228,21 +228,21 @@ En este apartado:
 - Analizaremos las ventajas, desventajas y diferencias de cada uno.
 
 ##### PS
-![Pasted image 20240811190056.png](/img/user/Assets/Pasted%20image%2020240811190056.png)
+![linux_admarch_ps.png](/img/user/Assets/linux_admarch/linux_admarch_ps.png)
 `ps`: Muestra un snapshot o instantánea de los procesos. Veo que es más limitado sin argumentos pero si le pasamos aux es mucho más completo
-![Pasted image 20240811190911.png](/img/user/Assets/Pasted%20image%2020240811190911.png)
+![linux_admarch_ps_aux.png](/img/user/Assets/linux_admarch/linux_admarch_ps_aux.png)
 `ps aux`
 
 ##### PSTREE
-![Pasted image 20240811190152.png](/img/user/Assets/Pasted%20image%2020240811190152.png)
+![linux_admarch_pstree.png](/img/user/Assets/linux_admarch/linux_admarch_pstree.png)
 `pstree`: Muestra los procesos como un árbol, podemos ver qué proceso responde a qué o su relación padre-hijo.
 
 ##### TOP
-![Pasted image 20240811190325.png](/img/user/Assets/Pasted%20image%2020240811190325.png)
+![linux_admarch_top.png](/img/user/Assets/linux_admarch/linux_admarch_top.png)
 `top`: Funciona en tiempo real, y se va actualizando constantemente como un monitor. Similar al administrador de tareas de windows.
 
 ##### HTOP
-![Pasted image 20240811190542.png](/img/user/Assets/Pasted%20image%2020240811190542.png)
+![linux_admarch_htop.png](/img/user/Assets/linux_admarch/linux_admarch_htop.png)
 `htop`: No viene por defecto pero lo instalamos rápidamente con `sudo apt install htop`. Es más completo que top.
 
 Cada uno de los comandos utilizados tiene su propia ventaja y desventaja.
@@ -258,23 +258,23 @@ En este apartado:
 - Será reanudado y luego terminado de forma adecuada.
 
 Ejecutamos `vi` para abrir Vim y presionamos `CTRL + Z`
-![Pasted image 20240811193318.png](/img/user/Assets/Pasted%20image%2020240811193318.png)
-![Pasted image 20240811193716.png](/img/user/Assets/Pasted%20image%2020240811193716.png)
-![Pasted image 20240811194120.png](/img/user/Assets/Pasted%20image%2020240811194120.png)
+![linux_admarch_suspend.png](/img/user/Assets/linux_admarch/linux_admarch_suspend.png)
+![linux_admarch_ps_grep.png](/img/user/Assets/linux_admarch/linux_admarch_ps_grep.png)
+![linux_admarch_ps_grep_vi.png](/img/user/Assets/linux_admarch/linux_admarch_ps_grep_vi.png)
 Ejecutamos:
 - `ps` : solo con este comando no logramos identificar si el proceso está suspendido, nos falta más información.
 - `ps aux | grep 'vi'`: Ahora sí podemos ver en el id 4952 que Vi está con estado 'T' que significa suspendido.
 - `ps aux | grep -w vi`: Un grep más acotado para que no me muestre coincidencias parciales.
 
-![Pasted image 20240811194337.png](/img/user/Assets/Pasted%20image%2020240811194337.png)
+![linux_admarch_foreground.png](/img/user/Assets/linux_admarch/linux_admarch_foreground.png)
 Utilizamos el comando `fg nombre`. En este caso, `fg` era suficiente, esto trae el proceso suspendido más reciente, pero es bueno tener en cuenta que si tenemos más de uno, debemos pasarle el nombre.
-![Pasted image 20240811194636.png](/img/user/Assets/Pasted%20image%2020240811194636.png)
+![linux_admarch_backtovim.png](/img/user/Assets/linux_admarch/linux_admarch_backtovim.png)
 
 Realizamos nuevamente `ps` y notamos que Vi ya no está activo.
-![Pasted image 20240811194721.png](/img/user/Assets/Pasted%20image%2020240811194721.png)
+![linux_admarch_ps_comp.png](/img/user/Assets/linux_admarch/linux_admarch_ps_comp.png)
 
 De pasada, aprovecharemos de cerrar forzosamente nano
-![Pasted image 20240811195117.png](/img/user/Assets/Pasted%20image%2020240811195117.png)
+![linux_admarch_kill.png](/img/user/Assets/linux_admarch/linux_admarch_kill.png)
 `kill -9 5113`
 
 ## 3.- Relaciones jerárquicas
@@ -287,7 +287,7 @@ Para mostrar las relaciones de jerarquía que tienen los procesos, usando `ps`, 
 - `x` muestra los procesos que no están asociados a una terminal, como procesos en segundo plano.
 
 Ejecutamos `ps fax`
-![Pasted image 20240811195741.png](/img/user/Assets/Pasted%20image%2020240811195741.png)
+![linux_admarch_ps_aux_tree.png](/img/user/Assets/linux_admarch/linux_admarch_ps_aux_tree.png)
 Aquí podemos ver en el proceso 2627 que:
 - `/usr/libexec/gnome-termina-server` es el proceso de donde sale la terminal, esta es padre de
 - `bash` que es la terminal, y este a su vez es padre de
@@ -295,7 +295,7 @@ Aquí podemos ver en el proceso 2627 que:
 - Cada indentación muestra la jerarquía.
 
 Ejecutamos `ps -ejH`
-![Pasted image 20240811200042.png](/img/user/Assets/Pasted%20image%2020240811200042.png)
+![linux_admarch_pid.png](/img/user/Assets/linux_admarch/linux_admarch_pid.png)
 Este es un comando similar con la diferencia que:
 - Nos muestra los procesos como árbol compacto
 - `e` muestra todos los procesos sin importar el usuario
@@ -303,7 +303,7 @@ Este es un comando similar con la diferencia que:
 - `H` le otorga la cualidad de mostrarlo con el árbol de jerarquías.
 
 También, similarmente tenemos `ps --tree` que no está disponible siempre pero muestra sólo los procesos activos del usuario, omitiendo los procesos en segundo plano.
-![Pasted image 20240811200340.png](/img/user/Assets/Pasted%20image%2020240811200340.png)
+![linux_admarch_ps_forest.png](/img/user/Assets/linux_admarch/linux_admarch_ps_forest.png)
 
 ## 4.- Backups y Cron
 En este apartado:
@@ -316,17 +316,17 @@ Para esto tenemos 2 alternativas:
 
 Con tareas complejas la primera opción es la ideal, por lo tanto la segunda opción es la más adecuada, pero por fines educativos haremos ambas.
 
-![Pasted image 20240811205055.png](/img/user/Assets/Pasted%20image%2020240811205055.png)
+![linux_admarch_compr.png](/img/user/Assets/linux_admarch/linux_admarch_compr.png)
 1. `ls` para notar que no hay nada en `/Documents`
 2. `touch script-backup-cron.sh` para crear un script de bash
 3. `ls` nuevamente para ver su creación
 4. `nano script-backup-cron.sh` para editar el archivo.
  
-![Pasted image 20240811210940.png](/img/user/Assets/Pasted%20image%2020240811210940.png)
+![linux_admarch_script_bash.png](/img/user/Assets/linux_admarch/linux_admarch_script_bash.png)
 1. `cat script-backup-cron.sh` mostramos el contenido, ahí podemos ver el script que hice.
 2. `crontab -e` lanzamos el *-editor* de crontab.
 
-![Pasted image 20240811212405.png](/img/user/Assets/Pasted%20image%2020240811212405.png)
+![linux_admarch_cron_backupscript.png](/img/user/Assets/linux_admarch/linux_admarch_cron_backupscript.png)
 - Crontab no es más que un archivo con instrucciones en texto
 - Dentro del mismo archivo están las instrucciones de uso.
 
@@ -349,13 +349,13 @@ En este apartado:
 
 Nuevamente podemos realizarlo a través de un script o directo a Cron.
 En esta oportunidad, con un script es una tarea más compleja pero de todas formas haremos ambos.
-![Pasted image 20240811214503.png](/img/user/Assets/Pasted%20image%2020240811214503.png)
+![linux_admarch_comprob_scri.png](/img/user/Assets/linux_admarch/linux_admarch_comprob_scri.png)
 Creamos el archivo, listamos y lo editamos con nano.
 
-![Pasted image 20240811215355.png](/img/user/Assets/Pasted%20image%2020240811215355.png)
+![linux_admarch_bash_.png](/img/user/Assets/linux_admarch/linux_admarch_bash_.png)
 Creamos el script.
 Ahora vamos a linkearlo en crontab
-![Pasted image 20240811215624.png](/img/user/Assets/Pasted%20image%2020240811215624.png)
+![linux_admarch_crontab_script_log.png](/img/user/Assets/linux_admarch/linux_admarch_crontab_script_log.png)
 En la 3ra linea tenemos el linkeo del script, similar al de la linea 1.
 En la 4ta linea tenemos el comando directo.
 

@@ -40,6 +40,8 @@
    - Transmite datos crudos entre dispositivos a través de cables de cobre o fibra óptica.
    - Incluye Hubs, módems y cableado.
 
+![osi_tcpip.png](/img/user/osi_tcpip.png)
+
 # Conclusiones Clave:
 
 - Modelos TCP/IP y OSI son esenciales para diseñar procesos y protocolos de transmisión de datos.

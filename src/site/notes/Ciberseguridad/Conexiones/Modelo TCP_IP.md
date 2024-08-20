@@ -29,6 +29,7 @@
    - Define accesos a servicios y aplicaciones.
    - Protocolos incluyen HTTP, SMTP, SSH, FTP, DNS.
 
+![osi_tcpip.png](/img/user/osi_tcpip.png)
 ## Comparación con Modelo OSI:
 
 - Modelo OSI visualiza protocolos en siete capas.

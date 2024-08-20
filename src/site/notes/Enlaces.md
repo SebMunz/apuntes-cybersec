@@ -20,6 +20,7 @@ Distintos enlaces útiles que suelo usar.
 - <a href="https://massgrave.dev">Herramientas para activar Office y Windows</a>
 - <a href="https://felixhayashi.github.io/ReadmeGalleryCreatorForGitHub">Creador de galerías en readme.md para github</a>
 - <a href="https://explorer.globe.engineer">IA que ayuda a aprender cosas nuevas a través de infografías</a>
+- <a href=https://regex101.com>Sitio para testear y aprender expresiones regulares</a>
 ## Sonido
 - <a href="https://www.acousticbulletin.com/room-acoustic-descriptors-rt-c50-and-gain">Descriptores acústicos (RT, C50)</a>
 - <a href="https://sonicscoop.com/game-audio-level-1-the-basics-of-sound-for-the-interactive-age">Implementación de audio en unity</a>
@@ -33,3 +34,5 @@ Distintos enlaces útiles que suelo usar.
 - <a href="https://urlscan.io">Escaneo de URL</a>
 - <a href="https://virusscan.jotti.org">Escaneo de archivos con variados antivirus</a>
 - <a href="https://bazaar.abuse.ch/verify-ua">Repositorio/DDBB de Malware</a>
+
+# Tutoriales/cursos

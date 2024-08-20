@@ -10,3 +10,7 @@ Linux no es precisamente el sistema operativo más amigable a la hora de aprende
 Sin embargo, el nivel de satisfacción por usarlo es mucho mayor gracias a la capacidad de poder modificarlo y ajustarlo a nuestro propio gusto.
 A un nivel más de *power user*, su manejo es fundamental.
 
+---
+
+[[IT fundamentos/Linux/Comandos\|Comandos y ejemplos de uso]]
+
