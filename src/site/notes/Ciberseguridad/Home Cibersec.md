@@ -2,7 +2,19 @@
 {"dg-publish":true,"permalink":"/Ciberseguridad/Home Cibersec/"}
 ---
 
+# Tabla de Contenidos
+- [[Ciberseguridad/Home Cibersec#01 Introducción TI Habilidades TI\|Habilidades TI]]
+- [[Ciberseguridad/Home Cibersec#Tipos de conexiones Conexiones\|Conexiones]]
+- [[Ciberseguridad/Home Cibersec#Sistemas Operativos\|Sistemas Operativos]]
+- [[Ciberseguridad/Home Cibersec#Networking\|Redes]]
+- [[Ciberseguridad/Home Cibersec#Habilidades de Seguridad\|Habilidades de Seguridad]]
+	- [[Ciberseguridad/Home Cibersec#CORE CONCEPTS\|Conceptos clave]]
+	- [[Ciberseguridad/Home Cibersec#Conocimientos y habilidades para la nube\|Nubes]]
+	- [[Ciberseguridad/Home Cibersec#Uso de lenguajes de programación\|Lenguajes de programación en el contexto de la ciberseguridad]]
+---
+
 ## [[IT fundamentos/01 Introducción TI\|Habilidades TI]]
+Lo más básico:
 - Navegación computador
   - Usos básicos de oficina, aplicaciones, modificar preferencias
 - Uso de internet 
@@ -12,25 +24,24 @@
 - Instalación programas
   - Instalar/desintalar, actualizar, modificar permisos y preferencias
 - Conocimientos básicos de seguridad
-  - Uso de contraseñas seguras, actualizaciones, conexiones seguras, entendimiento de vulneraciones en la web (phishing, etc), copias de seguridad y su correcto manejo
+  - Uso de contraseñas seguras, actualizaciones, conexiones seguras, [[Ciberseguridad/Ataques/00 Ataques\|entendimiento de ataques]], copias de seguridad y su correcto manejo
 - Conocimientos computador
-  - Sistemas operativos (diferencias, ventajas, usos, soluciones), componentes hardware (cambios, mantención, compatibilidad), análisis de logs.
+  - [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas operativos con sus diferencias, ventajas, usos, componentes, mantención, etc]], [[IT fundamentos/Logs\|Logs]]
 
 ---
 
-## [[Ciberseguridad/Conexiones/Tipos de conexiones\|Conexiones]]
-- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Cable** \|Cable]]
-- [[Ciberseguridad/Conexiones/Tipos de conexiones#**USB** \|USB]]
-- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Enmascaramientos**\|Enmascaramientos (como VPN)]]
-- [[Ciberseguridad/Conexiones/Tipos de conexiones#**P2P**\|P2P]]
-- [[Ciberseguridad/Conexiones/Tipos de conexiones#**NFC**\|NFC]]
-- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Inalámbricas**\|WI-FI]]
-- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Bluetooth**\|Bluetooth]]
-- [[Ciberseguridad/Conexiones/Tipos de conexiones#**Infrarroja (IR)**\|Infrarojo]]
+## [[IT fundamentos/Conexiones/Tipos de conexiones\|Conexiones]]
+- [[IT fundamentos/Conexiones/Tipos de conexiones#**Cable** \|Cable]]
+- [[IT fundamentos/Conexiones/Tipos de conexiones#**USB** \|USB]]
+- [[IT fundamentos/Conexiones/Tipos de conexiones#**Enmascaramientos**\|Enmascaramientos (como VPN)]]
+- [[IT fundamentos/Conexiones/Tipos de conexiones#**P2P**\|P2P]]
+- [[IT fundamentos/Conexiones/Tipos de conexiones#**NFC**\|NFC]]
+- [[IT fundamentos/Conexiones/Tipos de conexiones#**Inalámbricas**\|WI-FI]]
+- [[IT fundamentos/Conexiones/Tipos de conexiones#**Bluetooth**\|Bluetooth]]
+- [[IT fundamentos/Conexiones/Tipos de conexiones#**Infrarroja (IR)**\|Infrarojo]]
 
 ---
-
-## [[IT fundamentos/Sistemas Operativos\|Sistemas Operativos]]
+## [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas Operativos]]
 _Esto para Win, Mac y Linux_
 - Instalación y configuración
 - Versiones y diferencias
@@ -42,11 +53,10 @@ _Esto para Win, Mac y Linux_
 - Comandos comunes
 
 ---
-
 ## Networking
 - [[wip folder/Ciclo de Red\|Ciclo de Red]]
-- [[Ciberseguridad/Conexiones/Modelo OSI\|Modelo OSI]]
-- [[Ciberseguridad/Conexiones/Modelo TCP_IP\|Modelo TCP_IP]]
+- [[IT fundamentos/Conexiones/Modelo OSI\|Modelo OSI]]
+- [[IT fundamentos/Conexiones/Modelo TCP_IP\|Modelo TCP_IP]]
 - Protocolos y sus usos
   - HTTP(S), SSL/TLS, SSH, FTP, etc
 - Puertos y sus usos
@@ -64,7 +74,7 @@ _Esto para Win, Mac y Linux_
 ---
 
 ## Habilidades de Seguridad
-> __CORE CONCEPTS__
+#### Conceptos clave
 - [[Ciberseguridad/Habilidades y conocimientos básicos/CIA triad\|CIA triad]]
 - Handshakes
 - TRUE & FALSE positive, TRUE & FALSE negative
@@ -164,7 +174,7 @@ _Esto para Win, Mac y Linux_
 - [[Ciberseguridad/Ataques/Ingeneria Social#**Impersonamiento **\| Impersonamiento]]
 - [[Ciberseguridad/Ataques/Ingeneria Social#**Watering Hole **\|Watering Hole Attack]]
 - [[Ciberseguridad/Ataques/Malware#**Drive-By **\|Drive-By]]
-- Typo Squatting
+- [[Ciberseguridad/Ataques/Ingeneria Social#**Typo Squatting **\|Typo Squatting]]
 - [[Ciberseguridad/Ataques/Fuerza bruta\|Brute Force, Password Spray, Rainbow Tables]]
 
 > __ATAQUES COMUNES EN RED__
@@ -191,8 +201,8 @@ _Esto para Win, Mac y Linux_
 
 ---
 
-## Conocimientos y habilidades para la nube
-> __CLOUD__
+#### Conocimientos y habilidades para la nube
+[[IT fundamentos/Nubes/Servicios en la nube\|Servicios en la nube]]
 - Seguridad
 - Deploy
 - Cloud vs On-premise
@@ -200,22 +210,22 @@ _Esto para Win, Mac y Linux_
 - Serverless
 - CDN
 
-> __SERVICIOS CLOUD__
-- SaaS
-- PaaS
-- IaaS
+[[IT fundamentos/Nubes/Servicios en la nube#Servicios basados en la nube\|Servicios Cloud]]
+- [[IT fundamentos/Nubes/Servicios en la nube#SaaS\|SaaS]]
+- [[IT fundamentos/Nubes/Servicios en la nube#PaaS\|PaaS]]
+- [[IT fundamentos/Nubes/Servicios en la nube#IaaS\|IaaS]]
 
-> __AMBIENTES__
-- AWS
-- GCP
-- Azure
+Ambientes
+- [[IT fundamentos/Nubes/Mayores proveedores de Cloud#AWS\|AWS]]
+- [[IT fundamentos/Nubes/Mayores proveedores de Cloud#GCP\|GCP]]
+- [[IT fundamentos/Nubes/Mayores proveedores de Cloud#Azure\|Azure]]
 
-> __MODELOS__
+ __MODELOS__
 - Privado
 - Público
 - Híbrido
 
-> __ALMACENAMIENTO__
+ __ALMACENAMIENTO__
 - S3
 - Dropbox
 - Box
@@ -225,7 +235,7 @@ _Esto para Win, Mac y Linux_
 
 ---
 
-## Uso de lenguajes de programación
+#### Uso de lenguajes de programación
 - Python
 - Go
 - JS

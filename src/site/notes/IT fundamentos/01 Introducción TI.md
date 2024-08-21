@@ -58,7 +58,7 @@ La infraestructura de un computador puede ser dividido en 4 capas principales:
 
 Objetos tangibles que componen al computador. Estoy incluye almacenamiento (SD, SSD, HDD, etc), tarjetas gráficas (GPU), procesadores (CPU), periféricos (mouse, teclado, monitores) e incluso equipo como impresoras, teléfonos, etc.
 
-### Sistema operativo
+### [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas Operativos]]
 
 También escrito como OS (en inglés). Esto le permite al hardware comunicarse con el sistema a pesar de quién sea el fabricante. Tenemos distintos sistemas operativos pero los tres más populares son Windows, Linux y macOS. Sin embargo hay muchos más según el dispositivo y a su vez según el uso. Por ejemplo tenemos los sistemas para celulares como ios, Android, harmonyOS. Para otros dispositivos como Tizen (smartwatch), WebOS (TV, moviles), Zephyr (IoT, domótica), OpenVMS (servidores), z/OS (sistema IBM para mainframes), etc.
 

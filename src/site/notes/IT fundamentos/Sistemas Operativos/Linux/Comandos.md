@@ -1,0 +1,92 @@
+---
+{"dg-publish":true,"permalink":"/IT fundamentos/Sistemas Operativos/Linux/Comandos/"}
+---
+
+Esto es un vil copypaste de los comandos que he ido usando en los otros archivos.
+
+- `cd`: Change directory, cambiar de directorio
+- `ls`: `ls` lista los archivos y directorios dentro de un directorio. El argumento `-li` dice:
+	- `l`: Mostrar información de permisos, propietario, grupo, tamaño, fecha de modificación y nombre
+	- `i`: Mostrar el inodo
+	- `h`: lo hace "humanamente legible", es decir, transforma los tamaños de sólo a bytes a un formato más legible
+- `ln`: Link, linkea un archivo a otro, creando un enlace duro.
+	- `-s`: indica que es un enlace simbólico
+- `touch`: Crea un archivo nuevo
+- `cat`: Concat. Nos muestra los contenidos o concatena archivos
+- `nano`: Abre nano, el editor de texto en el CLI.
+- `useradd`: Agregar usuario.
+	- `-u`: para asignarle una ID
+	- `-s`: para indicarle un shell a utilizar
+- `apt`: Comando para realizar acciones sobre aplicaciones
+	- `install`: con esto le indicamos a `apt` que queremos instalar un nuevo paquete
+- `groupadd`: Creamos un nuevo grupo.
+	- `-g`: para especificar la id, ya sea al momento de crearlo o asignarlo
+- `usermod`: Modificar usuario
+	- `-a`: append. indica que se debe agregar x a y
+	- `-G`: Indica el grupo. Por lo tanto, al usarlo como `-aG` le decimos que debe agregar al grupo
+- `groups`: Comando para listar los grupos a los que pertenece el usuario actual (sin parámetros) o a los de los usuarios que le pasamos.
+- `id`: Muestra información detallada sobre usuario.
+- `grep`: comando para buscar y filtrar texto dentro de archivos o resultados de otros comandos. Significa `global regular expression print` - 'Impresora global de expresiones regulares'
+	- Al ser un comando de expresiones regulares, los parámetros son diversos.
+	- <a href='https://regex101.com/'>Una buena página para practicar y aprender expresiones regulares</a>
+- `echo "texto" > example.txt`: Echo es un comando para mostrar texto en el terminal. Literalmente hace "eco" de lo que le decimos.
+	- `>`: se llama redirección de salida, con esto le indicamos que lo que entrega echo, sea redirigido al archivo example.txt
+- `rm`: Remove. Literalmente remover, eliminar.
+- `find /donde/ "que"`: Buscar.
+	- `-name`: especifica que estamos buscando archivos a través de su nombre.
+	- `-type`: especifica que estamos buscando archivos según un tipo, le entregamos `f` para decirle que busque solo `files`
+- `awk`: lenguaje interno utilizado para procesar texto.
+- `sudo`: super user do. Ejecutar el siguiente comando con privilegios elevados.
+- `ps`: Process status. Muestra un snapshot de los procesos
+	- `aux` muestra todos los procesos con detalles.
+	- podemos combinarlo con `grep` a través de un pipe `|` para filtrar y destacar
+- `pstree`: Muestra snapshot de los procesos en formato de árbol, con las jerarquías padre-hijo
+- `top`: Muestra procesos en tiempo real detallando uso de recursos
+- `htop`: Lo mismo que `top` pero con un formateo más amigable y otras funcionalidades adicionales.
+- `fg`: Foreground. Trae el proceso más recientemente suspendido de vuelta.
+- `kill pid`: "mata" un proceso o lo termina. Sin argumentos le envía una señal 15 (de terminación), lo cual le da tiempo para cerrar y limpiar. En este caso de uso le dimos -9 y 5113 donde -9 le da la orden de terminarlo sí o sí y 5113 es el pid (process id).
+	- Importante notar que nano no se cerraría con `kill 5113` al estar suspendido.
+- `crontab`: Usar crontab, el argumento `-e` abre la edición de sus parámetros.
+- `sudo apt get install apache2 -y`: Básicamente: super user do, instala la siguiente aplicación, dale yes a todo.
+- `sudo systemctl status apache2`: Preguntamos a system control el status de apache2
+- `sudo nano /etc/apache/apache2.conf`: Abrimos el archivo apache2.conf con nano
+- `sudo apachectl configtest`: Control de apache, le pedimos que haga una prueba de configuración para verificar si está bien configurado.
+- `echo "<html><body><h1>Hola, soy un texto desde apache</h1></body></html>" | sudo tee /var/www/html/index.html`: Este comando es básicamente un echo con el contenido del archivo html, un pipe, y el comando `tee` que agarra el input, lo despliega y/o lo guarda en un archivo o concatena en otro; en este caso reemplaza `index.html`
+- `sudo apt install isc-dhcp-server -y`: Instalamos DHCP server
+- `sudo nano /etc/dhcp/dhcpd.conf`: Archivo de configuración por defecto de DHCP
+- `sudo nano /etc/default/isc-dhcp-server`: Archivo de configuración de interfaces de red para DHCP
+- `sudo systemctl restart isc-dhcp-server`: Reinicio de servidor DHCP
+- `sudo systemctl status isc-dhcp-server`: Revisar estado de DHCP
+- `journalctl -ex`: Para revisar todos los logs del sistemas de forma centralizada
+	- `-ex`: `e` hace que `journalctl` se mueva al 'end'. `x` hace que imprima más información adicional, útil para depurar errores.
+- `sudo apt install vsftpd -y`: Instalamos **vsftpd**, el daemon FTP de Linux.
+- `sudo nano /etc/vsftpd.conf`: Archivo de configuración del very secure FTP daemon
+- `sudo systemctl restart vsftp.service`: Reinicio de servicio vsftp
+- `chown`: Change Owner. Cambiar propietario
+- `sudo apt install openssh-server -y`: Instalación servidor SSH
+- `sudo nano /etc/ssh/sshd_config`: Archivo de configuración del servidor SSH
+- `ssh-keygen -t rsa -b 4096`: Comando para generar las llaves.
+	- `-t rsa`: Tipo de clave, RSA es el algoritmo
+	- `-b 4096`: Tamaño de la clave en bits
+- `sudo fdisk -l`: lista los discos y particiones.
+- `sudo fdisk /dev/sda`: ejecutamos fdisk sobre sda
+- `sudo mkfs.ext4 /dev/sdX1`: formateo, formato y etiqueta (reemplazar X con el que corresponda al disco)
+- `sudo mkdir /mnt/nuevo_almacenamiento`: crear nuevo directorio
+- `sudo mount /dev/sdX1 /mnt/nuevo_almacenamiento`: básicamente "montamos esto aquí".
+- `df -h`: nos lista todas las particiones montadas en el sistema.
+- `sudo blkid /dev/sdb1`: block id, para identificar el UUID del disco
+- `sudo nano /etc/fstab`: para abrir el archivo fstab
+- `sudo umount /mnt/nuevo_almacenamiento`: para desmontar el punto
+- `sudo mount -a`: montar todo lo que esté en `fstab`
+- `sudo systemctl daemon-reload`: recargar todos los daemon
+- `sudo apt-get install lvm2 -y`: instalación de LVM
+- `sudo pvcreate /dev/sdb1 /dev/sdc2`: Crear los volúmenes físicos en base a sdb1 y sdc1
+- `sudo vgcreate vgrupo1 /dev/sdb1 /dev/sdc1`: crear un volumen grupal
+- `sudo vgdisplay`: mostrar los volumenes grupales
+- `sudo lvcreate -n volumen1 -L 5.99G vgrupo1`: creación de volumen lógico.
+	- `-n`: es el nombre del volumen
+	- `-L`: es el tamaño del volumen
+- `sudo mkfs.ext4 /dev/vgrupo1/volumen1`: formateo en formato ext4
+- `sudo lvextend -L +tamaño /dev/vgrupo1/volumen1`: extender tamaño de volumen lógico, no es necesario desmontar.
+-  `sudo resize2fs /dev/vgrupo1/volumen1`: Redimensionar sistema de archivos
+-  `sudo lvreduce -L NUEVO_TAMAÑO /dev/vgrupo1/volumen1`: Reducir tamaño de volumen

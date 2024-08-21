@@ -77,6 +77,6 @@ La fuente de alimentación proporciona la energía necesaria para todos los comp
 ### Otros Componentes Relevantes
 
 - **Ventiladores y Sistemas de Refrigeración**: Esenciales para mantener una temperatura adecuada y evitar el sobrecalentamiento.
-- **Unidad Óptica**: Permite leer y escribir datos en discos como CD, DVD y Blu-ray.
+- **Unidad Óptica**: Permite leer y escribir datos en discos como CD, DVD y Blu-ray, que aunque parezcan anticuados, su uso es bastante amplio aún.
 - **Tarjeta de Sonido**: Maneja la entrada y salida de audio.
 - **Tarjeta de Red (NIC)**: Permite la conexión a redes, ya sea por cable (Ethernet) o inalámbrica (Wi-Fi).
