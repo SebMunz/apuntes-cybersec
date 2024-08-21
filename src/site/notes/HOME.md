@@ -24,3 +24,19 @@ Como podrán leer, es bastante. Necesito des-colapsar mi cerebro un poco.
 - [[Ciberseguridad/Home Cibersec\|Ciberseguridad]]
 - [[IT fundamentos/01 Introducción TI\|Tecnologías de la Información]]
 - [[Enlaces\|Enlaces variados]]
+
+---
+
+# Últimos cambios
+
+- Publicado:
+	- [[IT fundamentos/Linux/Gestión de servicios y almacenamiento en Linux\|Gestión de servicios y almacenamiento en Linux]] ( #wip)
+- Actualizado:
+	- Agregada imagen comparative en
+		- [[Ciberseguridad/Conexiones/Modelo OSI\|Modelo OSI]]
+		- [[Ciberseguridad/Conexiones/Modelo TCP_IP\|Modelo TCP_IP]]
+	- Actualizados [[Enlaces\|Enlaces]]
+	- [[IT fundamentos/Linux/Administración de archivos, grupos, comandos.\|Administración de archivos, grupos, comandos.]]
+
+	- [[IT fundamentos/Linux/Linux\|Linux]]
+- Reorganizados los assets.

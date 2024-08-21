@@ -108,30 +108,29 @@ Ya con esto instalado, ejecutamos:
 Ahora configuraremos la interfaz de red.
 Ejecutamos:
 `sudo nano /etc/default/isc-dhcp-server`, con esto abriremos el archivo de configuración de dhcp  para las interfaces de red.
-![linux_gestionsvcalm_dhcp_server.png](/img/user/linux_gestionsvcalm_dhcp_server.png)
+![linux_gestionsvcalm_dhcp_server.png](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_dhcp_server.png)
 Aquí aplicamos las configuraciones en la interfaz `enp0s3` (recordar que es el nombre de la interfaz)
 Guardamos, ejecutamos `sudo systemctl restart isc-dhcp-server` para reiniciar DHCP.
 Luego ejecutamos `sudo systemctl status isc-dhcp-server` para comprobar su estatus. a lo cual recibí un mensaje de error.
-![linux_gestionsvcalm_dhcp_error.png](/img/user/linux_gestionsvcalm_dhcp_error.png)
+![linux_gestionsvcalm_dhcp_error.png](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_dhcp_error.png)
 
 Veamos la solución.
 Ejecuté `journalctl -ex`, busqué el lanzamiento de dhcp y me encontré con esto:
-![linux_gestionsvcalm_dhcp_error2.png](/img/user/linux_gestionsvcalm_dhcp_error2.png)
+![linux_gestionsvcalm_dhcp_error2.png](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_dhcp_error2.png)
 Básicamente una mala configuración de subnet en la linea 17, tengo una ip distinta a la de la interfaz.
 `sudo nano /etc/dhcp/dhcpd.conf`, cambiamos la ip por la de la interfaz
-![linux_gestionsvcalm_subnet_fix.png](/img/user/linux_gestionsvcalm_subnet_fix.png)
+![linux_gestionsvcalm_subnet_fix.png](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_subnet_fix.png)
 guardamos, reiniciamos dhcp y status nuevamente.
-![Pasted image 20240819174507.png](/img/user/Pasted%20image%2020240819174507.png)
+![Pasted image 20240819174507.png](/img/user/Assets/linux_gestionsvcalm/Pasted%20image%2020240819174507.png)
 Con eso hemos comprobado su funcionamiento.
 
 ---
-# FTP
+## FTP
 
 File transfer protocol. Es un protocolo usado para transferir archivos entre un equipo y un servidor a través de una red. Básicamente un copy paste a través de la red.
 ```
-FTP es una forma sencilla de compartir archivos, incluyendo archivos de gran tamaño. Además se puede automatizar.
+FTP es una forma sencilla de compartir archivos, incluyendo archivos de gran tamaño de forma de eficiente. Es muy útil para manejo de archivos de forma interna. Además se puede automatizar.
 En este ejercicio lo haremos con acceso anónimo, lo cual puede ser útil para pruebas, pero es totalmente peligroso en un ambiente abierto y grande por su falta de seguridad.
-Al hacerlo anónimo se recomienda configurar la seguridad de forma robusta.
 ```
 
 ---
@@ -166,11 +165,12 @@ Accedí desde el cliente WinSCP, donde podemos ver que estamos en root, está el
 
 ---
 
-# SSH
+## SSH
 
 Secure Shell. Protocolo de red que permite conexión segura a sistemas remotos.
 ```
-Las conexiones son cifradas y posee una fuerte autenticación. Otro de sus puntos fuertes es la creación de túneles seguros para otros protocolos, es eficiente y multiplex (múltiples conexiones en el mismo puerto)
+Las conexiones son cifradas y posee una fuerte autenticación. Otro de sus puntos fuertes es la creación de túneles seguros para otros protocolos, es eficiente y multiplex (múltiples conexiones en el mismo puerto).
+Todo esto nos entrega un protocolo útil en un ambiente de servidor.
 ```
 
 ---
@@ -197,7 +197,44 @@ Lo primero que haremos es generar las claves SSH desde windows.
 ![](https://i.imgur.com/VSzeySM.png)
 Nos pedirá dos cosas: dónde guardar las llaves y una frase para el 'salting' la clave.
 
-Copiamos la clave pública al servidor ssh
+Copiamos la clave pública al servidor SSH, hay diversas formas pero esta vez simplemente la copié y pegué, otras formas incluyen pasarla a través de FTP, manualmente o conectarse por contraseña normalmente, copiarla al servidor y luego demandar claves seguras.
+![](https://i.imgur.com/8pvQGmN.png)
+Ahí ya estamos conectados al servidor SSH de Ubuntu, montado en Virtualbox, a través de Powershell en Windows.
+
+---
+
+# Gestión de Particiones y Sistemas de Archivos
+
+## Particiones
+
+Las particiones son básicamente subdivisiones de un disco, estas pueden ser por varias razones como la organización o para aislamiento. ext4 es uno de los formatos más comunes pero también existen otros como `xfs`(útil en big data) o `f2fs`(diseñado para funcionamiento óptimo de discos SSD).
+
+Haremos una partición ext4 y montarla:
+Identificamos los discos actualmente activos: `sudo fdisk -l`
+#pegar-screen
+
+Luego, crearemos la partición con fdisk: 
+`sudo fdisk /dev/sda`  y navegamos el menú:
+#pegar-screen
+
+Las opciones que elegimos son las siguientes:
+- `n` para crear una nueva partición
+- `p` para crear una partición primaria
+- elegimos el número de partición
+- checamos los valores para el espacio
+- `w` para escribir los cambios.
+#pegar-screen 
+
+Ahora, haremos el formateo en `ext4`
+`sudo mkfs.ext4 /dev/sdX1`
+#pegar-screen #checar-nombre
+
+Lo siguiente es montar la partición:
+Crearemos un directorio de montaje: `sudo mkdir /mnt/nuevo_almacenamiento` y montamos la partición: `sudo mount /dev/sdX1 /mnt/nuevo_almacenamiento`
+#pegar-screen 
+
+Por último realizamos la comprobación a través del comando `df -h`
+#pegar-screen 
 
 
 #to-do
@@ -218,4 +255,17 @@ linux_gestionsvcalm_
 - `journalctl -ex`: Para revisar todos los logs del sistemas de forma centralizada
 	- `-ex`: `e` hace que `journalctl` se mueva al 'end'. `x` hace que imprima más información adicional, útil para depurar errores.
 - `sudo apt install vsftpd -y`: Instalamos **vsftpd**, el daemon FTP de Linux.
-- `sudo nano /etc/vsftpd.conf`: 
+- `sudo nano /etc/vsftpd.conf`: Archivo de configuración del very secure FTP daemon
+- `sudo systemctl restart vsftp.service`: Reinicio de servicio vsftp
+- `chown`: Change Owner. Cambiar propietario
+- `sudo apt install openssh-server -y`: Instalación servidor SSH
+- `sudo nano /etc/ssh/sshd_config`: Archivo de configuración del servidor SSH
+- `ssh-keygen -t rsa -b 4096`: Comando para generar las llaves.
+	- `-t rsa`: Tipo de clave, RSA es el algoritmo
+	- `-b 4096`: Tamaño de la clave en bits
+- `sudo fdisk -l`: lista los discos y particiones.
+- `sudo fdisk /dev/sda`: ejecutamos fdisk sobre sda
+- `sudo mkfs.ext4 /dev/sdX1`: formateo, formato y etiqueta
+- `sudo mkdir /mnt/nuevo_almacenamiento`: crear nuevo directorio
+- `sudo mount /dev/sdX1 /mnt/nuevo_almacenamiento`: básicamente "montamos esto aquí".
+- `df -h`: nos lista todas las particiones montadas en el sistema.

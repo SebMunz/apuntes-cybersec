@@ -40,7 +40,7 @@
    - Transmite datos crudos entre dispositivos a través de cables de cobre o fibra óptica.
    - Incluye Hubs, módems y cableado.
 
-![osi_tcpip.png](/img/user/osi_tcpip.png)
+![osi_tcpip.png](/img/user/Assets/osi_tcpip.png)
 
 # Conclusiones Clave:
 
