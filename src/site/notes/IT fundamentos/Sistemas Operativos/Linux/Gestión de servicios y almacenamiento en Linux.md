@@ -23,7 +23,7 @@ Utilizaremos la siguiente configuración de ubuntu en una VM.
 	1. [[IT fundamentos/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux\|Creación de grupos de volúmenes (VG) a partir de volúmenes físicos (PV)]]
 	2. [[IT fundamentos/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux\|Creación de volúmen lógico (LV) dentro de un VG]]
 	3. [[IT fundamentos/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux\|Expansión de LV sin interrupción del servicio]]
-- [[IT fundamentos/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux#Conclusiones finales\|Conclusiones finales]]
+- [[IT fundamentos/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux#Conclusiones\|Conclusiones finales]]
 - [[IT fundamentos/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux#Comandos Utilizados\|Comandos]]
 
 ---

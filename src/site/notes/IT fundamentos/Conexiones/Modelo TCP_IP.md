@@ -13,16 +13,19 @@
    - Organiza envío y recepción de paquetes dentro de una red.
    - Involucra hardware físico como hubs, módems y cables.
    - Protocolo ARP asigna direcciones IP a direcciones MAC.
+   - Interpretación de las señales que recibe, como ethernet.
 
-2. **Internet:**
+2. **Internet/Network:**
    - Asegura entrega al host de destino en diferentes redes.
    - Protocolo IP posibilita comunicación entre redes.
    - Protocolo ICMP comparte información de errores.
+   - Permite la comunicación entre redes a través de routers
 
 3. **Transporte:**
    - Entrega datos de manera confiable.
    - TCP asegura transmisión segura.
    - UDP para aplicaciones sensibles al rendimiento.
+   - Resuelve en qué cliente y servidor los programas serán entregados
 
 4. **Aplicación:**
    - Realiza solicitudes o responde a ellas.
@@ -40,3 +43,5 @@
 
 - Modelos TCP/IP y OSI facilitan visualización de procesos y protocolos en redes.
 - Modelo TCP/IP tiene cuatro capas, más simple que el modelo OSI de siete capas.
+- A veces suele encontrarse con 5 capas, agregando la siguiente:
+	- Capa física: Todo lo "físico" que interconecta los computadores como cables, conectores y emisores de señal en general.
