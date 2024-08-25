@@ -36,4 +36,6 @@ Distintos enlaces útiles que suelo usar.
 - <a href="https://virusscan.jotti.org">Escaneo de archivos con variados antivirus</a>
 - <a href="https://bazaar.abuse.ch/verify-ua">Repositorio/DDBB de Malware</a>
 
-# Tutoriales/cursos
+# Tutoriales/cursos/recursos
+
+- [War Games: prácticas de seguridad](https://overthewire.org/wargames/bandit/bandit0.html)

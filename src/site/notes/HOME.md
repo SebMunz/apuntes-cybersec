@@ -47,8 +47,5 @@ Como podrán leer, es bastante. Necesito des-colapsar mi cerebro un poco.
 	- Nubes
 	- Conexiones
 	- [[IT fundamentos/Logs\|Logs]]
-	- 
 
 - Redireccionamiento adecuado para [[IT fundamentos/00 Home IT\|un home de IT]]
-- 
-- 

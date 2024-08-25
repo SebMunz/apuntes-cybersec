@@ -5,7 +5,7 @@
 En este ejercicio gestionaremos servicios y el almacenamiento de una distribución **ubuntu**.
 Se instalará y configurará  servicios comunes de red (HTTP, DHCP, FTP, SSH), gestión de particiones y sistemas de archivos en linux y por último gestión de volúmenes lógicos.
 Utilizaremos la siguiente configuración de ubuntu en una VM.
-![linux_admarch_ubuntu_vm.png](/img/user/Assets/linux_admarch/linux_admarch_ubuntu_vm.png)
+![UbuntuVM](/img/user/Assets/linux_admarch/linux_admarch_ubuntu_vm.png)
 
 ---
 
@@ -45,11 +45,11 @@ En este conexto, nos ayuda a crear un punto de control para conexiones entrantes
 
 Comenzaremos con su instalación:
 `sudo apt get install apache2 -y`
-![linux_gestionsvcalm_install_apache.png](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_install_apache.png)
+![command](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_install_apache.png)
 Esto iniciará la instalación que tomará no más de un par de minutos.
 Terminado esto ejecutamos:
 `sudo systemctl status apache2`
-![linux_gestionsvcalm_apache_status.png](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_apache_status.png)
+![command](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_apache_status.png)
 En esta ventana podemos ver varias cosas. Entre ellas que está **activo** y **habilitado**, desde **cuando** está funcionando, su proceso, el uso de memoria y cpu, además del historial de alertas.
 En dicho historial, el segundo mensaje con código `AH00558` nos indica que no tiene un nombre por defecto y por lo tanto usará la dirección IP como nombre de servidor.
 
@@ -57,7 +57,7 @@ De pasada, configuraremos el nombre del servidor. Para ello abriremos el archivo
 Ejecutamos:
 `sudo nano /etc/apache/apache2.conf`
 Esto nos abrirá el archivo de configuración de apache2, nos vamos al final del archivo e incluimos la siguiente línea:
-![linux_gestionsvcalm_apache_servername.png](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_apache_servername.png)
+![command](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_apache_servername.png)
 Guardamos y cerramos ( `CTRL + O, CTRL + X`)
 Ahora, ejecutamos el comando `sudo apachectl configtest`, nos debería arrojar el siguiente mensaje:
 ![linux_gestionsvcalm_apache_configtest.png](/img/user/Assets/linux_gestionsvcalm/linux_gestionsvcalm_apache_configtest.png)
