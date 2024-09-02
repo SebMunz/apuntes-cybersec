@@ -35,7 +35,11 @@ Distintos enlaces útiles que suelo usar.
 - <a href="https://urlscan.io">Escaneo de URL</a>
 - <a href="https://virusscan.jotti.org">Escaneo de archivos con variados antivirus</a>
 - <a href="https://bazaar.abuse.ch/verify-ua">Repositorio/DDBB de Malware</a>
+- <a href="https://www.thehacker.recipes/"> Pruebas, guías y casos de uso de herramientas y ataques</a>
 
 # Tutoriales/cursos/recursos
 
-- [War Games: prácticas de seguridad](https://overthewire.org/wargames/bandit/bandit0.html)
+Wargames
+- [OverTheWire, wargames](https://overthewire.org/wargames/bandit/bandit0.html)
+- [WeChall](https://www.wechall.net/profile/floure)
+- [picoCTF, CTF de aprendizaje](https://picoctf.com/)

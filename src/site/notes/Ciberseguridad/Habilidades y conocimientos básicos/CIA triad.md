@@ -4,7 +4,7 @@
 
 # CIA TRIAD
 
-> Confidentiality
+# Confidentiality
 #### La confidencialidad apunta a proteger la información sensible de intrusos o usuarios no autorizados.
 
 ###### Esto de 3 formas principales
@@ -18,8 +18,7 @@
   - Definir y regular que recursos o información pueden acceder ciertos usuarios y bajo qué circunstancias
 
 ---
-
-> Integridad
+# Integridad
 #### La integridad asegura que la información y sistemas estén protegidos contra usuarios no autorizados. Crucial para mantener consistencia, precision y fiabilidad en los sistemas y la información.
 
 ###### Los tres puntos principales
@@ -34,7 +33,7 @@
 
 ---
 
-> Availability
+# Availability
 #### La disponibilidad asegura que los sistemas sean accesibles y funcionales cuando sea necesario. Mientras mejor sea, más eficiente y fiable serán los sistemas
 
 ###### Los tres puntos principales:
@@ -50,7 +49,7 @@
 
 ---
 
-#### Los planes de seguridad se basan en tres elementos
+## Los planes de seguridad se basan en tres elementos
 _Assets_, _Threats_ y _Vulnerabilities_.
 
 - __ASSETS__
@@ -61,8 +60,9 @@ Un asset (activo) es un item percibido como de valor para la organización.
 Los threats (amenazas) es una circunstancia o evento que tiene un impacto negativo en los activos.
   - Ataques directos, phishing, filtraciones
   - Pueden ser __involuntarios__ o __intencionales__
-- __VULNERABILITIES__
-Las vulnerabilidades son debilidades que pueden ser explorata por una amenaza.
+
+__VULNERABILITIES__
+Las vulnerabilidades son debilidades que pueden ser explotadas por una amenaza.
   - Contraseñas no seguras, privilegios mal administrados, configuraciones por defecto.
   - Pueden ser __técnicas__ o __humanas__
  

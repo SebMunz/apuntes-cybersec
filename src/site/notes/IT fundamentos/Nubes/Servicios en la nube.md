@@ -116,8 +116,3 @@ Infraestructure as a Service (IaaS - Infraestructura como servicio), servicio de
 - Desarrollo y pruebas
 - Almacenamiento
 - Big data y análisis
-
-###### Los 3 grandes proveedores
-- Amazon Web Services (AWS)
-- Microsoft Azure
-- Google Cloud Platform (GCP)

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/IT fundamentos/Computador/"}
 ---
 
-Como se mencionó al inicio, la regla de oro es que "si hace cálculos, es un computador". Al fin y al cabo, un computador calcula, procesa y almacena información.
+Como se mencionó [[IT fundamentos/01 Introducción TI\|al inicio]], la regla de oro es que "si hace cálculos, es un computador". Al fin y al cabo, un computador calcula, procesa y almacena información.
 
 Un computador de escritorio es uno de los tipos de computador más comunes. Son los que colocamos debajo o encima del escritorio, conectados a un monitor, usando un mouse y un teclado independientes.
 
@@ -73,10 +73,3 @@ La GPU se encarga del procesamiento gráfico. Puede estar integrada en la placa 
 ### PSU (Power Supply Unit)
 
 La fuente de alimentación proporciona la energía necesaria para todos los componentes del computador. Su potencia se mide en vatios (W) y debe ser suficiente para cubrir el consumo total del sistema.
-
-### Otros Componentes Relevantes
-
-- **Ventiladores y Sistemas de Refrigeración**: Esenciales para mantener una temperatura adecuada y evitar el sobrecalentamiento.
-- **Unidad Óptica**: Permite leer y escribir datos en discos como CD, DVD y Blu-ray, que aunque parezcan anticuados, su uso es bastante amplio aún.
-- **Tarjeta de Sonido**: Maneja la entrada y salida de audio.
-- **Tarjeta de Red (NIC)**: Permite la conexión a redes, ya sea por cable (Ethernet) o inalámbrica (Wi-Fi).

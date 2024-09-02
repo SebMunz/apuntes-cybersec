@@ -5,7 +5,7 @@
 Los logs son un registro de eventos ocurridos en los sistemas.
 Casi todos los sistemas generan logs de algún tipo, los que contienen múltiples entradas detalladas sobre eventos ocurridos u ocurrencias.
 
-Útiles durante la fase de investigación de incidentes, dado que graban 3  de las 4 W (what, where y when - **qué, dónde y cuándo** (la 4ta siendo why - **por qué**)). Esto suele incluir detalles como fecha, hora, lugar, acción realizada, ID de usuario o sistema, etc.
+Útiles durante la fase de investigación de incidentes, dado que graban 3 de las 4 W (what, where y when - **qué, dónde y cuándo** (la 4ta siendo why - **por qué**)). Esto suele incluir detalles como fecha, hora, lugar, acción realizada, ID de usuario o sistema, etc.
 
 ## Análisis de logs
 Proceso de examinar dichos logs para identificar eventos de interés. Dada la inmensa cantidad de información que podríamos registrar, es importante ser selectivo en **qué** logeamos.
@@ -17,7 +17,7 @@ De esta forma, ayudan a procesar dichos logs en tiempo real.
 
 ### Recopilación
 Los direccionadores de logs ayudan a recolectarlos de varias fuentes y enviarlos a un repositorio común para almacenamiento.
-Diversos sistemas y dispositivos generan diversos logs; Como las [[wip folder/Ciclo de Red\|Redes]] que generan logs sobre [[Proxies\|Proxies]], [[IT fundamentos/Conexiones/Arquitectura de Red#6. Enrutadores (Routers)\|Routers]], [[IT fundamentos/Conexiones/Arquitectura de Red#5. Hubs y Switches\|Switches]], [[IT fundamentos/Conexiones/Arquitectura de Red#3. Cortafuegos (Firewalls)\|Firewalls]], etc. O los [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas Operativos]], las aplicaciones o software, logs de seguridad elaborados por [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#IDS (Sistema de Detección de Intrusiones)\|Sistemas de detección de intrusiones]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#IPS (Sistema de Prevención de Intrusiones)\|Sistemas de prevención de intrusiones]], y finalmente logs de [[Ciberseguridad/Habilidades y conocimientos básicos/Controles de acceso#Autenticación\|Autenticación]] que registran los intentos de log-in.
+Diversos sistemas y dispositivos generan diversos logs; Como las [[wip folder/Ciclo de Red\|Redes]] que generan logs sobre [[Proxies\|Proxies]], [[IT fundamentos/Conexiones y Redes/Arquitectura de Red#6. Enrutadores (Routers)\|Routers]], [[IT fundamentos/Conexiones y Redes/Arquitectura de Red#5. Hubs y Switches\|Switches]], [[IT fundamentos/Conexiones y Redes/Arquitectura de Red#3. Cortafuegos (Firewalls)\|Firewalls]], etc. O los [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas Operativos]], las aplicaciones o software, logs de seguridad elaborados por [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#IDS (Sistema de Detección de Intrusiones)\|Sistemas de detección de intrusiones]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#IPS (Sistema de Prevención de Intrusiones)\|Sistemas de prevención de intrusiones]], y finalmente logs de [[Ciberseguridad/Habilidades y conocimientos básicos/Controles de acceso#Autenticación\|Autenticación]] que registran los intentos de log-in.
 
 ## Buenas prácticas
 

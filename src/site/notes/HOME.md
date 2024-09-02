@@ -31,21 +31,5 @@ Como podrán leer, es bastante. Necesito des-colapsar mi cerebro un poco.
 
 # Últimos cambios
 
-- Publicado:
-	- [[IT fundamentos/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux\|Gestión de servicios y almacenamiento en Linux]]
-	- [[IT fundamentos/Sistemas Operativos/Linux/Comandos\|Comandos]] en linux
-
-- Actualizado:
-	- Agregada imagen comparativa en
-		- [[IT fundamentos/Conexiones/Modelo OSI\|Modelo OSI]]
-		- [[IT fundamentos/Conexiones/Modelo TCP_IP\|Modelo TCP_IP]]
-	- Actualizados [[Enlaces\|Enlaces]]
-	- [[IT fundamentos/Sistemas Operativos/Linux/Administración de archivos, grupos, comandos.\|Administración de archivos, grupos, comandos.]]
-	- [[IT fundamentos/Sistemas Operativos/Linux/Linux\|Linux]]
-
-- Reorganizado algunas carpetas porque me parecía más lógico que estuvieran en [[IT fundamentos/00 Home IT\|Fundamentos IT]]:
-	- Nubes
-	- Conexiones
-	- [[IT fundamentos/Logs\|Logs]]
-
-- Redireccionamiento adecuado para [[IT fundamentos/00 Home IT\|un home de IT]]
+- Publicado [[Ciberseguridad/Herramientas/Nmap\|Nmap]] #wip 
+- Correcciones ortográficas varias

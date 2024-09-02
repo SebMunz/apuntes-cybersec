@@ -30,15 +30,15 @@ Lo más básico:
 
 ---
 
-## [[IT fundamentos/Conexiones/Tipos de conexiones\|Conexiones]]
-- [[IT fundamentos/Conexiones/Tipos de conexiones#**Cable** \|Cable]]
-- [[IT fundamentos/Conexiones/Tipos de conexiones#**USB** \|USB]]
-- [[IT fundamentos/Conexiones/Tipos de conexiones#**Enmascaramientos**\|Enmascaramientos (como VPN)]]
-- [[IT fundamentos/Conexiones/Tipos de conexiones#**P2P**\|P2P]]
-- [[IT fundamentos/Conexiones/Tipos de conexiones#**NFC**\|NFC]]
-- [[IT fundamentos/Conexiones/Tipos de conexiones#**Inalámbricas**\|WI-FI]]
-- [[IT fundamentos/Conexiones/Tipos de conexiones#**Bluetooth**\|Bluetooth]]
-- [[IT fundamentos/Conexiones/Tipos de conexiones#**Infrarroja (IR)**\|Infrarojo]]
+## [[IT fundamentos/Conexiones y Redes/Tipos de conexiones\|Conexiones]]
+- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Cable** \|Cable]]
+- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**USB** \|USB]]
+- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Enmascaramientos**\|Enmascaramientos (como VPN)]]
+- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**P2P**\|P2P]]
+- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**NFC**\|NFC]]
+- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Inalámbricas**\|WI-FI]]
+- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Bluetooth**\|Bluetooth]]
+- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Infrarroja (IR)**\|Infrarojo]]
 
 ---
 ## [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas Operativos]]
@@ -55,8 +55,8 @@ _Esto para Win, Mac y Linux_
 ---
 ## Networking
 - [[wip folder/Ciclo de Red\|Ciclo de Red]]
-- [[IT fundamentos/Conexiones/Modelo OSI\|Modelo OSI]]
-- [[IT fundamentos/Conexiones/Modelo TCP_IP\|Modelo TCP_IP]]
+- [[IT fundamentos/Conexiones y Redes/Modelo OSI\|Modelo OSI]]
+- [[IT fundamentos/Conexiones y Redes/Modelo TCP_IP\|Modelo TCP_IP]]
 - Protocolos y sus usos
   - HTTP(S), SSL/TLS, SSH, FTP, etc
 - Puertos y sus usos

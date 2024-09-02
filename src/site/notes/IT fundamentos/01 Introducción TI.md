@@ -54,7 +54,7 @@ La infraestructura de un computador puede ser dividido en 4 capas principales:
 - Sistema operativo
 - Software
 - Usuario
-### Hardware
+### [[IT fundamentos/Computador#Componentes\|Hardware]]
 
 Objetos tangibles que componen al computador. Estoy incluye almacenamiento (SD, SSD, HDD, etc), tarjetas gráficas (GPU), procesadores (CPU), periféricos (mouse, teclado, monitores) e incluso equipo como impresoras, teléfonos, etc.
 
