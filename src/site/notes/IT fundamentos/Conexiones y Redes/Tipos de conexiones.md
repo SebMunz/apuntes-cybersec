@@ -95,4 +95,3 @@ Algunos ataques a considerar:
 - Ingeniería Social: persuadir a la víctima para realizar acciones no seguras, como aceptar conexiones desconocidas.
 
 ---
-#### Wi-Fi

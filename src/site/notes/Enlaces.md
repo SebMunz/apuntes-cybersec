@@ -43,3 +43,9 @@ Wargames
 - [OverTheWire, wargames](https://overthewire.org/wargames/bandit/bandit0.html)
 - [WeChall](https://www.wechall.net/profile/floure)
 - [picoCTF, CTF de aprendizaje](https://picoctf.com/)
+
+Free Courses:
+- <a href="https://www.mosse-institute.com/certifications/mics-introduction-to-cyber-security.html">Mossé CSI Introduction</a>
+- <a href="https://www.isc2.org/Certifications/CC">ISC2 CC (gratis 1 año)</a>
+- <a href="https://training.fortinet.com/local/library/?category=Certification%3AFCF_Cybersecurity">Fortinet Certified Fundamentals</a>
+- 
