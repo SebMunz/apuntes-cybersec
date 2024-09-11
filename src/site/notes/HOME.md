@@ -37,9 +37,9 @@ Como podrán leer, es bastante. Necesito des-colapsar mi cerebro un poco.
 - Conexiones y redes expandido:
 	- [[IT fundamentos/Conexiones y Redes/01 Enlace de Datos\|01 Enlace de Datos]]
 	- [[IT fundamentos/Conexiones y Redes/02 Capa de red\|02 Capa de red]]
-	- [[IT fundamentos/Conexiones y Redes/03 Capa de Transporte y Capa de Aplicación\|03 Capa de Transporte y Capa de Aplicación]] #wip
-	- [[IT fundamentos/Conexiones y Redes/04 Servicios de Red\|04 Servicios de Red]] #wip
-	- [[IT fundamentos/Conexiones y Redes/05 Internet\|05 Internet]] #wip
-	- [[IT fundamentos/Conexiones y Redes/06 Solución de problemas\|06 Solución de problemas]] #wip
+	- [[IT fundamentos/Conexiones y Redes/03 Capa de Transporte y Capa de Aplicación\|03 Capa de Transporte y Capa de Aplicación]]
+	- [[IT fundamentos/Conexiones y Redes/04 Servicios de Red\|04 Servicios de Red]]
+	- [[IT fundamentos/Conexiones y Redes/05 Internet\|05 Internet]]
+	- [[IT fundamentos/Conexiones y Redes/06 Solución de problemas\|06 Solución de problemas]]
 	- [[IT fundamentos/Conexiones y Redes/Puertos comunes\|Puertos comunes]]
 

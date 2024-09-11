@@ -33,7 +33,7 @@ Similarmente al [[IT fundamentos/Conexiones y Redes/01 Enlace de Datos#Ethernet 
 Las dos secciones principales son el encabezado (Header) y la carga útil (payload).
 
 - Version
-	- 4bits, Indica qué protocolo se está usando: IPv4 o [[IPv6\|IPv6]] 
+	- 4bits, Indica qué protocolo se está usando: IPv4 o [[IT fundamentos/Conexiones y Redes/IPv6\|IPv6]] 
 - Header Length
 	- 4bits, Indica el largo del encabezado. Casi siempre indica ser de 20bytes en IPv4 (el mínimo)
 - Service Type
@@ -85,10 +85,10 @@ Dado que la IP son 32 bits dividido en 4 octetos de 8bits, lo podemos dividir en
 	- Reservadas para investigación y futuras compras.
 ![](https://i.imgur.com/KW5p2jv.png)
 
-**Hoy en día, este sistema se ha ido desplazando por CIDR (Classless Inter-Domain Routing)**
+**Hoy en día, este sistema se ha desplazó por CIDR (Classless Inter-Domain Routing)**
 
 #### CIDR
-Classless Inter-Domain Routing, es un método más flexible para dividir las direcciones en subredes de cualquier tamaño. En lugar de clases fijas, se usa un prefijo de red que indica cuántos bits de la dirección son usados para el NID y cuántos para el HID, esto usa un slash que indica el número de bits. Por ejemplo:
+Classless Inter-Domain Routing, adoptado a mediados de los 90, es un método más flexible para dividir las direcciones en subredes de cualquier tamaño. En lugar de clases fijas, se usa un prefijo de red que indica cuántos bits de la dirección son usados para el NID y cuántos para el HID, esto usa un slash que indica el número de bits. Por ejemplo:
 192.168.1.0/24 nos indica que los primeros 24 bits son para el NID y los últimos 8 son para el host. En comparativa esto sería una clase C, pero CIDR permite cualquier tamaño de red. Osea tenemos una red con 256 direcciones (192.168.1.0 al 192.168.255) donde 0 es la red y 255 es la broadcast.
 
 ---
