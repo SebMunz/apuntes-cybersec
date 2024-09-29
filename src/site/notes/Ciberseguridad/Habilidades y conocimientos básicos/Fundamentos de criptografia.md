@@ -2,8 +2,7 @@
 {"dg-publish":true,"permalink":"/Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de criptografia/"}
 ---
 
-        TO-DO
-        Agregar enlaces
+
 
 # Fundamentos de Criptografía
 ### Proceso de transformar información en una forma que los lectores no autorizados no puedan entender.
@@ -18,8 +17,7 @@ Se cifraban mensajes a través de una llave que no era más que mover las letras
 Por ejemplo, __Hola__, usando un cifrado cesar de 3, sería __Krod__, porque se mueven las letras 3 espacios.
 Dicho cifrado actualmente es muy débil porque la cantidad de pruebas necesarias para desencriptar un mensaje se limita a la cantidad de letras del abecedario, por lo tanto sólo se necesitan unos ~26 intentos para descifrar el mensaje.
 
-Esta táctica se llama ataque de fuerza bruta, un proceso donde se prueban -a la fuerza- diferentes combinaciones.
-Hay muchas otras tácticas las cuales menciono en el archivo [NOMBRE ARCHIVO](-AQUI VA EL LINK AL ARCHIVO-)
+Esta táctica se llama [[Ciberseguridad/Ataques/Fuerza bruta#Brute Force - Ataque de Fuerza Bruta\|Ataque de fuerza bruta]], un proceso donde se prueban -a la fuerza- diferentes combinaciones.
 
 ## Cifrado simétrico y asimétrico
 
@@ -32,6 +30,45 @@ Existen dos tipos principales de cifrado:
    - Dos claves, una pública para cifrar y una privada para descifrar.
 
 ---
+# Criptoanálisis
+
+Analizar el proceso de criptografía para mejorar el proceso de encriptación y/o generar nuevas formas de defensa.
+La encriptación moderna se basa en su mayoría en la factorización de números primos grandes que son difíciles de calcular manualmente. La misma evolución tecnológica que permite estos algoritmos, también habilita la desencriptación más rápida mediante factorización y ataques de fuerza bruta, incluso botnets pueden ayudar en estos procesos.
+
+## Ataques de criptoanálisis
+- KPA: Known Plaintext Attack
+	- Acceso a parte o la totalidad del texto simple de la información encriptada.
+	- Se conoce el plaintext ("crib") y la versión encriptada.
+	- No tiene etiqueta computacional, no tiene formato especial ni está escrito en código.
+	- El objetivo es analizar el texto para determinar la clave
+- CPA: Chosen Plaintext Attack
+	- Atacante conoce el agoritmo de encriptación o tiene acceso a usarlo
+	- Atacante puede obtener los textos según un set arbitrario que él envía
+- ACPA: Adaptive chosen plaintext attack
+	- Similar al CPA, pero va adaptando su análisis usando textos subsecuentes
+- RKA: Related key attack
+	- Similar al CPA, pero el atacante obtiene los ciphers encriptados con dos llaves diferentes.
+	- Las llaves son desconocidas, pero se conoce su relación; ejemplo dos llaves difieren en el  bit 1
+- COA: Cipher only attack
+	- Sólo se conoce el mensaje encriptado.
+	- Es la forma más común cuando se interceptan comunicaciones encriptadas
+
+### Resultados
+Algunos ataques logran la ruptura total de la encriptación, mientras que otros obtienen información que puede ayudar al atacante a causar daños.
+- Deducción de instancias
+	- Atacante descubre más texto sin formato o cifrado
+	- No se obtuvo la clave pero con esto podemos usarlo para seguir analizando/atacando
+- Deducción de la información
+	- Atacante obtiene información sobre un texto sin formato o cifrado que no conocía
+	- Se puede usar para obtener más datos sobre la clave
+- Algoritmo de distinción
+	- Atacante pudo distinguir el algoritmo de encriptación de una alteración aleatoria
+- Deducción global
+	- Identificación del algoritmo funcionalmente equivalente al que se usa en la clave
+- Ruptura total
+	- atacante logra obtener la clave completa y con ello tener acceso total
+
+
 ---
 ---
 ---

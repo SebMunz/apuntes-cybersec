@@ -29,6 +29,6 @@ Si bien registrar todo es tentativo y podría ser útil, los costos se empiezan 
 
 Algunas empresas trabajan con regulaciones determinadas por la industria. Por ej. ciertas normativas exigen que las empresas retengan registros durante un período determinado.
 Tenemos industrias como el sector público, atención médica y servicios financieros que tienen estos estándares.
-Algunos ejemplos de estas normativas son por ejemplo [[wip folder/Otras normativas\|HIPAA, PCI DSS, etc]].
+Algunos ejemplos de estas normativas son por ejemplo [[Ciberseguridad/Habilidades y conocimientos básicos/Otras normativas e información susceptible\|HIPAA, PCI DSS, etc]].
 
 **Proteger los registros** es importante ya que los atacantes pueden modificar estos registros, eliminar otros y así engañar a los equipos.
