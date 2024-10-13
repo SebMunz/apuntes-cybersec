@@ -55,4 +55,9 @@ Free Courses:
 ##### Todos los otros enlaces que están citados:
 - <a href="https://www.comparitech.com/blog/information-security/side-channel-attack/"> Side Channel Attacks explicados de forma más técnica</a>
 - <a href="https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview">Virtual machine scale sets de azure</a>
-- 
+
+
+# Hidden
+
+<a href='http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion/'>Imperial library of trantor</a>
+<a href='http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion/'>Torch</a>
