@@ -35,7 +35,7 @@ Distintos enlaces útiles que suelo usar.
 - <a href="https://urlscan.io">Escaneo de URL</a>
 - <a href="https://virusscan.jotti.org">Escaneo de archivos con variados antivirus</a>
 - <a href="https://bazaar.abuse.ch/verify-ua">Repositorio/DDBB de Malware</a>
-- <a href="https://www.thehacker.recipes/"> Pruebas, guías y casos de uso de herramientas y ataques</a>
+- <a href="https://www.thehacker.recipes/">Pruebas, guías y casos de uso de herramientas y ataques</a>
 
 # Tutoriales/cursos/recursos
 
@@ -49,15 +49,11 @@ Free Courses:
 - <a href="https://www.isc2.org/Certifications/CC">ISC2 CC (gratis 1 año)</a>
 - <a href="https://training.fortinet.com/local/library/?category=Certification%3AFCF_Cybersecurity">Fortinet Certified Fundamentals</a>
 
-
-
-
 ##### Todos los otros enlaces que están citados:
 - <a href="https://www.comparitech.com/blog/information-security/side-channel-attack/"> Side Channel Attacks explicados de forma más técnica</a>
 - <a href="https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview">Virtual machine scale sets de azure</a>
-
-
-# Hidden
+- <a href="https://www.iso.org/obp/ui/#iso:std:iso-iec:29100:ed-2:v1:en">ISO/IEC 29100:2024</a>
+# Hidden/Onion/DarkWeb
 
 <a href='http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion/'>Imperial library of trantor</a>
 <a href='http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion/'>Torch</a>
