@@ -16,7 +16,10 @@ Mi gran problema es que soy disperso y voy perdiendo la práctica así que decid
 
 Actualmente escribo en este sitio mis apuntes de ciberseguridad y tecnologías de la información, pero a su tiempo lo expandiré con las otras cosas en las que me intereso, como filosofía, geopolítica, ciberocultismo/technopaganismo. Además de subir el resto de cosas y trabajos como dibujos, mapas, planos, diseños varios, música y soundtracks en los que trabajé, etc.
 
-Como podrán leer, es bastante. Necesito des-colapsar mi cerebro un poco.
+<a href="https://www.linkedin.com/in/sebastianmunozzamora/">Linked In</a>
+<a href="https://github.com/SebMunz">GitHub</a>
+<a href="https://hosted.weblate.org/user/SebMunz/">Weblate</a>
+
 
 
 ---
@@ -33,13 +36,4 @@ Como podrán leer, es bastante. Necesito des-colapsar mi cerebro un poco.
 
 - Publicado [[Ciberseguridad/Herramientas/Nmap\|Nmap]] #wip 
 - Publicado [[Ciberseguridad/Herramientas/Metasploit\|Metasploit]] #wip
-- Correcciones ortográficas varias
-- Conexiones y redes expandido:
-	- [[IT fundamentos/Conexiones y Redes/01 Enlace de Datos\|01 Enlace de Datos]]
-	- [[IT fundamentos/Conexiones y Redes/02 Capa de red\|02 Capa de red]]
-	- [[IT fundamentos/Conexiones y Redes/03 Capa de Transporte y Capa de Aplicación\|03 Capa de Transporte y Capa de Aplicación]]
-	- [[IT fundamentos/Conexiones y Redes/04 Servicios de Red\|04 Servicios de Red]]
-	- [[IT fundamentos/Conexiones y Redes/05 Internet\|05 Internet]]
-	- [[IT fundamentos/Conexiones y Redes/06 Solución de problemas\|06 Solución de problemas]]
-	- [[IT fundamentos/Conexiones y Redes/Puertos comunes\|Puertos comunes]]
-
+- Agregados enlaces nuevos

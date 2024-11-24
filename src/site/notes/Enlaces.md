@@ -36,6 +36,10 @@ Distintos enlaces útiles que suelo usar.
 - <a href="https://virusscan.jotti.org">Escaneo de archivos con variados antivirus</a>
 - <a href="https://bazaar.abuse.ch/verify-ua">Repositorio/DDBB de Malware</a>
 - <a href="https://www.thehacker.recipes/">Pruebas, guías y casos de uso de herramientas y ataques</a>
+- <a href="https://www.abuseipdb.com/">Comprobador de ips</a>
+- <a href="https://sansorg.egnyte.com/dl/bF4I3yCcnt/">Template para rules of engagement</a>
+- <a href="https://www.isecom.org/OSSTMM.3.pdf">Open Source Security Testing Methodology Manual</a>
+- 
 
 # Tutoriales/cursos/recursos
 

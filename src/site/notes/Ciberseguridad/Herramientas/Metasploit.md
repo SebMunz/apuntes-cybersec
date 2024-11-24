@@ -12,9 +12,6 @@ Metasploit tiene 3 pasos fundamentales para su funcionamiento
 - Payload
 	- Lo que contiene el programa/script, el código interno
 
-
-
-
 Explotación `Eternalblue` de Win7 a modo de ejemplo:
 Iniciamos:
 `msfconsole`
@@ -29,3 +26,5 @@ Lo que nos diga `required` hay que configurar dichas opciones, por ejemplo `RHOS
 `set RHOST direccionHost`
 
 `exploit` o `run` para iniciar el exploit. Generalmente funciona a la primera, si no, es posible que se requiera correr 2 o tres veces, cambiar el puerto de escucha, configurar el payload, etc.
+
+#to-do 
