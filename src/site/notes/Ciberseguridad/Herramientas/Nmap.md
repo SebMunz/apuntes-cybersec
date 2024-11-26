@@ -70,9 +70,4 @@ Algunos ejemplos:
 `sudo nmap -PU53,161,162 -sn MACHINE_IP/30` UDP Ping Scan
 `-R` reverse-DNS lookup para todos los hosts
 
-
-
- If you want Nmap only to perform an ARP scan without port-scan, you can use `nmap -PR -sn TARGETS`, where `-PR` indicates that you only want an ARP scan.
-
-
 #to-do 

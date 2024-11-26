@@ -74,7 +74,7 @@ _Esto para Win, Mac y Linux_
 ---
 
 ## Habilidades de Seguridad
-#### Conceptos clave
+#### [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad\|Conceptos Clave]]
 - [[Ciberseguridad/Habilidades y conocimientos básicos/CIA triad\|CIA triad]]
 - Handshakes
 - TRUE & FALSE positive, TRUE & FALSE negative
@@ -83,8 +83,8 @@ _Esto para Win, Mac y Linux_
 - [[Ciberseguridad/Habilidades y conocimientos básicos/OWASP\|OWASP]]
 - [[Ciberseguridad/Ataques/Malware\|Malware]]
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Red Team vs Blue Team\|Red Team vs Blue Team]]
-- Zero Trust
-- RISK
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad#Zero Trust vs Trust but Verify\|Zero Trust vs Trust but Verify]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad#Amenaza vs Riesgo\|Amenaza vs Riesgo]]
 - Frameworks: NIST CSF, [[Ciberseguridad/Habilidades y conocimientos básicos/ISO 27000\|ISO 27000]], CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model
 - Herramientas de hackeo comunes
 - [[Ciberseguridad/Ataques/Exploits y Vulnerabilidades\|Exploits y Vulnerabilidades]]
@@ -94,7 +94,7 @@ _Esto para Win, Mac y Linux_
 
 > __HERRAMIENTAS__
 - Comandos
-  - nmap, tracert, nslookup, ping, ipconfig, etc
+  - [[Ciberseguridad/Herramientas/Nmap\|Nmap]], tracert, nslookup, ping, ipconfig, etc
 - Wireshark
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|SOAR]]
 - ParrotOS y Kali Linux

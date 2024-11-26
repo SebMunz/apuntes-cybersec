@@ -18,7 +18,7 @@
   - Definir y regular que recursos o información pueden acceder ciertos usuarios y bajo qué circunstancias
 
 ---
-# Integridad
+# Integrity
 #### La integridad asegura que la información y sistemas estén protegidos contra usuarios no autorizados. Crucial para mantener consistencia, precision y fiabilidad en los sistemas y la información.
 
 ###### Los tres puntos principales
@@ -80,3 +80,13 @@ Ejemplo de un inventario de activos conectados en mi casa
   - Que está viajando de un punto a otro (una respuesta a un correo electrónico)
 - En descanso
   - Cuando no está siendo activamente usada (cuando cerramos dicha sesión y no estamos activamente revisandolo)
+---
+
+## D.A.D.
+El opuesto de CIA.
+- **D**isclosure
+	- El divulgar la información rompe la confidencialidad
+- **A**lteration
+	- Alterar la información rompe la integridad de la misma, ya no es confiable
+- **D**estruction/**D**enial
+	- Destruir la información haría que esta ya no esté disponible, lo mismo el denegar su acceso a quien lo necesite

@@ -37,3 +37,5 @@ Actualmente escribo en este sitio mis apuntes de ciberseguridad y tecnologías d
 - Publicado [[Ciberseguridad/Herramientas/Nmap\|Nmap]] #wip 
 - Publicado [[Ciberseguridad/Herramientas/Metasploit\|Metasploit]] #wip
 - Agregados enlaces nuevos
+- [[Ciberseguridad/Habilidades y conocimientos básicos/CIA triad\|CIA triad]] fue movido a [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad#CIA TRIAD\|CIA TRIAD]] en el apartado de [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad\|Conceptos fundamentales de seguridad]]
+
