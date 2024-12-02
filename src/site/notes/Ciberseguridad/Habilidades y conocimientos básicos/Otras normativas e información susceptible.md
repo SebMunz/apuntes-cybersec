@@ -3,7 +3,8 @@
 ---
 
 A tener en consideración:
-GDPR (EU).
+
+
 
 ## Datos regulados
 
@@ -28,3 +29,54 @@ Marco de referencia esencial para la protección de la información de identific
 - Requisitos para salvaguardar la PII en sistemas TIC.
 
 ---
+# GDPR
+<a href="https://gdpr-info.eu/">General Data Protection Regulation</a>
+
+De origen Europeo, busca la protección de datos personales de ciudadanos europeos. Importante tener en consideración porque la Ley de Protección de datos personales en Chile la usa de base.
+Sus puntos más importantes:
+- Consentimiento explícito del usuario para uso de datos
+- Derecho al olvido y portabilidad de datos
+- Multas de 20 millones de euros o 4% del volumen de negocio global
+- Aplicable a cualquier organización que maneje datos de europeos, independiente de su ubicación
+
+---
+# Ley de Protección de Datos Personales de Chile
+La nueva ley de protección de datos en Chile, busca actualizar sus leyes de protección y acercarse al estándar europeo.
+
+La ley busca:
+- Regular el tratamiento de datos personales
+- Mejorar la protección de los derechos de los titulares de los datos
+- Actualizar la ley 19.628 sobre protección de la vida privada
+
+Se establecen los siguientes derechos para los titulares de los datos:
+- Acceder a sus propios datos
+- Rectificar o modificar datos incorrectos
+- Suprimir datos sin fundamento legal
+- Oponerse al tratamiento o uso de sus datos
+- Solicitar copia de sus datos
+- Bloquear o suspender el tratamiento de sus datos
+
+Establece multas y sanciones:
+- Hasta 5.000 UTM por infracciones leves
+- Hasta 10.00 UTM por infracciones graves, o el 2% de sus ingresos anuales
+- Hasta 20.000 UTM por infracciones gravísimas, o el 4% de sus ingresos anuales
+
+---
+# PCI-DSS
+<a href="https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v4_0.pdf">Payment Card Industry Data Security Standard</a>
+Proviene de la industria de tarjetas de pago y busca la protección de los datos de transacciones con tarjetas de crédito/débito
+
+- Estándar global
+- Requisitos de cifrado, control de acceso y monitoreo de redes
+- Aplica a todas las organizaciones que procesan pagos con tarjetas
+- Sanciones que incluyen multas y prohibición de procesar pagos
+
+---
+# HIPAA
+
+Si bien es estado unidense, es útil mencionarla como un estándar sobre la protección de información médica.
+- Regula el manejo de información de salud protegida (PHI)
+- Establece estándares de privacidad y seguridad para registros médicos
+- Sanciones por violaciones que pueden alcanzar el millón y medio de USD por infracción
+- Aplicable a todos los proveedores de salud, aseguradoras y socios comerciales.
+

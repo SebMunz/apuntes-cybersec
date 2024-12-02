@@ -36,6 +36,7 @@ Algunas soluciones de EDR reconocidas incluyen:
 
 **Security Information and Event Management (SIEM)** es una herramienta integral que recopila, correlaciona y analiza registros (logs) de diferentes fuentes en una red para identificar y responder a amenazas de seguridad. Es fundamental para monitorear actividades críticas en una organización y proporcionar una visión en tiempo real de posibles amenazas.
 
+## Características
 1. **Recolección y agregación de información:**
    - Recopila registros de diversas fuentes, como sistemas de detección y prevención de intrusiones (IDS/IPS), bases de datos, firewalls, entre otros.
    - Centraliza estos registros en un repositorio central para un análisis más efectivo.
@@ -47,6 +48,48 @@ Algunas soluciones de EDR reconocidas incluyen:
 3. **Análisis basado en reglas:**
    - Utiliza reglas predefinidas para analizar los registros y detectar posibles incidentes de seguridad.
    - Categoriza y/o informa las alertas generadas por estas reglas para su revisión por parte de los analistas de seguridad.
+
+## Logs
+Cada sistema SIEM tiene una forma diferente de ingerir logs.
+- Agent / Forwarder: En estos casos la solución SIEM provee de una herramienta llamada Agent (forwarder en Splunk) que se instala en el Endpoint. Se configura para capturar todos los logs importantes y reenviarlos al servidor SIEM
+- Syslog: Más común de los protocolos para recolectar información de varios sistemas como bases de datos, servidores web, etc. Todos ellos se envían en tiempo real al sistema centralizado.
+- Subida manual: Algunas soluciones (como SPLUNK y ELK) permiten a un usuario enviarle información de forma offline para un análisis rápido. Cuando se ingresan los datos, estos son normalizados.
+- Port-Forwarding: Se pueden configurar las soluciones SIEM para escuchar puertos específicos.
+![](https://i.imgur.com/nz3v768.png)
+Splunk
+
+## Análista SOC y SIEM
+SIEM es uno de los componentes más importantes de un centro de operaciones de seguridad
+([[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/03 Roles#SOC (Security Operations Center)\|SOC]]).
+
+Como analista SOC, utilizamos los SIEM para tener mejor visibilidad de lo que sucede en la red.
+- Monitoreo e investigación
+- Identificación de falsos positivos
+- Modificación de reglas que provocan ruido o falsos positivos
+- Reportes
+- Identificación de puntos ciegos
+
+![](https://i.imgur.com/pFI7JFc.png)
+Qradar dashboard
+
+En los dashboards de un SIEM podemos encontrar una diversidad de información como por ejemplo:
+- Alertas notables
+- Notificaciones de sistema
+- Alertas de salud del sistema
+- Listado de intentos de login fallidos
+- Reglas disparadas
+- [[wip folder/TOP LEVEL DOMAINS (TLD)\|TOP LEVEL DOMAINS (TLD)]] visitados
+
+## Reglas de correlación
+Básicamente son expresiones lógicas que al ser gatilladas, disparan una alerta o ejecutan una acción particular.
+Por ejemplo:
+- Un atacante intenta eliminar logs para limpiar huellas. Un EVENT ID 104 ocurre cuando un usuario intenta eliminar logs de eventos. Para ello podriamos crear una regla que dispare una alerta cuando ocurre un event id 104:
+	- `IF (log source = WinEventLog AND EventID = 104) {TRIGGER ALERT = "Event Log Cleared"} `
+- Atacantes suelen usar el comando `whoami`, cosa que normalmente un usuario promedio no realiza. Podriamos crear una regla que dispare una alerta cuando se use el comando.
+	- `IF (log source = WinEventLog AND EventID = 4688 AND NewProcessName HAS "whoami"){TRIGGER ALERT = "whoami command detected"`
+*nota: usé pseudocódigo para claridad*
+
+---
 
 ## SOAR
 

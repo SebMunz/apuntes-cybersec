@@ -90,17 +90,15 @@ Existen ciertas leyes que se deben cumplir. Las regulaciones son normas establec
 
 Algunas regulaciones más relevantes:
 
-- RGPD (Reglamento general de protección de datos)
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Otras normativas e información susceptible#GDPR\|GDPR]] (Reglamento general de protección de datos)
   - Desarrollado por la UE, otorga a los propietaros de los datos el control total sobre su información personal (nombre, dirección, número de teléfono, información financiera e información médica. A veces se incluyen otras)
   - La normativa se aplica a cualquier empresa que maneje datos de ciudadanos o habitantes de la UE, sin importar dónde opere dicha compañía
 
-- PCI-DSS (Estándar de seguridad de datos para la industria de tarjetas de pago)
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Otras normativas e información susceptible#PCI-DSS\|PCI-DSS]] (Estándar de seguridad de datos para la industria de tarjetas de pago)
   - Conjunto de normas de seguridad establecidas por organizaciones de la industria financiera
   - Su objetivo es asegurar las transacciones con tarjetas de crédito y débito contra el robo de datos y fraude
 
-- HIPAA (Ley de transferencia y responsabilidad de los seguros médicos)
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Otras normativas e información susceptible#HIPAA\|HIPAA]] (Ley de transferencia y responsabilidad de los seguros médicos)
   - Ley de EEUU que obliga a proteger la información sensible de salud de la gente.
   - Prohíbe la divulgación de información médica de una persona sin su conocimiento y consentimiento.
   - A pesar de ser elaborada por EEUU para su mercado específico, sirve como base para muchas organizaciones del mundo.
-
-( * NOTA: REGULACIONES Y MARCOS IRÁN EN SU PROPIA SECCIÓN * )
