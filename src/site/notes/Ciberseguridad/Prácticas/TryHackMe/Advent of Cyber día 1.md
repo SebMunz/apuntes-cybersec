@@ -91,4 +91,4 @@ Ya con esto, podemos responder las preguntas que nos presenta TryHackMe:
 Con esto completamos el desafío del día 1
 ![](https://i.imgur.com/5gCyypP.png)
 
-Ahora, vamos al [[día 2
+Ahora, vamos al [[Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 2\|Advent of Cyber día 2]].
