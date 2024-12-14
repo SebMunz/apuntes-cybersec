@@ -34,8 +34,14 @@ Actualmente escribo en este sitio mis apuntes de ciberseguridad y tecnologías d
 
 # Últimos cambios
 
-- Publicado [[Ciberseguridad/Herramientas/Nmap\|Nmap]] #wip 
-- Publicado [[Ciberseguridad/Herramientas/Metasploit\|Metasploit]] #wip
-- Agregados enlaces nuevos
 - [[Ciberseguridad/Habilidades y conocimientos básicos/CIA triad\|CIA triad]] fue movido a [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad#CIA TRIAD\|CIA TRIAD]] en el apartado de [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad\|Conceptos fundamentales de seguridad]]
-
+- [[Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 1\|Iniciado Advent of cyber de THM]]
+- [[Ciberseguridad/Ataques/Web-Shell y RCE\|Web-Shell y RCE]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/ISO 27000\|Expandido el segmento de la familia 27000]]
+- Expandido el sector de Nubes con:
+	- [[IT fundamentos/Nubes/DDBB y Wordpress en AWS\|DDBB y Wordpress en AWS]]
+	- [[IT fundamentos/Nubes/VPC en AWS\|VPC en AWS]]
+	- [[IT fundamentos/Nubes/Servicios de almacenamiento en AWS\|Almacenamiento con S3 en AWS]]
+- Agregado segmentos de redes:
+	- [[IT fundamentos/Conexiones y Redes/Configuración básica de switches y routers con Cisco Packet Tracer\|Configuración básica de switches y routers con Cisco Packet Tracer]]
+	- [[IT fundamentos/Conexiones y Redes/Configuración básica de switches y routers con Cisco Packet Tracer 2\|Configuración básica de switches y routers con Cisco Packet Tracer 2]]
