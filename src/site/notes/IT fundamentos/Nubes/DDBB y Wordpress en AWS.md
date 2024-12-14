@@ -143,17 +143,34 @@ Para la comprobación accedemos a la instancia EC2 desde el navegador utilizando
 Nos encontramos con este error. Investigándolo, nos encontramos con que no tenemos acceso a http, así que nos dirigimos al grupo de seguridad y agregamos una regla para aceptar conexiones HTTP.
 ![](https://i.imgur.com/dHE3ITS.png)
 Arreglado eso logré conectarme, sin embargo los contenidos de wp-config.php están expuestos lo que es una brecha de seguridad enorme. Esto es debido a un error.
-Investigando a profundidad noté que wordpress no estaba correctamente instalado en el servidor, y no estaba parseando correctamente el php.
+Investigando a profundidad noté que wordpress no estaba correctamente instalado en el servidor, y no estaba parseando correctamente el php debido a que faltaban unos módulos de php, que no se instalaron directamente con la instalación inicial.
 
+Con esto último solucionado, veremos la nueva página de wordpress:
+![](https://i.imgur.com/fYboRPT.png)
+<div class="page-break" style="page-break-before: always;"></div>
 
 
 
 Completamos la configuración inicial de wordpress
-!!!!
+![](https://i.imgur.com/Ag0fpRG.png)
+![](https://i.imgur.com/XTzYBDB.png)
+<div class="page-break" style="page-break-before: always;"></div>
 
 Creamos una publicación y revisamos que los datos se almacenan en la base de datos RDS:
-!!!!!
-
-!!!!!
+![](https://i.imgur.com/8BqJCe2.png)
+![](https://i.imgur.com/pmakGhs.png)
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Conclusión
+
+Ha sido un desafío largo y complejo. Tuve que aprender varias cosas nuevas (php, wordpress, rds) pero ha sido satisfactorio.
+La mayor dificultad fue sin duda el poder conectarme a wordpress por la falla en el parseo de php.
+
+Lo que puedo rescatar de esta experiencia:
+- Elegir la distro adecuada con antelación:
+	- Gran parte de los problemas fueron por la elección de Amazon Linux 2023 que tiene problemas con algunos paquetes de php, mysql y wordpress.
+	- Hacerlo con ubuntu hubiera sido más sencillo, definitivamente
+- El peligro de exponer archivos como wp-config.php a la red, que contiene las credenciales de configuración de la base de datos.
+- Explorar el uso de otros servidores como Nginx por sobre Apache2.
+	- Apache2 tiene su uso, pero en proyectos donde no se necesita mayores configuraciones, como es el caso de wordpress, Nginx hubiera sido una mejor opción
+- La importancia de leer los logs para identificar problemas de configuración.
