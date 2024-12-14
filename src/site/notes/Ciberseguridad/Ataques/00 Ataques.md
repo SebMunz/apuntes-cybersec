@@ -11,3 +11,5 @@
 - [[Ciberseguridad/Ataques/Red\|Ataques de Red]]
 - [[Ciberseguridad/Ataques/SQL Injection\|SQL Injection]]
 - [[Ciberseguridad/Ataques/XSS\|XSS]]
+- [[Ciberseguridad/Ataques/Web-Shell y RCE\|WebShell y Remote Code Execution]]
+
