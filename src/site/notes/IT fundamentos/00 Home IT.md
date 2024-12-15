@@ -8,7 +8,7 @@ Apartado con conocimientos y fundamentos de TI.
 - [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas Operativos]]
 	- [[Windows\|Windows]]
 	- [[MacOS\|MacOS]]
-	- [[IT fundamentos/Sistemas Operativos/Linux/Linux\|Linux]]
+	- [[IT fundamentos/Sistemas Operativos/Linux/Linux\|IT fundamentos/Sistemas Operativos/Linux/Linux]]
 		- [[IT fundamentos/Sistemas Operativos/Linux/Comandos\|Comandos]]
 		- [[IT fundamentos/Sistemas Operativos/Linux/Administración de archivos, grupos, comandos.\|Administración de archivos, grupos, comandos.]]
 		- [[IT fundamentos/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux\|Gestión de servicios y almacenamiento en Linux]]
