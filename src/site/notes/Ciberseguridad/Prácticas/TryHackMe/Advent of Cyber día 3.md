@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 3/"}
 ---
 
+[[Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 2\|Advent of Cyber día 2]]
+
 Objetivos:
 - Seguir revisando logs
 - Utilización de ELK
@@ -75,4 +77,4 @@ Con esto hemos resuelto el día 3
 ![](https://i.imgur.com/u8u9qkq.png)
 
 
-Procedemos [[Advent of Cyber día 4\|al día 4]]
+Procedemos [[Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 4\|al día 4]]

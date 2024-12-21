@@ -45,3 +45,5 @@ Actualmente escribo en este sitio mis apuntes de ciberseguridad y tecnologías d
 - Agregado segmentos de redes:
 	- [[IT fundamentos/Conexiones y Redes/Configuración básica de switches y routers con Cisco Packet Tracer\|Configuración básica de switches y routers con Cisco Packet Tracer]]
 	- [[IT fundamentos/Conexiones y Redes/Configuración básica de switches y routers con Cisco Packet Tracer 2\|Configuración básica de switches y routers con Cisco Packet Tracer 2]]
+- [[IT fundamentos/Sistemas Operativos/Linux/Fundamentos de Linux\|Fundamentos de Linux]]
+- [[IT fundamentos/XML\|XML]]
