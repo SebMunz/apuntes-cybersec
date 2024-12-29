@@ -85,11 +85,12 @@ Lo que esto hará es básicamente definir la entidad como payload, acceder a sys
 Nos vamos al repetidor de Burpsuite con el que podemos repetir n veces un request.
 Básicamente vamos a duplicar el post de wishlist.php, pasarle el payload y recibir el contenido.
 
-!!!!!!
+![](https://i.imgur.com/IXDrSsn.png)
 
-Modificaremos la parte del payload para acceder a `"/var/www/html/wishes/wish_n.txt` y ver que encontramos en ellos.
+Modificaremos la parte del payload para acceder a `"/var/www/html/wishes/wish_n.txt"` y ver que encontramos en ellos.
 
-!!!!!
+![](https://i.imgur.com/YNPVXRn.png)
+
 
 Con esto, hemos realizado exitósamente un ataque XXE.
 

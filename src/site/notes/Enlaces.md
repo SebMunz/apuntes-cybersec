@@ -57,6 +57,8 @@ Free Courses:
 - <a href="https://www.comparitech.com/blog/information-security/side-channel-attack/"> Side Channel Attacks explicados de forma más técnica</a>
 - <a href="https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview">Virtual machine scale sets de azure</a>
 - <a href="https://www.iso.org/obp/ui/#iso:std:iso-iec:29100:ed-2:v1:en">ISO/IEC 29100:2024</a>
+
+##
 # Hidden/Onion/DarkWeb
 
 <a href='http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion/'>Imperial library of trantor</a>
