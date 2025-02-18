@@ -11,7 +11,7 @@ Objetivos:
 
 Herramientas:
 - ELK
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Red Team vs Blue Team\|Blue Team]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Red Team vs Blue Team\|Blue Team]]
 
 ---
 # Comienzo

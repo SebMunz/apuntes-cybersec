@@ -18,7 +18,7 @@ Herramientas y conocimientos:
 
 # Comienzo
 
-[[IT fundamentos/XML\|XML]] es un método común de transportar y almacenar datos de forma estructurada. Utiliza tags para etiquetar y organizar la información.
+[[Fundamentos TI/XML\|XML]] es un método común de transportar y almacenar datos de forma estructurada. Utiliza tags para etiquetar y organizar la información.
 Cuando los equipos se comunican, utilizan XML para intercambiar la información de forma ordenada, para esta comunicación utilizamos DTD (Data Type Definition) que son reglas para estructurar el archivo XML. Además de ello, utiliza entidades para referirse a contenidos usados con frecuencia.
 
 Ahora, con esto entendido a grandes rasgos, podemos entender que es la vulnerabilidad XXE.

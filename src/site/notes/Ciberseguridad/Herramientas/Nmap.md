@@ -39,7 +39,7 @@ Cuando no se provee de opciones para descubrir hosts, nmap realiza el siguiente 
 
 1. Cuando un usuario _privilegiado_ (sudo/root) intenta escanear en una red local (ethernet), Nmap usa ARP Request. 
 2. Cuando un usuario _privilegiado_ intenta escanear objetivos fuera de la red local, Nmap usa ICMP echo requests, TCP ACK en puerto 80, TCP SYN al puerto 443 e ICMP timestamp request.
-3. Cuando un usuario no privilegiado intenta escanear objetivos fuera de la red local, Nmap realiza un [[IT fundamentos/Conexiones y Redes/03 Capa de Transporte y Capa de Aplicación#Three-way handshake\|Three way Handshake]]
+3. Cuando un usuario no privilegiado intenta escanear objetivos fuera de la red local, Nmap realiza un [[Fundamentos TI/Redes y Comunicaciones/03 Capa de Transporte y Capa de Aplicación#Three-way handshake\|Three way Handshake]]
 
 ---
 

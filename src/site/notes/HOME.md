@@ -27,23 +27,23 @@ Actualmente escribo en este sitio mis apuntes de ciberseguridad y tecnologías d
 ## Contenidos
 
 - [[Ciberseguridad/Home Cibersec\|Ciberseguridad]]
-- [[IT fundamentos/00 Home IT\|Tecnologías de la Información]]
+- [[Fundamentos TI/00 Home IT\|Tecnologías de la Información]]
 - [[Enlaces\|Enlaces variados]]
 
 ---
 
 # Últimos cambios
 
-- [[Ciberseguridad/Habilidades y conocimientos básicos/CIA triad\|CIA triad]] fue movido a [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad#CIA TRIAD\|CIA TRIAD]] en el apartado de [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad\|Conceptos fundamentales de seguridad]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/CIA triad\|CIA triad]] fue movido a [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad#CIA TRIAD\|CIA TRIAD]] en el apartado de [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad\|Conceptos fundamentales de seguridad]]
 - [[Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 1\|Iniciado Advent of cyber de THM]]
 - [[Ciberseguridad/Ataques/Web-Shell y RCE\|Web-Shell y RCE]]
-- [[Ciberseguridad/Habilidades y conocimientos básicos/ISO 27000\|Expandido el segmento de la familia 27000]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/ISO 27000\|Expandido el segmento de la familia 27000]]
 - Expandido el sector de Nubes con:
-	- [[IT fundamentos/Nubes/DDBB y Wordpress en AWS\|DDBB y Wordpress en AWS]]
-	- [[IT fundamentos/Nubes/VPC en AWS\|VPC en AWS]]
-	- [[IT fundamentos/Nubes/Servicios de almacenamiento en AWS\|Almacenamiento con S3 en AWS]]
+	- [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS\|DDBB y Wordpress en AWS]]
+	- [[Fundamentos TI/Servicios Cloud/VPC en AWS\|VPC en AWS]]
+	- [[Fundamentos TI/Servicios Cloud/Servicios de almacenamiento en AWS\|Almacenamiento con S3 en AWS]]
 - Agregado segmentos de redes:
-	- [[IT fundamentos/Conexiones y Redes/Configuración básica de switches y routers con Cisco Packet Tracer\|Configuración básica de switches y routers con Cisco Packet Tracer]]
-	- [[IT fundamentos/Conexiones y Redes/Configuración básica de switches y routers con Cisco Packet Tracer 2\|Configuración básica de switches y routers con Cisco Packet Tracer 2]]
-- [[IT fundamentos/Sistemas Operativos/Linux/00 Fundamentos de Linux\|00 Fundamentos de Linux]]
-- [[IT fundamentos/XML\|XML]]
+	- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer\|Configuración básica de switches y routers con Cisco Packet Tracer]]
+	- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2\|Configuración básica de switches y routers con Cisco Packet Tracer 2]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux\|00 Fundamentos de Linux]]
+- [[Fundamentos TI/XML\|XML]]

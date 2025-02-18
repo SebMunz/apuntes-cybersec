@@ -5,9 +5,9 @@
 [[Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 1\|Advent of Cyber día 1]]
 
 Qué aplicamos:
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|Herramientas SIEM]] con elastic SIEM
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|Herramientas SIEM]] con elastic SIEM
 - Análisis SOC (Security Operations Center)
-- Análisis de [[IT fundamentos/Logs\|Logs]]
+- Análisis de [[Fundamentos TI/Logs\|Logs]]
 
 Objetivos:
 - Entender el uso de las herramientas SIEM

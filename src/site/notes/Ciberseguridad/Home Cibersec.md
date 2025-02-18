@@ -13,7 +13,7 @@
 	- [[Ciberseguridad/Home Cibersec#Uso de lenguajes de programación\|Lenguajes de programación en el contexto de la ciberseguridad]]
 ---
 
-## [[IT fundamentos/01 Introducción TI\|Habilidades TI]]
+## [[Fundamentos TI/01 Introducción TI\|Habilidades TI]]
 Lo más básico:
 - Navegación computador
   - Usos básicos de oficina, aplicaciones, modificar preferencias
@@ -26,22 +26,22 @@ Lo más básico:
 - Conocimientos básicos de seguridad
   - Uso de contraseñas seguras, actualizaciones, conexiones seguras, [[Ciberseguridad/Ataques/00 Ataques\|entendimiento de ataques]], copias de seguridad y su correcto manejo
 - Conocimientos computador
-  - [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas operativos con sus diferencias, ventajas, usos, componentes, mantención, etc]], [[IT fundamentos/Logs\|Logs]]
+  - [[Fundamentos TI/Sistemas Operativos/Sistemas Operativos\|Sistemas operativos con sus diferencias, ventajas, usos, componentes, mantención, etc]], [[Fundamentos TI/Logs\|Logs]]
 
 ---
 
-## [[IT fundamentos/Conexiones y Redes/Tipos de conexiones\|Conexiones]]
-- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Cable** \|Cable]]
-- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**USB** \|USB]]
-- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Enmascaramientos**\|Enmascaramientos (como VPN)]]
-- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**P2P**\|P2P]]
-- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**NFC**\|NFC]]
-- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Inalámbricas**\|WI-FI]]
-- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Bluetooth**\|Bluetooth]]
-- [[IT fundamentos/Conexiones y Redes/Tipos de conexiones#**Infrarroja (IR)**\|Infrarojo]]
+## [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones\|Conexiones]]
+- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones#**Cable** \|Cable]]
+- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones#**USB** \|USB]]
+- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones#**Enmascaramientos**\|Enmascaramientos (como VPN)]]
+- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones#**P2P**\|P2P]]
+- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones#**NFC**\|NFC]]
+- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones#**Inalámbricas**\|WI-FI]]
+- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones#**Bluetooth**\|Bluetooth]]
+- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Tipos de conexiones#**Infrarroja (IR)**\|Infrarojo]]
 
 ---
-## [[IT fundamentos/Sistemas Operativos/Sistemas Operativos\|Sistemas Operativos]]
+## [[Fundamentos TI/Sistemas Operativos/Sistemas Operativos\|Sistemas Operativos]]
 _Esto para Win, Mac y Linux_
 - Instalación y configuración
 - Versiones y diferencias
@@ -55,8 +55,8 @@ _Esto para Win, Mac y Linux_
 ---
 ## Networking
 - [[wip folder/Ciclo de Red\|Ciclo de Red]]
-- [[IT fundamentos/Conexiones y Redes/Modelo OSI\|Modelo OSI]]
-- [[IT fundamentos/Conexiones y Redes/Modelo TCP_IP\|Modelo TCP_IP]]
+- [[Fundamentos TI/Redes y Comunicaciones/Protocolos y arquitectura/Modelo OSI\|Modelo OSI]]
+- [[Fundamentos TI/Redes y Comunicaciones/Protocolos y arquitectura/Modelo TCP_IP\|Modelo TCP_IP]]
 - Protocolos y sus usos
   - HTTP(S), SSL/TLS, SSH, FTP, etc
 - Puertos y sus usos
@@ -74,18 +74,18 @@ _Esto para Win, Mac y Linux_
 ---
 
 ## Habilidades de Seguridad
-#### [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad\|Conceptos Clave]]
-- [[Ciberseguridad/Habilidades y conocimientos básicos/CIA triad\|CIA triad]]
+#### [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad\|Conceptos Clave]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/CIA triad\|CIA triad]]
 - Handshakes
 - TRUE & FALSE positive, TRUE & FALSE negative
 - OSINT
 - Privilege scalation
-- [[Ciberseguridad/Habilidades y conocimientos básicos/OWASP\|OWASP]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/OWASP\|OWASP]]
 - [[Ciberseguridad/Ataques/Malware\|Malware]]
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Red Team vs Blue Team\|Red Team vs Blue Team]]
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad#Zero Trust vs Trust but Verify\|Zero Trust vs Trust but Verify]]
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Conceptos fundamentales de seguridad#Amenaza vs Riesgo\|Amenaza vs Riesgo]]
-- Frameworks: NIST CSF, [[Ciberseguridad/Habilidades y conocimientos básicos/ISO 27000\|ISO 27000]], CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Red Team vs Blue Team\|Red Team vs Blue Team]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad#Zero Trust vs Trust but Verify\|Zero Trust vs Trust but Verify]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad#Amenaza vs Riesgo\|Amenaza vs Riesgo]]
+- Frameworks: NIST CSF, [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/ISO 27000\|ISO 27000]], CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model
 - Herramientas de hackeo comunes
 - [[Ciberseguridad/Ataques/Exploits y Vulnerabilidades\|Exploits y Vulnerabilidades]]
 - Ingeniería reversa
@@ -96,7 +96,7 @@ _Esto para Win, Mac y Linux_
 - Comandos
   - [[Ciberseguridad/Herramientas/Nmap\|Nmap]], tracert, nslookup, ping, ipconfig, etc
 - Wireshark
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|SOAR]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|SOAR]]
 - ParrotOS y Kali Linux
 
 > __ESTANDARES__
@@ -202,7 +202,7 @@ _Esto para Win, Mac y Linux_
 ---
 
 #### Conocimientos y habilidades para la nube
-[[IT fundamentos/Nubes/Servicios en la nube\|Servicios en la nube]]
+[[Fundamentos TI/Servicios Cloud/Servicios en la nube\|Servicios en la nube]]
 - Seguridad
 - Deploy
 - Cloud vs On-premise
@@ -210,15 +210,15 @@ _Esto para Win, Mac y Linux_
 - Serverless
 - CDN
 
-[[IT fundamentos/Nubes/Servicios en la nube#Servicios basados en la nube\|Servicios Cloud]]
-- [[IT fundamentos/Nubes/Servicios en la nube#SaaS\|SaaS]]
-- [[IT fundamentos/Nubes/Servicios en la nube#PaaS\|PaaS]]
-- [[IT fundamentos/Nubes/Servicios en la nube#IaaS\|IaaS]]
+[[Fundamentos TI/Servicios Cloud/Servicios en la nube#Servicios basados en la nube\|Servicios Cloud]]
+- [[Fundamentos TI/Servicios Cloud/Servicios en la nube#SaaS\|SaaS]]
+- [[Fundamentos TI/Servicios Cloud/Servicios en la nube#PaaS\|PaaS]]
+- [[Fundamentos TI/Servicios Cloud/Servicios en la nube#IaaS\|IaaS]]
 
 Ambientes
-- [[IT fundamentos/Nubes/Mayores proveedores de Cloud#AWS\|AWS]]
-- [[IT fundamentos/Nubes/Mayores proveedores de Cloud#GCP\|GCP]]
-- [[IT fundamentos/Nubes/Mayores proveedores de Cloud#Azure\|Azure]]
+- [[Fundamentos TI/Servicios Cloud/Mayores proveedores de Cloud#AWS\|AWS]]
+- [[Fundamentos TI/Servicios Cloud/Mayores proveedores de Cloud#GCP\|GCP]]
+- [[Fundamentos TI/Servicios Cloud/Mayores proveedores de Cloud#Azure\|Azure]]
 
  __MODELOS__
 - Privado
