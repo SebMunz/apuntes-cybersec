@@ -34,16 +34,8 @@ Actualmente escribo en este sitio mis apuntes de ciberseguridad y tecnologías d
 
 # Últimos cambios
 
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/CIA triad\|CIA triad]] fue movido a [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad#CIA TRIAD\|CIA TRIAD]] en el apartado de [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad\|Conceptos fundamentales de seguridad]]
-- [[Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 1\|Iniciado Advent of cyber de THM]]
-- [[Ciberseguridad/Ataques/Web-Shell y RCE\|Web-Shell y RCE]]
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/ISO 27000\|Expandido el segmento de la familia 27000]]
-- Expandido el sector de Nubes con:
-	- [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS\|DDBB y Wordpress en AWS]]
-	- [[Fundamentos TI/Servicios Cloud/VPC en AWS\|VPC en AWS]]
-	- [[Fundamentos TI/Servicios Cloud/Servicios de almacenamiento en AWS\|Almacenamiento con S3 en AWS]]
-- Agregado segmentos de redes:
-	- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer\|Configuración básica de switches y routers con Cisco Packet Tracer]]
-	- [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2\|Configuración básica de switches y routers con Cisco Packet Tracer 2]]
-- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux\|00 Fundamentos de Linux]]
-- [[Fundamentos TI/XML\|XML]]
+2/18/2025
+- Reestructuración total de carpetas, ahora deberían estar un poco más ordenadas y acordes
+	- Moví demasiadas cosas 👁️
+- Agregado [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux\|Hardening Linux]]
+
