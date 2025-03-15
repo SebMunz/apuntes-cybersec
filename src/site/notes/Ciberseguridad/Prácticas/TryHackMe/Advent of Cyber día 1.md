@@ -73,7 +73,7 @@ Algunas de las fallas de OPSEC:
 - Postear en foros públicos de fácil acceso (como en este caso) donde se podría comprometer la identidad
 - No utilizar VPN, proxys u otras formas de esconderse
 
-Lo que aquí realizamos es un ejemplo sencillo de [[OSINT\|OSINT]]. Si bien estos casos son posibles de ocurrir, es poco frecuente encontrar errores tan garrafales.
+Lo que aquí realizamos es un ejemplo sencillo de [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/OSINT\|OSINT]]. Si bien estos casos son posibles de ocurrir, es poco frecuente encontrar errores tan garrafales.
 
 Ya con esto, podemos responder las preguntas que nos presenta TryHackMe:
 

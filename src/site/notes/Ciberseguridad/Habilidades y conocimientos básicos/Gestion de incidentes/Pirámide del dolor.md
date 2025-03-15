@@ -37,5 +37,5 @@ David J. Bianco creó el concepto de pirámide del dolor. Su objetivo es mejorar
 - Herramientas:
 	- Herramientas usadas por un agente de amenaza. A un nivel empresarial es muy díficil identificarlas. Si no tienes un artifacto en el host, ¿realmente hubo un ataque?, quizás sí pero para identificarlo debes primero encontrar un punto de partida.
 - Tácticas, técnicas y procedimientos:
-	- Aquí ya hablamos de metodologías y modus operandi del agente. Todo lo que observamos durante el incidente (o antes) para intentar determinar *qué*. Lo más probable es que en este nivel tengas que pasar a un modelo más preciso e intensivo, como el [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]]
+	- Aquí ya hablamos de metodologías y modus operandi del agente. Todo lo que observamos durante el incidente (o antes) para intentar determinar *qué*. Lo más probable es que en este nivel tengas que pasar a un modelo más preciso e intensivo, como el [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/MITRE ATT&CK\|MITRE ATT&CK]]
 

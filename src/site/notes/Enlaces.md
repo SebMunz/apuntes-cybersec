@@ -39,7 +39,9 @@ Distintos enlaces útiles que suelo usar.
 - <a href="https://www.abuseipdb.com/">Comprobador de ips</a>
 - <a href="https://sansorg.egnyte.com/dl/bF4I3yCcnt/">Template para rules of engagement</a>
 - <a href="https://www.isecom.org/OSSTMM.3.pdf">Open Source Security Testing Methodology Manual</a>
-- 
+- <a href="https://csrc.nist.gov/">Recursos NIST</a>
+- <a href="https://www.cyberaces.org/">Cursos gratuitos SANS</a>
+
 
 # Tutoriales/cursos/recursos
 

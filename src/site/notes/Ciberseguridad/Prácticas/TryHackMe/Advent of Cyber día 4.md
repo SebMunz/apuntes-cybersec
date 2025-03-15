@@ -5,7 +5,7 @@
 [[Ciberseguridad/Prácticas/TryHackMe/Advent of Cyber día 3\|Advent of Cyber día 3]]
 
 Objetivos:
-- Utilización del [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]]
+- Utilización del [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/MITRE ATT&CK\|MITRE ATT&CK]]
 - Utilización de Atomic Red Team
 - Creación de reglas de alerta y detección, según los resultados de las pruebas
 
@@ -13,7 +13,7 @@ Herramientas y conocimientos usados:
 - <a href="https://www.atomicredteam.io/">Atomic Red Team</a>
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Red Team vs Blue Team\|Red Team vs Blue Team]]
 - [[wip folder/Cyber Kill Chain\|Cyber Kill Chain]]
-- [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/MITRE ATT&CK\|MITRE ATT&CK]]
 - Powershell
 - Sysmon
 

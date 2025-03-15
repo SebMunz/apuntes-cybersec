@@ -85,7 +85,7 @@ _Esto para Win, Mac y Linux_
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Red Team vs Blue Team\|Red Team vs Blue Team]]
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad#Zero Trust vs Trust but Verify\|Zero Trust vs Trust but Verify]]
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Fundamentos de seguridad/Conceptos fundamentales de seguridad#Amenaza vs Riesgo\|Amenaza vs Riesgo]]
-- Frameworks: NIST CSF, [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/ISO 27000\|ISO 27000]], CIS Controls, PCI DSS, SOC y SOC2, [[wip folder/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model
+- Frameworks: NIST CSF, [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/ISO 27000\|ISO 27000]], CIS Controls, PCI DSS, SOC y SOC2, [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/MITRE ATT&CK\|MITRE ATT&CK]], Killchain, Diamond model
 - Herramientas de hackeo comunes
 - [[Ciberseguridad/Ataques/Exploits y Vulnerabilidades\|Exploits y Vulnerabilidades]]
 - Ingeniería reversa

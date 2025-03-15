@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Red Team vs Blue Team/"}
 ---
 
-
+Para 
 # Red Team vs Blue Team
 
 Para contrarrestar amenazas, se llevan a cabo experimentos controlados que adoptan la mentalidad del atacante, anticipándose a los cambios después de una evaluación de vulnerabilidad. Los equipos de seguridad suelen dividirse en dos equipos, conocidos como red team y blue team los cuales llevan a cabo distintas tareas simulando ataques.

@@ -32,10 +32,9 @@ Actualmente escribo en este sitio mis apuntes de ciberseguridad y tecnologías d
 
 ---
 
-# Últimos cambios
+# Última actualización
 
-2/18/2025
-- Reestructuración total de carpetas, ahora deberían estar un poco más ordenadas y acordes
-	- Moví demasiadas cosas 👁️
-- Agregado [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux\|Hardening Linux]]
-
+3/15/2025
+Agregados:
+- [[Fundamentos TI/Sistemas Operativos/Linux/Respaldo automático con Cron\|Respaldo automático con Cron]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables\|Hardening Linux 2 - IP Tables]]

@@ -27,3 +27,5 @@ Los Perfiles proporcionan información sobre el estado actual del plan de seguri
 
 ---
 [NIST SP800-63B](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf)
+[NIST](https://www.nist.gov/cyberframework)
+[Curso gratuito de NIST](https://csrc.nist.gov/)

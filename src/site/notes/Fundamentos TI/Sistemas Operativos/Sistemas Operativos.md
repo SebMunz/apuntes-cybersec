@@ -71,11 +71,19 @@ Cada una de ellas responde a diferentes necesidades.
 # Windows
 
 #to-do
-Aquí van cosas sobre windows pero aún no lo hago
+- [[Fundamentos TI/Sistemas Operativos/Windows/Hardening básico en Windows\|Hardening básico en Windows]]
+- [[Fundamentos TI/Sistemas Operativos/Windows/Paquetes de software y Almacenamiento de archivos en Windows\|Paquetes de software y Almacenamiento de archivos en Windows]]
 
 ---
 
-# [[IT fundamentos/Sistemas Operativos/Linux/Linux\|IT fundamentos/Sistemas Operativos/Linux/Linux]]
-
+# [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux\|Linux]]
 #to-do 
-Aquí van cosas sobre linux que aun no hago
+- [[Fundamentos TI/Sistemas Operativos/Linux/Administración de archivos, grupos, comandos.\|Administración de archivos, grupos, comandos.]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/Comandos\|Comandos]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/Controladores y dispositivos Linux\|Controladores y dispositivos Linux]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/Gestión de servicios y almacenamiento en Linux\|Gestión de servicios y almacenamiento en Linux]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux\|Hardening Linux]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables\|Hardening Linux 2 - IP Tables]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/Respaldo automático con Cron\|Respaldo automático con Cron]]
+
+
