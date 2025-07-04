@@ -20,5 +20,14 @@ Agregados:
 - [[Fundamentos TI/Sistemas Operativos/Linux/Respaldo automático con Cron\|Respaldo automático con Cron]]
 - [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables\|Hardening Linux 2 - IP Tables]]
 
+6/26/2025
+Agregado:
+- AI Essentials/Gen AI
+	- [[Fundamentos TI/Prompt Framework\|Prompt Framework]]
+*a expandir*
+
+7/04/2025
+Agregado:
+- [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 3 - Reglas\|Hardening Linux 3 - Reglas]]
 
 

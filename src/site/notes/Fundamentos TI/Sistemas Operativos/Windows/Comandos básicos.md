@@ -37,6 +37,7 @@
 |`Alt + ←`|Volver a carpeta anterior|
 |`Alt + →`|Avanzar a carpeta siguiente|
 |`Alt + Enter`|Ver propiedades del elemento seleccionado|
+<div class="page-break" style="page-break-before: always;"></div>
 
 ---
 
@@ -71,6 +72,7 @@
 |`Ctrl + ↑`|Mover cursor un párrafo arriba|
 |`Ctrl + ↓`|Mover cursor un párrafo abajo|
 |`Ctrl + Backspace`|Eliminar palabra anterior|
+<div class="page-break" style="page-break-before: always;"></div>
 
 ---
 
