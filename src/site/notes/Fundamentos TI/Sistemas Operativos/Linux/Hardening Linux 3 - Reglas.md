@@ -93,8 +93,9 @@ Ahora: podemos realizar verificaciones de varias formas pero la más común es:
 
 En mi caso no funciona porque netstat fue reemplazado con `sudo ss -tulnp | grep ":44"`
 
-Sin embargo... dada las configuraciones realizadas en el [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables#Regla para SSH\|Regla para SSH en el Hardening previo]], la cual hace que sólo se acepten conexiones en el puerto mencionado para SSH y ningún otro. Obviamente tenemos un conflicto porque SSH está ahora en el `:44` pero la regla dice que sólo acepte si es en el `:22`. Esto nos lleva a mi [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Conclusiones\|conclusión previa]].
-La verdad es que no lo voy a cambiar, pero a modo gráfico con este pantallazo vemos que la configuración está hecha:
+Sin embargo... dada las configuraciones realizadas en el [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables#Regla para SSH\|ejercicio de Hardening previo]], sólo se aceptan conexiones SSH si es que entran por un puerto específico (el 22). Obviamente tenemos un conflicto porque SSH está ahora en el `:44`. Esto nos lleva a mi [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Conclusiones\|conclusión previa]] sobre las configuraciones causando conflicto entre ellas, por lo cual es importante llevar documentación acorde (como esta).
+
+La verdad es que no lo voy a cambiar en este momento, pero a modo gráfico con este pantallazo vemos que la configuración está hecha y activa en el puerto 44:
 ![](https://i.imgur.com/BACc0Be.png)
 
 <div class="page-break" style="page-break-before: always;"></div>
