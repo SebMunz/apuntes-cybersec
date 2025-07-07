@@ -30,4 +30,8 @@ Agregado:
 Agregado:
 - [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 3 - Reglas\|Hardening Linux 3 - Reglas]]
 
+7/07/2025
+Agregado:
+- [[Fundamentos TI/Sistemas Operativos/Windows/Aplicación de GPO en Win Server\|Aplicación de GPO en Win Server]]
+
 
