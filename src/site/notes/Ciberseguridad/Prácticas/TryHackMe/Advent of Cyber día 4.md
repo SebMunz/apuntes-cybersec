@@ -160,7 +160,7 @@ PhishingAttachment.xlsm.
 			- attack.t1566.001 # Spearphishing Attachment
 ```
 
-En la parte de `detection` es donde ocurre la detección. Esta regla podemos importarla a nuestro [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR\|sistema de detección]].
+En la parte de `detection` es donde ocurre la detección. Esta regla podemos importarla a nuestro [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR\|sistema de detección]].
 
 Correremos un segundo ataque *donde se realice un ransomware a través del shell*
 

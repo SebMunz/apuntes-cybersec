@@ -7,6 +7,11 @@ Una jaula chroot, o simplemente chroot, es un mecanismo que permite crear un en
 Al ejecutar un proceso en un entorno chroot, se le presenta un directorio raíz diferente al del sistema operativo principal, lo que limita su acceso a archivos y comandos fuera de ese directorio aislado, como si estuviera en una "jaula"
 
 # Indice
+1. [[Fundamentos TI/Sistemas Operativos/Linux/Jaula Chroot#Configuración Seguridad en la conexión SSH\|#Configuración Seguridad en la conexión SSH]]
+2. [[Fundamentos TI/Sistemas Operativos/Linux/Jaula Chroot#Creamos usuario\|Nuevo Usuario]]
+3. [[Fundamentos TI/Sistemas Operativos/Linux/Jaula Chroot#Creamos la estructura de la Jaula\|Estructura Jaula]]
+4. [[Fundamentos TI/Sistemas Operativos/Linux/Jaula Chroot#Copiamos binarios y librerías\|Binarios y librerias]]
+5. [[Fundamentos TI/Sistemas Operativos/Linux/Jaula Chroot#Configuración SSH\|Configuración para su uso]]
 
 ---
 

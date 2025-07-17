@@ -21,8 +21,8 @@ El triage es un proceso en la gestión de incidentes de seguridad. Permite evalu
 
 ### Herramientas
 
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]]: Recopilación y análisis de datos de seguridad.
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|Plataformas SOAR]]: Orquestación y automatización de respuestas.
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#SIEM\|SIEM]]: Recopilación y análisis de datos de seguridad.
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#SOAR\|Plataformas SOAR]]: Orquestación y automatización de respuestas.
 - **Herramientas de Ticketing**: Gestión y seguimiento de incidentes.
 
 ### Mejores Prácticas

@@ -33,5 +33,14 @@ Agregado:
 7/07/2025
 Agregado:
 - [[Fundamentos TI/Sistemas Operativos/Windows/Aplicación de GPO en Win Server\|Aplicación de GPO en Win Server]]
+- [[Fundamentos TI/Sistemas Operativos/Linux/Jaula Chroot\|Jaula Chroot]]
 
+9/07/2025
+Editado:
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR\|05 IDS IPS EDR SIEM SOAR XDR]]
+	- agregado un apartado de XDR
 
+16/07/2025
+Agregado:
+- [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)\|SIEM con Wazuh (Win & Linux)]]
+- 

@@ -20,7 +20,7 @@ Tenemos 3 tipos de playbooks:
 - Semi-automatizado
 
 ### Automatizado
-Los automatizados, como dice su nombre, se automatizan ciertas tareas de los procesos de respuesta de incidentes. Por ejemplo categorizar la severidad de un incidente, juntar evidencia, ordenar logs, etc. Las herramientas [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR \| SOAR]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM \| SIEM]] pueden configurarse para automatizar estas tareas.
+Los automatizados, como dice su nombre, se automatizan ciertas tareas de los procesos de respuesta de incidentes. Por ejemplo categorizar la severidad de un incidente, juntar evidencia, ordenar logs, etc. Las herramientas [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#SOAR\| SOAR]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#SIEM\| SIEM]] pueden configurarse para automatizar estas tareas.
 
 ### No automatizado
 Su nombre es descriptivo, sólo incluye tareas que deben ser realizadas de forma manual

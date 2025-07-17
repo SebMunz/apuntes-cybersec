@@ -78,7 +78,7 @@ Blue team tiene los siguientes enfoques:
 Monitoreo y análisis de eventos de seguridad.
 
 Utiliza:
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#SIEM\|SIEM]]
 	- Splunk, ELK Stack, QRadar
 - Forense
 	- EnCase, FTK, Autopsy
@@ -117,20 +117,20 @@ Utiliza:
 - Análisis de vulnerabilidades
 	- Qualys, Tenable.io
 - Integración de herramientas
-	- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|SOAR]] (Phantom, Demisto, etc)
+	- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#SOAR\|SOAR]] (Phantom, Demisto, etc)
 
 ---
 
 # Herramientas y técnicas de Blue team
 
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR\|Herramientas SIEM, ELK, QRadar, etc]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR\|Herramientas SIEM, ELK, QRadar, etc]]
 
 - EDR/XDR (Endpoint detection and Response / Extended Detection and Response)
 	EDR protege endpoints
 	XDR extiende dicha protección a redes, nube y crreo
 Por ejemplo Crowdstrike Falcon, SentinelOne, Microsoft Defender for Endpoint.
 
-- Firewalls e [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#IDS (Sistema de Detección de Intrusiones)\|IDS]]
+- Firewalls e [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#IDS (Sistema de Detección de Intrusiones)\|IDS]]
 
 - Análisis de logs y detección de amenazas
 

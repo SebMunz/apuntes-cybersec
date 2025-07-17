@@ -96,7 +96,7 @@ _Esto para Win, Mac y Linux_
 - Comandos
   - [[Ciberseguridad/Herramientas/Nmap\|Nmap]], tracert, nslookup, ping, ipconfig, etc
 - Wireshark
-- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SIEM\|SIEM]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR#SOAR\|SOAR]]
+- [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#SIEM\|SIEM]] y [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Ciclo de vida de un incidente/05 IDS IPS EDR SIEM SOAR XDR#SOAR\|SOAR]]
 - ParrotOS y Kali Linux
 
 > __ESTANDARES__
