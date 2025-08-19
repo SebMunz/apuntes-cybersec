@@ -88,3 +88,10 @@ La configuración para el resumen de grabaciones de voz se realiza típicamente 
 ### Resumen general
 
 El servicio de Google Cloud para el resumen de conversaciones utiliza un LLM para generar automáticamente resúmenes estructurados a partir de interacciones de voz o texto. Permite tanto el uso de secciones predefinidas como la creación de secciones personalizadas para adaptarse a necesidades específicas. Para su configuración, se utilizan parámetros clave en un entorno de desarrollo como Jupyter, y su eficacia se evalúa con métricas como la precisión y la integridad. Esta funcionalidad busca optimizar el trabajo del agente al ofrecerle información clave de forma rápida y concisa.
+
+---
+
+### Importante:
+
+<a href="https://github.com/GoogleCloudPlatform/specialized-training-content/tree/main/courses/agent_assist">aquí están los notebooks para los labs de summarization</a>
+

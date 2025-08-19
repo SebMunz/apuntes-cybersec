@@ -46,7 +46,7 @@ Para que el modelo Smart Reply sea efectivo, necesita ser entrenado con un gran 
 	- CSV: Cada columna de ser un string válido
 	- JSON: Cada llave debe tener su valor propio asociado
 
-![](https://i.imgur.com/rz1Vkel.png)
+![](https://i.imgur.com/fo6J6GC.png)
 
 ---
 

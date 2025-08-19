@@ -29,12 +29,7 @@ Actualmente escribo en este sitio mis apuntes de ciberseguridad y tecnologías d
 - [[Ciberseguridad/Home Cibersec\|Ciberseguridad]]
 - [[Fundamentos TI/00 Home IT\|Tecnologías de la Información]]
 - [[Enlaces\|Enlaces variados]]
+- [[Changelog\|Changelog]]
+
 
 ---
-
-# Última actualización
-
-3/15/2025
-Agregados:
-- [[Fundamentos TI/Sistemas Operativos/Linux/Respaldo automático con Cron\|Respaldo automático con Cron]]
-- [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables\|Hardening Linux 2 - IP Tables]]
