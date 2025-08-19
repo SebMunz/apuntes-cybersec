@@ -6,6 +6,19 @@ No sé porque nunca hice esto.
 (´。＿。｀)
 
 ---
+# Último update:
+18/08/2025
+Agregado:
+- [[Fundamentos TI/Redes y Comunicaciones/IP SEC site-to-site con Firewall CISCO ASA\|IP SEC site-to-site con Firewall CISCO ASA]]
+- Sección de GenAI/CCAI, etc.
+	- [[Fundamentos TI/AI essentials/GenAI/01 GenAI w Cloud\|01 GenAI w Cloud]]
+	- [[Fundamentos TI/AI essentials/GenAI/02 Use cases and positioning\|02 Use cases and positioning]]
+	- [[Fundamentos TI/AI essentials/GenAI/03 Architecture and security\|03 Architecture and security]]
+	- Subsección de **Introduction to Agent Assist and its GenAI Capabilities**
+		- [[Fundamentos TI/AI essentials/GenAI/Introduction to Agent Assist and its GenAi Capabilities/00 Introduction to Agent Assist\|00 Introduction to Agent Assist]]
+		- y de ahí para abajo
+
+## Histórico:
 
 2/18/2025
 - Reestructuración total de carpetas, ahora deberían estar un poco más ordenadas y acordes
@@ -23,7 +36,7 @@ Agregados:
 6/26/2025
 Agregado:
 - AI Essentials/Gen AI
-	- [[Fundamentos TI/Prompt Framework\|Prompt Framework]]
+	- [[Fundamentos TI/AI essentials/Prompt Framework\|Prompt Framework]]
 *a expandir*
 
 7/04/2025
@@ -43,4 +56,4 @@ Editado:
 16/07/2025
 Agregado:
 - [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)\|SIEM con Wazuh (Win & Linux)]]
-- 
+

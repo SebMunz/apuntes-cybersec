@@ -4,9 +4,9 @@
 
 # Índice
 
-1. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 3 - Reglas#Política de Contraseña mínimo 3 mayúsculas\|#Política de Contraseña mínimo 3 mayúsculas]]
-2. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 3 - Reglas#Política de Contraseña 3 números y 2 intentos fallidos\|#Política de Contraseña 3 números y 2 intentos fallidos]]
-3. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 3 - Reglas#SSH\|#SSH]]
+1. [[#Política de Contraseña mínimo 3 mayúsculas]]
+2. [[#Política de Contraseña 3 números y 2 intentos fallidos]]
+3. [[#SSH]]
 <div class="page-break" style="page-break-before: always;"></div>
 
 ---

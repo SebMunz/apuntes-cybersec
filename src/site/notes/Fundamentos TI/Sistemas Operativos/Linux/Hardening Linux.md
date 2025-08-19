@@ -8,13 +8,13 @@ Si bien esto nos ayudará a tenerlo más controlado, es sólo una primera capa d
 ---
 
 # Índice
-1. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Remover root\|#Remover root]]
-2. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Certificación SSH\|#Certificación SSH]]
-3. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Deshabilitar contraseña para SSH\|#Deshabilitar contraseña para SSH]]
-4. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Cambiar puerto de conexión por defecto\|#Cambiar puerto de conexión por defecto]]
-5. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Pruebas de conexión con certificado\|#Pruebas de conexión con certificado]]
-6. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Recomendaciones de hardening adicionales\|#Recomendaciones de hardening adicionales]]
-7. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux#Conclusiones\|#Conclusiones]]
+1. [[#Remover root]]
+2. [[#Certificación SSH]]
+3. [[#Deshabilitar contraseña para SSH]]
+4. [[#Cambiar puerto de conexión por defecto]]
+5. [[#Pruebas de conexión con certificado]]
+6. [[#Recomendaciones de hardening adicionales]]
+7. [[#Conclusiones]]
 <div class="page-break" style="page-break-before: always;"></div>
 
 ---

@@ -9,15 +9,15 @@ A diferencia del [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y confi
 
 # Índice
 
-1. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Topología\|#Topología]]
-2. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Configuraciones\|#Configuraciones]]
-	1. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Configuración base\|#Configuración base]]
-	2. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Configuración VLAN y VTP\|#Configuración VLAN y VTP]]
-3. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Protocolo STP\|#Protocolo STP]]
-4. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Configuración Endpoints\|#Configuración Endpoints]]
-5. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Pruebas de conectividad\|#Pruebas de conectividad]]
-6. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Conclusiones\|#Conclusiones]]
-7. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer 2#Comandos\|#Comandos]]
+1. [[#Topología]]
+2. [[#Configuraciones]]
+	1. [[#Configuración base]]
+	2. [[#Configuración VLAN y VTP]]
+3. [[#Protocolo STP]]
+4. [[#Configuración Endpoints]]
+5. [[#Pruebas de conectividad]]
+6. [[#Conclusiones]]
+7. [[#Comandos]]
 
 ---
 

@@ -3,14 +3,14 @@
 ---
 
 # Índice
-- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux#Introducción\|#Introducción]]
-- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux#Los principios fundamentales\|#Los principios fundamentales]]
-	- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux#Los 5 fundamentos principales\|#Los 5 fundamentos principales]]
-	- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux#Componentes\|#Componentes]]
-	- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux#Arquitectura\|#Arquitectura]]
-	- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux#Jerarquía de archivos\|#Jerarquía de archivos]]
-- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux#Shell\|#Shell]]
-	- [[Fundamentos TI/Sistemas Operativos/Linux/00 Fundamentos de Linux#Navegación\|#Navegación]]
+- [[#Introducción]]
+- [[#Los principios fundamentales]]
+	- [[#Los 5 fundamentos principales]]
+	- [[#Componentes]]
+	- [[#Arquitectura]]
+	- [[#Jerarquía de archivos]]
+- [[#Shell]]
+	- [[#Navegación]]
 	- 
 ---
 # Introducción

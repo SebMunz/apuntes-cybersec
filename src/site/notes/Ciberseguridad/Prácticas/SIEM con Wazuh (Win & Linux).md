@@ -4,13 +4,13 @@
 
 # Índice
 
-1. [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)#Crear VM Windows Server\|#Crear VM Windows Server]]
-2. [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)#Crear VM\|#Crear VM]]
-3. [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)#Instalar Wazuh\|#Instalar Wazuh]]
-	1. [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)#En Ubuntu\|#En Ubuntu]]
-	2. [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)#En WinServer\|#En WinServer]]
-4. [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)#Configuración de Agente\|#Configuración de Agente]]
-5. [[Ciberseguridad/Prácticas/SIEM con Wazuh (Win & Linux)#Verificación\|#Verificación]]
+1. [[#Crear VM Windows Server]]
+2. [[#Crear VM]]
+3. [[#Instalar Wazuh]]
+	1. [[#En Ubuntu]]
+	2. [[#En WinServer]]
+4. [[#Configuración de Agente]]
+5. [[#Verificación]]
 ---
 
 # Crear VM Windows Server

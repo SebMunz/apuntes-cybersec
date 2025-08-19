@@ -6,17 +6,17 @@ El objetivo de este desafío es la práctica de diseño, configuración y soluci
 
 ---
 # Índice
-1. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Creación y configuración de una topología básica\|#Creación y configuración de una topología básica]]
-2. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Configuración\|Configuración de base]]:
+1. [[#Creación y configuración de una topología básica]]
+2. [[#Configuración|Configuración de base]]:
 	1. Nombrar routers y switches de acuerdo a la topología
 	2. Configurar direcciones IP de interfaces
-3. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Configuración OSPF\|Configuración OSPF]]
-4. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Insertar nuevos equipos\|Agregar nuevos switch y equipos]]
-5. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Configuración de los endpoint\|Configuración equipos agregados]]
-6. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Verificación de conectividad\|#Verificación de conectividad]]
-7. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Tablas de enrutamiento y protocolos\|#Tablas de enrutamiento y protocolos]]
-8. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Conclusiones\|#Conclusiones]]
-9. [[Fundamentos TI/Redes y Comunicaciones/Infraestructura y configuración/Configuración básica de switches y routers con Cisco Packet Tracer#Comandos\|Anexo de comandos utilizados]]
+3. [[#Configuración OSPF|Configuración OSPF]]
+4. [[#Insertar nuevos equipos|Agregar nuevos switch y equipos]]
+5. [[#Configuración de los endpoint|Configuración equipos agregados]]
+6. [[#Verificación de conectividad]]
+7. [[#Tablas de enrutamiento y protocolos]]
+8. [[#Conclusiones]]
+9. [[#Comandos|Anexo de comandos utilizados]]
 ---
 
 <div class="page-break" style="page-break-before: always;"></div>

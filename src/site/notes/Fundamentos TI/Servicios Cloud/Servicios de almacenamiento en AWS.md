@@ -8,9 +8,9 @@ Implementaremos a modo de ejercicio un sitio web AWS estático en un bucket S3, 
 
 # Índice
 
-1. [[Fundamentos TI/Servicios Cloud/Servicios de almacenamiento en AWS#Configuración inicial\|#Configuración inicial]]
-2. [[Fundamentos TI/Servicios Cloud/Servicios de almacenamiento en AWS#Sitio web estático en S3\|#Sitio web estático en S3]]
-3. [[Fundamentos TI/Servicios Cloud/Servicios de almacenamiento en AWS#Creación almacenamiento\|#Creación almacenamiento]]
+1. [[#Configuración inicial]]
+2. [[#Sitio web estático en S3]]
+3. [[#Creación almacenamiento]]
 
 ---
 

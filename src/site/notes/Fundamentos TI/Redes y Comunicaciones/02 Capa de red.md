@@ -106,7 +106,7 @@ Estas tablas se almacenan a nivel local y generalmente expiran en un tiempo dete
 # Subnets
 >Básicamente es la subdivisión de las redes. Cada subnet tiene su propio gateway que maneja las entradas y salidas.
 ## Subnet ID
-Dentro de una subnet, parte del [[Fundamentos TI/Redes y Comunicaciones/02 Capa de red#Host ID & Network ID\|Host ID]] se usa para el SID.
+Dentro de una subnet, parte del [[#Host ID & Network ID|Host ID]] se usa para el SID.
 La jerarquía es que primero va el NID para moverse por toda la red, cuando llega al último punto se usa el HID para derivar el paquete. Últimamente tenemos el SID para moverse dentro de la subnet cuando es necesario.
 Las SID se calculan con **el uso de la subnet mask**, un número de 32bit - 4octetos en decimales generalmente.
 
@@ -186,7 +186,7 @@ Tenemos dos categorías principales:
 - Interior Gateway Protocols
 - Exterior Gateway Protocols
 
-Los protocolos internos los mencioné en [[Fundamentos TI/Redes y Comunicaciones/02 Capa de red#Tipos de enrutamiento\| este punto]]
+Los protocolos internos los mencioné en [[#Tipos de enrutamiento| este punto]]
 Los protocolos externos se usan para comunicarse con los routers que representan el exterior de un sistema autónomo. Osea, nuestro objetivo es comunicarnos con esos routers que luego usarán protocolos más internos para ir acotando nuestro destino.
 
 Básicamente: Internos se usan en redes internas de organizaciones. Externos se usan para compartir información entre organizaciones.

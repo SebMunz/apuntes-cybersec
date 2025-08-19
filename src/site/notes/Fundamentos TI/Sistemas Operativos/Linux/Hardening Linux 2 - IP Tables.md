@@ -18,10 +18,10 @@ En este ejercicio:
 
 # Índice
 
-1. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables#Bloqueo de salida a internet\|#Bloqueo de salida a internet]]
-2. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables#Bloqueo específico\|#Bloqueo específico]]
-3. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables#Regla para SSH\|#Regla para SSH]]
-4. [[Fundamentos TI/Sistemas Operativos/Linux/Hardening Linux 2 - IP Tables#Persistencia\|#Persistencia]]
+1. [[#Bloqueo de salida a internet]]
+2. [[#Bloqueo específico]]
+3. [[#Regla para SSH]]
+4. [[#Persistencia]]
 
 ---
 

@@ -6,13 +6,13 @@ Para este ejercicio crearemos una una base de datos en AWS, a través de su serv
 
 ---
 # Índice
-1. [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS#RDS\|#RDS]]
-2. [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS#EC2 + RDS\|#EC2 + RDS]]
-	1. [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS#Creación EC2 para wordpress\|#Creación EC2 para wordpress]]
-	2. [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS#Acceder RDS desde EC2\|#Acceder RDS desde EC2]]
-3. [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS#Wordpress\|#Wordpress]]
-4. [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS#Comprobación\|#Comprobación]]
-5. [[Fundamentos TI/Servicios Cloud/DDBB y Wordpress en AWS#Conclusión\|#Conclusión]]
+1. [[#RDS]]
+2. [[#EC2 + RDS]]
+	1. [[#Creación EC2 para wordpress]]
+	2. [[#Acceder RDS desde EC2]]
+3. [[#Wordpress]]
+4. [[#Comprobación]]
+5. [[#Conclusión]]
 
 ---
 <div class="page-break" style="page-break-before: always;"></div>

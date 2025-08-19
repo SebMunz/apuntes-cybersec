@@ -5,10 +5,10 @@
 Para este ejercicio debería utilizar windows server y realizar los cambios de política a través de `gpedit.msc` - Sin embargo, no tengo acceso a él en este momento **PERO** recuerdo perfectamente dónde dirigirse a hacer estos cambios así que daré las instrucciones y haré los cambios en `regedit` en un windows común, para así demostrar que es también posible
 
 # Índice
-1. [[Fundamentos TI/Sistemas Operativos/Windows/Aplicación de GPO en Win Server#Quitar opción "Cambiar contraseña" en Ctrl+Alt+Del\|#Quitar opción "Cambiar contraseña" en Ctrl+Alt+Del]]
-2. [[Fundamentos TI/Sistemas Operativos/Windows/Aplicación de GPO en Win Server#Desactivar reproducción automática\|#Desactivar reproducción automática]]
-3. [[Fundamentos TI/Sistemas Operativos/Windows/Aplicación de GPO en Win Server#Forzar fondo de pantalla\|#Forzar fondo de pantalla]]
-4. [[Fundamentos TI/Sistemas Operativos/Windows/Aplicación de GPO en Win Server#Conclusión\|#Conclusión]]
+1. [[#Quitar opción "Cambiar contraseña" en Ctrl+Alt+Del]]
+2. [[#Desactivar reproducción automática]]
+3. [[#Forzar fondo de pantalla]]
+4. [[#Conclusión]]
 
 ---
 # Quitar opción "Cambiar contraseña" en Ctrl+Alt+Del

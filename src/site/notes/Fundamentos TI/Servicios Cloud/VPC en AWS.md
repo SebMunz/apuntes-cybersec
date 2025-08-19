@@ -10,13 +10,13 @@ Recrearemos esta topología.
 
 # Índice
 
-1. [[Fundamentos TI/Servicios Cloud/VPC en AWS#VPC\|#VPC]]
-2. [[Fundamentos TI/Servicios Cloud/VPC en AWS#Subredes\|#Subredes]]
-3. [[Fundamentos TI/Servicios Cloud/VPC en AWS#Configuración Gateways y Tablas de Rutas\|#Configuración Gateways y Tablas de Rutas]]
-4. [[Fundamentos TI/Servicios Cloud/VPC en AWS#Grupo de seguridad\|#Grupo de seguridad]]
-5. [[Fundamentos TI/Servicios Cloud/VPC en AWS#EC2 y asociación\|#EC2 y asociación]]
-6. [[Fundamentos TI/Servicios Cloud/VPC en AWS#Montaje sitio web estático en esta nueva instancia\|#Montaje sitio web estático en esta nueva instancia]]
-7. [[Fundamentos TI/Servicios Cloud/VPC en AWS#Conclusión\|#Conclusión]]
+1. [[#VPC]]
+2. [[#Subredes]]
+3. [[#Configuración Gateways y Tablas de Rutas]]
+4. [[#Grupo de seguridad]]
+5. [[#EC2 y asociación]]
+6. [[#Montaje sitio web estático en esta nueva instancia]]
+7. [[#Conclusión]]
 
 ---
 <div class="page-break" style="page-break-before: always;"></div>
