@@ -3,15 +3,15 @@
 ---
 
 # Índice
-- [[#Agent Assist - Casos de uso y mejores prácticas]]
-- [[#Implementación con Virtual Agent]]
-	- [[#Guía de Implementación de Agente Virtual (Dialogflow CX) en CCAI-P (Long)]]
-	- [[#Integración de Agentes Virtuales (Dialogflow) en CCAI Platform (Short)]]
-- [[#API]]
-	- [[#Mensajería SMS Saliente (Outbound) vía API en CCAI Platform]]
-	- [[#Configuración y Uso de las APIs]]
-	- [[#Configuración y Uso de las APIs]]
-	- [[#APIs de CCAI Platform Manager API y Apps API]]
+- [#Agent Assist - Casos de uso y mejores prácticas]
+- [#Implementación con Virtual Agent]
+	- [#Guía de Implementación de Agente Virtual (Dialogflow CX) en CCAI-P (Long)]
+	- [#Integración de Agentes Virtuales (Dialogflow) en CCAI Platform (Short)]
+- [#API]
+	- [#Mensajería SMS Saliente (Outbound) vía API en CCAI Platform]
+	- [#Configuración y Uso de las APIs]
+	- [#Configuración y Uso de las APIs]
+	- [#APIs de CCAI Platform Manager API y Apps API]
 
 ---
 

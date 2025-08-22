@@ -3,7 +3,7 @@
 ---
 
 # Índice
-- [[#Queues]]
+- [#Queues]
 	- [[#Casos de Estudio Estructuras de Colas Avanzadas en CCAI-P]]
 	- [[#Creación de Colas Multi-idioma en CCAI Platform]]
 	- [[#Personalización de Idiomas y Mensajes para Colas]]

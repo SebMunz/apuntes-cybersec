@@ -4,11 +4,11 @@
 
 # Índice
 
-- [[#Delivery Methodology – Initiate Phase]]
-- [[#Recopilación de Requisitos y Diseño de la Solución]]
-- [[#Fase de Construcción y Configuración]]
-- [[#Fase de Ejecución]]
-- [[#Cierre del Proyecto y Transición al Soporte]]
+- [#Delivery Methodology – Initiate Phase]
+- [#Recopilación de Requisitos y Diseño de la Solución]
+- [#Fase de Construcción y Configuración]
+- [#Fase de Ejecución]
+- [#Cierre del Proyecto y Transición al Soporte]
 
 ---
 

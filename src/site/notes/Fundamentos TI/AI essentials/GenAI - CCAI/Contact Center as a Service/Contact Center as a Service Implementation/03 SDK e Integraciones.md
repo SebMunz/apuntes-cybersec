@@ -4,13 +4,13 @@
 
 # Índice
 
-- [[#Implementación SDK Móvil]]
-- [[#Web SDK Implementation (CCAI-P)]]
-- [[#Salesforce Integration (CCAI-P)]]
-- [[#Zendesk Integration (CCAI-P)]]
-- [[#Custom CRM Integration]]
-- [[#External Storage – CCAI Platform]]
-- [[#🤓☝️]]
+- [#Implementación SDK Móvil]
+- [#Web SDK Implementation (CCAI-P)]
+- [#Salesforce Integration (CCAI-P)]
+- [#Zendesk Integration (CCAI-P)]
+- [#Custom CRM Integration]
+- [#External Storage – CCAI Platform]
+- [#🤓☝️]
 
 ---
 
