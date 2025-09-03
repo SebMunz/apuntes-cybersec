@@ -25,9 +25,6 @@
 
 ### Objetivo
 Crear un bot conversacional inteligente para mesa de ayuda que automatice la resolución de problemas técnicos, con capacidad de escalamiento a agentes humanos y gestión de tickets.
-
-![](https://i.imgur.com/fxK0IY3.png)
-
 ### Componentes Principales
 
 - **Dialogflow CX**: Motor conversacional principal
@@ -35,7 +32,6 @@ Crear un bot conversacional inteligente para mesa de ayuda que automatice la res
 - **Firebase**: Base de datos para tickets y gestión de estados
 - **Agent Assist**: Features de IA para agentes humanos
 - **Landing Page**: Demo funcional del sistema
----
 ---
 ## Arquitectura del Sistema
 

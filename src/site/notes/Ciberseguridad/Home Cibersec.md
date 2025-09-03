@@ -54,7 +54,7 @@ _Esto para Win, Mac y Linux_
 
 ---
 ## Networking
-- [[wip folder/Ciclo de Red\|Ciclo de Red]]
+- [[PEGA/wip folder/Ciclo de Red\|Ciclo de Red]]
 - [[Fundamentos TI/Redes y Comunicaciones/Protocolos y arquitectura/Modelo OSI\|Modelo OSI]]
 - [[Fundamentos TI/Redes y Comunicaciones/Protocolos y arquitectura/Modelo TCP_IP\|Modelo TCP_IP]]
 - Protocolos y sus usos

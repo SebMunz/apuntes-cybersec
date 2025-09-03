@@ -28,10 +28,10 @@ David J. Bianco creó el concepto de pirámide del dolor. Su objetivo es mejorar
 - Direcciones IP:
 	- Relativamente sencillo identificar conexiones IP no confiables si es que mantenemos un monitoreo constante.
 - Nombres de dominio:
-	- Dada la infinidad de [[wip folder/TOP LEVEL DOMAINS (TLD)\|TOP LEVEL DOMAINS (TLD)]] que se pueden lograr, cuando un atacante usa este método, combinado con [[wip folder/DOMAIN GENERATION ALGORITHMS (DGA)\|DOMAIN GENERATION ALGORITHMS (DGA)]] + [[wip folder/DNS Fast Flux\|DNS Fast Flux]], logran rotar por nombres múltiples de forma regular, dificultando su identificación.
+	- Dada la infinidad de [[PEGA/wip folder/TOP LEVEL DOMAINS (TLD)\|TOP LEVEL DOMAINS (TLD)]] que se pueden lograr, cuando un atacante usa este método, combinado con [[PEGA/wip folder/DOMAIN GENERATION ALGORITHMS (DGA)\|DOMAIN GENERATION ALGORITHMS (DGA)]] + [[PEGA/wip folder/DNS Fast Flux\|DNS Fast Flux]], logran rotar por nombres múltiples de forma regular, dificultando su identificación.
 - Artefactos de red:
 	- Existe variedad maneras de configurar y manejar una red interna. El factor que más influye aquí es el cómo interactua el usuario con ellas. Multiplícalo por 100 o miles de usuarios en una empresa y tienes que encontrar todas las instancias de un archivo malicioso. Esto lo hace potencialmente dificil.
-	  En red, es la evidencia observable creada por los agentes de amenaza en una red como [[wip folder/User-Agent strings\|User-Agent strings]]
+	  En red, es la evidencia observable creada por los agentes de amenaza en una red como [[PEGA/wip folder/User-Agent strings\|User-Agent strings]]
 - Artefactos de host:
 	- Lo mismo que en red, pero en el host. Como por ejemplo, nombres de archivos creados por malware
 - Herramientas:

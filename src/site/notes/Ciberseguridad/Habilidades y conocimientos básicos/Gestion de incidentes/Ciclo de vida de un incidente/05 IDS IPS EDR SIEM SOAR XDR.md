@@ -83,7 +83,7 @@ En los dashboards de un SIEM podemos encontrar una diversidad de información co
 - Alertas de salud del sistema
 - Listado de intentos de login fallidos
 - Reglas disparadas
-- [[wip folder/TOP LEVEL DOMAINS (TLD)\|TOP LEVEL DOMAINS (TLD)]] visitados
+- [[PEGA/wip folder/TOP LEVEL DOMAINS (TLD)\|TOP LEVEL DOMAINS (TLD)]] visitados
 
 ## Reglas de correlación
 Básicamente son expresiones lógicas que al ser gatilladas, disparan una alerta o ejecutan una acción particular.

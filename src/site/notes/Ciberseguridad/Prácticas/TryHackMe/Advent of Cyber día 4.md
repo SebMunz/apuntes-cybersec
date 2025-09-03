@@ -12,7 +12,7 @@ Objetivos:
 Herramientas y conocimientos usados:
 - <a href="https://www.atomicredteam.io/">Atomic Red Team</a>
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Gestion de incidentes/Red Team vs Blue Team\|Red Team vs Blue Team]]
-- [[wip folder/Cyber Kill Chain\|Cyber Kill Chain]]
+- [[PEGA/wip folder/Cyber Kill Chain\|Cyber Kill Chain]]
 - [[Ciberseguridad/Habilidades y conocimientos básicos/Normativas y Estándares/MITRE ATT&CK\|MITRE ATT&CK]]
 - Powershell
 - Sysmon
