@@ -21,46 +21,46 @@ Configura también las categorías de sugerencias.
 
 # Crearlo a través de API
 
-![Pasted image 20250817210249.png](/img/user/Pasted%20image%2020250817210249.png)
+![Pasted image 20250817210249.png](/img/user/Assets/Pasted%20image%2020250817210249.png)
 
 ##### JSON
-![Pasted image 20250817210301.png](/img/user/Pasted%20image%2020250817210301.png)
+![Pasted image 20250817210301.png](/img/user/Assets/Pasted%20image%2020250817210301.png)
 
 ##### PYTHON
-![Pasted image 20250817210212.png](/img/user/Pasted%20image%2020250817210212.png)
+![Pasted image 20250817210212.png](/img/user/Assets/Pasted%20image%2020250817210212.png)
 
 ##### REST
-![Pasted image 20250817210350.png](/img/user/Pasted%20image%2020250817210350.png)![Pasted image 20250817210442.png](/img/user/Pasted%20image%2020250817210442.png)
+![Pasted image 20250817210350.png](/img/user/Assets/Pasted%20image%2020250817210350.png)![Pasted image 20250817210442.png](/img/user/Assets/Pasted%20image%2020250817210442.png)
 
 ##### Curl
-![Pasted image 20250817210450.png](/img/user/Pasted%20image%2020250817210450.png)
+![Pasted image 20250817210450.png](/img/user/Assets/Pasted%20image%2020250817210450.png)
 ##### PowerShell
-![Pasted image 20250817210458.png](/img/user/Pasted%20image%2020250817210458.png)
+![Pasted image 20250817210458.png](/img/user/Assets/Pasted%20image%2020250817210458.png)
 
 # User-participant
-![Pasted image 20250817210526.png](/img/user/Pasted%20image%2020250817210526.png)
+![Pasted image 20250817210526.png](/img/user/Assets/Pasted%20image%2020250817210526.png)
 ##### REST
-![Pasted image 20250817210538.png](/img/user/Pasted%20image%2020250817210538.png)
+![Pasted image 20250817210538.png](/img/user/Assets/Pasted%20image%2020250817210538.png)
 
 ##### REST
-![Pasted image 20250817210549.png](/img/user/Pasted%20image%2020250817210549.png)
+![Pasted image 20250817210549.png](/img/user/Assets/Pasted%20image%2020250817210549.png)
 ##### CURL
-![Pasted image 20250817210558.png](/img/user/Pasted%20image%2020250817210558.png)
-![Pasted image 20250817210607.png](/img/user/Pasted%20image%2020250817210607.png)
+![Pasted image 20250817210558.png](/img/user/Assets/Pasted%20image%2020250817210558.png)
+![Pasted image 20250817210607.png](/img/user/Assets/Pasted%20image%2020250817210607.png)
 
 # Agent-participant
 ##### PYTHON
-![Pasted image 20250817210633.png](/img/user/Pasted%20image%2020250817210633.png)
-![Pasted image 20250817210641.png](/img/user/Pasted%20image%2020250817210641.png)
-![Pasted image 20250817210652.png](/img/user/Pasted%20image%2020250817210652.png)
-![Pasted image 20250817210659.png](/img/user/Pasted%20image%2020250817210659.png)
+![Pasted image 20250817210633.png](/img/user/Assets/Pasted%20image%2020250817210633.png)
+![Pasted image 20250817210641.png](/img/user/Assets/Pasted%20image%2020250817210641.png)
+![Pasted image 20250817210652.png](/img/user/Assets/Pasted%20image%2020250817210652.png)
+![Pasted image 20250817210659.png](/img/user/Assets/Pasted%20image%2020250817210659.png)
 
 # PGKA
 
-![Pasted image 20250817210911.png](/img/user/Pasted%20image%2020250817210911.png)
-![Pasted image 20250817210922.png](/img/user/Pasted%20image%2020250817210922.png)
-![Pasted image 20250817210930.png](/img/user/Pasted%20image%2020250817210930.png)
-![Pasted image 20250817210939.png](/img/user/Pasted%20image%2020250817210939.png)
+![Pasted image 20250817210911.png](/img/user/Assets/Pasted%20image%2020250817210911.png)
+![Pasted image 20250817210922.png](/img/user/Assets/Pasted%20image%2020250817210922.png)
+![Pasted image 20250817210930.png](/img/user/Assets/Pasted%20image%2020250817210930.png)
+![Pasted image 20250817210939.png](/img/user/Assets/Pasted%20image%2020250817210939.png)
 
 ## En resumen:
 
